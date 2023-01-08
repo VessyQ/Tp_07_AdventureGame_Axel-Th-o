@@ -22,6 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="4144675253" Type="User" Language="SFX" Hash="{2AC5043C-7360-A842-BF19-6C9598F4E722}">
 			<ShortName>Placehold</ShortName>
 			<Path>Placehold.bnk</Path>
@@ -43,4 +44,71 @@
 		</SoundBank>
 	</SoundBanks>
 	<FileHash>{D65C26BB-F691-1CB4-04E4-C6F308EAB429}</FileHash>
+=======
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{ADBD6C8A-FD27-A919-F1AD-F92AEE707FB5}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="42187263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_MM_Back.wav</ShortName>
+					<CachePath>SFX/SFX_UI_MM_Back_10C4C929.wem</CachePath>
+				</File>
+				<File Id="377659748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_MenuPause.wav</ShortName>
+					<CachePath>SFX/SFX_UI_MenuPause_10C4C929.wem</CachePath>
+				</File>
+				<File Id="384204942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_MM_PlayButton.wav</ShortName>
+					<CachePath>SFX/SFX_UI_MM_PlayButton_10C4C929.wem</CachePath>
+				</File>
+				<File Id="429286655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_MM_Navigate.wav</ShortName>
+					<CachePath>SFX/SFX_UI_MM_Navigate_10C4C929.wem</CachePath>
+				</File>
+				<File Id="539992270" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_UI_MM_Fader.wav</ShortName>
+					<Path>Media/539992270.wem</Path>
+					<CachePath>SFX/SFX_UI_MM_Fader_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="709022363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_MM_Validation.wav</ShortName>
+					<CachePath>SFX/SFX_UI_MM_Validation_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3069816448" Name="Play_SFX_UI_MenuPause" DurationType="OneShot" DurationMin="1.1522083" DurationMax="1.1522083">
+					<MediaRefs>
+						<MediaRef Id="377659748"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4031081037" Name="Play_SFX_UI_MM_Back" DurationType="OneShot" DurationMin="0.3600625" DurationMax="0.3600625">
+					<MediaRefs>
+						<MediaRef Id="42187263"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1008742184" Name="Play_SFX_UI_MM_Fader" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="539992270"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2349659389" Name="Play_SFX_UI_MM_Navigate" DurationType="OneShot" DurationMin="0.14404167" DurationMax="0.14404167">
+					<MediaRefs>
+						<MediaRef Id="429286655"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2787690146" Name="Play_SFX_UI_MM_PlayButton" DurationType="OneShot" DurationMin="4.608771" DurationMax="4.608771">
+					<MediaRefs>
+						<MediaRef Id="384204942"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1912011125" Name="Play_SFX_UI_MM_Validation" DurationType="OneShot" DurationMin="0.3600625" DurationMax="0.3600625">
+					<MediaRefs>
+						<MediaRef Id="709022363"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{51DA503F-648E-6251-F47D-AC61643C37FE}</FileHash>
+>>>>>>> b16d0f3532559a253e0f3c603f6d29e2abd18832
 </SoundBanksInfo>

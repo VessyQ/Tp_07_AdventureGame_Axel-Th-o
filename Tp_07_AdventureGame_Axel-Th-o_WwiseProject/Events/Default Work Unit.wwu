@@ -3,6 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Standalone">
 			<ChildrenList>
+<<<<<<< HEAD
 				<Event Name="Play_Placeholder" ID="{89B9F436-3B40-4911-B49F-20EC51A1C70D}">
 					<ChildrenList>
 						<Action Name="" ID="{DD8E4D9C-F5DA-4E19-8E0B-CB4AF314BB3B}" ShortID="809874066">
@@ -28,6 +29,9 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+=======
+				<WorkUnit Name="UserInterface" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" PersistMode="Reference"/>
+>>>>>>> b16d0f3532559a253e0f3c603f6d29e2abd18832
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
