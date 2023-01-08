@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284958216241180
+    m_lastTime: -8585284168801537689
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -67,11 +67,19 @@ MonoBehaviour:
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_lastTime: -8585284170172756773
     List:
     - name: Placehold
       guid: 95ab1dce3eaf2d4292a7d0477367cf4e
       id: 4144675253
+=======
+    m_lastTime: -8585284156457725795
+    List:
+    - name: UI
+      guid: d483a497218b5140b8d9b9255dc6447f
+      id: 1551306167
+>>>>>>> 30da4140b92a2f72ecebaa4a1d43a46485792a48
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -79,6 +87,7 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b6d194887af4bc49a3ec2771078ffb0b
+<<<<<<< HEAD
       - ElementName: Placehold
         ObjectType: 7
         guid: 95ab1dce3eaf2d4292a7d0477367cf4e
@@ -87,6 +96,12 @@ MonoBehaviour:
     m_lastTime: -8585284958216196148
     List: []
 >>>>>>> b16d0f3532559a253e0f3c603f6d29e2abd18832
+=======
+      - ElementName: UI
+        ObjectType: 7
+        guid: d483a497218b5140b8d9b9255dc6447f
+      Path: SoundBanks\Default Work Unit\UI
+>>>>>>> 30da4140b92a2f72ecebaa4a1d43a46485792a48
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -99,6 +114,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_lastTime: -8585284170172856434
     List:
@@ -140,6 +156,184 @@ MonoBehaviour:
     m_lastTime: -8585284958216261202
     List: []
 >>>>>>> b16d0f3532559a253e0f3c603f6d29e2abd18832
+=======
+    m_lastTime: -8585284156457665737
+    List: []
+  - PhysicalPath: Events\UserInterface.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8d17593394cd9d42a0d4d146fd177ccd
+    - ElementName: UserInterface
+      ObjectType: 12
+      guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+    ParentPath: Events\Default Work Unit\UserInterface
+    guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+    GuidInternal: 
+    m_lastTime: -8585284156457605690
+    List:
+    - name: Play_SFX_UI_MenuPause
+      guid: 81470e538a8ed044b0480ef45b985f82
+      id: 3069816448
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MenuPause
+        ObjectType: 3
+        guid: 81470e538a8ed044b0480ef45b985f82
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MenuPause
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_UI_MM_Back
+      guid: 196c838a9072a849bf90f6bab19a3ae8
+      id: 4031081037
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MM_Back
+        ObjectType: 3
+        guid: 196c838a9072a849bf90f6bab19a3ae8
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Back
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_UI_MM_Fader
+      guid: dae2aa36bc1b1a4890e453741cd4a2b1
+      id: 1008742184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MM_Fader
+        ObjectType: 3
+        guid: dae2aa36bc1b1a4890e453741cd4a2b1
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Fader
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_UI_MM_Navigate
+      guid: a329594027ad42439cf9a5d19aa667ba
+      id: 2349659389
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MM_Navigate
+        ObjectType: 3
+        guid: a329594027ad42439cf9a5d19aa667ba
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Navigate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_UI_MM_PlayButton
+      guid: c321fb689adc164c99abbc8a116812d1
+      id: 2787690146
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MM_PlayButton
+        ObjectType: 3
+        guid: c321fb689adc164c99abbc8a116812d1
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_PlayButton
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_UI_MM_Validation
+      guid: 7e08f7d57fe62345a34ebf286c86e8dd
+      id: 1912011125
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_MM_Validation
+        ObjectType: 3
+        guid: 7e08f7d57fe62345a34ebf286c86e8dd
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Validation
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: 5c86bf7eee554d45a47fce346b90d017
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      Path: Events\Default Work Unit\UserInterface\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+>>>>>>> 30da4140b92a2f72ecebaa4a1d43a46485792a48
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
