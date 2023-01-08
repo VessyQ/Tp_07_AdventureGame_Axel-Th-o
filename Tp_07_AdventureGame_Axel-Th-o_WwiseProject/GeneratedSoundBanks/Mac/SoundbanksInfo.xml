@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="4144675253" Type="User" Language="SFX" Hash="{2AC5043C-7360-A842-BF19-6C9598F4E722}">
+			<ShortName>Placehold</ShortName>
+			<Path>Placehold.bnk</Path>
+			<Media>
+				<File Id="679141270" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>chicory_bigcity_lowkey_loop_175bpm.wav</ShortName>
+					<Path>Media/679141270.wem</Path>
+					<CachePath>SFX/chicory_bigcity_lowkey_loop_175bpm_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="173327921" Name="Play_Placeholder" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="679141270"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3637037023" Name="Stop_Placeholder" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D65C26BB-F691-1CB4-04E4-C6F308EAB429}</FileHash>
+</SoundBanksInfo>

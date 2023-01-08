@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585284991557937739
-    List: []
+    m_lastTime: -8585284170172756773
+    List:
+    - name: Placehold
+      guid: 95ab1dce3eaf2d4292a7d0477367cf4e
+      id: 4144675253
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6d194887af4bc49a3ec2771078ffb0b
+      - ElementName: Placehold
+        ObjectType: 7
+        guid: 95ab1dce3eaf2d4292a7d0477367cf4e
+      Path: SoundBanks\Default Work Unit\Placehold
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585284991556393088
-    List: []
+    m_lastTime: -8585284170172856434
+    List:
+    - name: Play_Placeholder
+      guid: 36f4b989403b1149b49f20ec51a1c70d
+      id: 173327921
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Play_Placeholder
+        ObjectType: 3
+        guid: 36f4b989403b1149b49f20ec51a1c70d
+      Path: Events\Default Work Unit\Play_Placeholder
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Placeholder
+      guid: dabbc5d42d6a4d4898d853c5a108f570
+      id: 3637037023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Stop_Placeholder
+        ObjectType: 3
+        guid: dabbc5d42d6a4d4898d853c5a108f570
+      Path: Events\Default Work Unit\Stop_Placeholder
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +187,7 @@ MonoBehaviour:
     m_lastTime: -8585284991555243924
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000090000000a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

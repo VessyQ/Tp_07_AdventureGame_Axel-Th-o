@@ -3,6 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{0332F2F1-08E2-479F-A9A2-02C81B307394}">
 			<PropertyList>
+				<Property Name="Event Action List\{89B9F436-3B40-4911-B49F-20EC51A1C70D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D4C5BBDA-6A2D-484D-98D8-53C5A108F570}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -20,10 +22,13 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="29Lfsf9o20SBVa07CnnMahk0W7muXetKgLofmFMLYSc="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="lasdzj6vLUKSp9BHc2fPTg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="xWTzd850hEajwv2xT/uVcgEAL0tSAAAAwKTn+fl/AABIZmt5oQEAAAAAAAChAQAAwKTn+fl/AAAEkm4D+n8AAJD/wAihAQAAAAAAAKEBAAAIAAAAAAAAACjoL0tSAAAAAACDA/p/AAAfAYMD+n8AAAAAgwP6fwAAwKTn+fl/AADApOf5+X8AAEhma3mhAQAAAQAAALQFgLLAvlFNg7Jq7SSvTgoBAC9LUgAAAMCk5/n5fwAASGZreaEBAAAAAAAAoQEAAMCk5/n5fwAABJJuA/p/AACQ/8AIoQEAAAAAAAChAQAACAAAAAAAAAAo6C9LUgAAAAAAgwP6fwAAHwGDA/p/AAAAAIMD+n8AAMCk5/n5fwAAwKTn+fl/AABIZmt5oQEAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
-				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="4"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
