@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2480272828	Play_Placehold			\Default Work Unit\Play_Placehold	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	593919330	Placeholder	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\chicory_bigcity_lowkey_loop_175bpm 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Placeholder		2738828
+

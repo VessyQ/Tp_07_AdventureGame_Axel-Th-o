@@ -85,6 +85,23 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="4144675253" Type="User" Language="SFX" Hash="{6CD5F0DE-D948-A96C-C429-F3F85EE8BB12}">
+			<ShortName>Placehold</ShortName>
+			<Path>Placehold.bnk</Path>
+			<Media>
+				<File Id="593919330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chicory_bigcity_lowkey_loop_175bpm 1.wav</ShortName>
+					<CachePath>SFX/chicory_bigcity_lowkey_loop_175bpm 1_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2480272828" Name="Play_Placehold" MaxAttenuation="15" DurationType="OneShot" DurationMin="15.525692" DurationMax="15.525692">
+					<MediaRefs>
+						<MediaRef Id="593919330"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE98F8E1-3502-266F-52F4-23660AE3D3A1}</FileHash>
+	<FileHash>{BC220AF2-9991-55EB-2358-FA0F423BA2A4}</FileHash>
 </SoundBanksInfo>
