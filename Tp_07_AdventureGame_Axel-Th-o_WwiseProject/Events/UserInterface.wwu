@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
+	<Events>
+		<WorkUnit Name="UserInterface" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="UI" ID="{7EBF865C-55EE-454D-A47F-CE346B90D017}" ShortID="806841759">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_SFX_UI_MM_Navigate" ID="{405929A3-AD27-4342-9CF9-A5D19AA667BA}">
+							<ChildrenList>
+								<Action Name="" ID="{1068E0CC-9B37-4461-B5EA-0F4C9E128483}" ShortID="946580114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MM_Navigate" ID="{C18B6052-1E91-4E2C-B1BB-A2680AD5EE9C}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_MM_Validation" ID="{D5F7087E-E67F-4523-A34E-BF286C86E8DD}">
+							<ChildrenList>
+								<Action Name="" ID="{8459AD32-589F-46B5-AFB4-8874F863ECE9}" ShortID="632722743">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MM_Validation" ID="{DE2864A9-228B-4BD8-9D8C-AC24639085BB}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_MM_Back" ID="{8A836C19-7290-49A8-BF90-F6BAB19A3AE8}">
+							<ChildrenList>
+								<Action Name="" ID="{03EE4E23-2B11-4ECF-95A8-10AF655CB825}" ShortID="82316091">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MM_Back" ID="{B5835A2B-8615-437E-8DB5-830A46FF4417}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_MM_PlayButton" ID="{68FB21C3-DC9A-4C16-99AB-BC8A116812D1}">
+							<ChildrenList>
+								<Action Name="" ID="{84634E84-D1BE-4E6E-89BB-62375A023C18}" ShortID="1039937765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MM_PlayButton" ID="{535729EA-0064-4D97-B6BD-3E8D7CBFD806}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_MM_Fader" ID="{36AAE2DA-1BBC-481A-90E4-53741CD4A2B1}">
+							<ChildrenList>
+								<Action Name="" ID="{4DA0D28D-43C0-4BC0-8C31-0901A6BD3726}" ShortID="136780322">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MM_Fader" ID="{F5226568-2139-49A4-BC8D-09D58F70CF35}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_MenuPause" ID="{530E4781-8E8A-44D0-B048-0EF45B985F82}">
+							<ChildrenList>
+								<Action Name="" ID="{59F817E0-F6CA-4546-A9B9-961E88A23FA5}" ShortID="1020298490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_MenuPause" ID="{E11CDC7B-13E8-4A50-A94B-6931960790F1}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8894D1B6-F47A-49BC-A3EC-2771078FFB0B}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{8894D1B6-F47A-49BC-A3EC-2771078FFB0B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8894D1B6-F47A-49BC-A3EC-2771078FFB0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI" ID="{97A483D4-8B21-4051-B8D9-B9255DC6447F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_UI_MM_Navigate" ID="{405929A3-AD27-4342-9CF9-A5D19AA667BA}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_MenuPause" ID="{530E4781-8E8A-44D0-B048-0EF45B985F82}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_MM_Validation" ID="{D5F7087E-E67F-4523-A34E-BF286C86E8DD}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_MM_Fader" ID="{36AAE2DA-1BBC-481A-90E4-53741CD4A2B1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_MM_Back" ID="{8A836C19-7290-49A8-BF90-F6BAB19A3AE8}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_MM_PlayButton" ID="{68FB21C3-DC9A-4C16-99AB-BC8A116812D1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
