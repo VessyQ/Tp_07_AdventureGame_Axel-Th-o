@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D5F52CA7-7490-49C0-8056-356997D131CA}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D5F52CA7-7490-49C0-8056-356997D131CA}" PersistMode="Standalone">
-			<ChildrenList>
-				<Sound Name="Placeholder" ID="{D66908FB-9B23-4E0E-A38C-D0F46B535A66}" ShortID="910391289">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Attenuation Mob" ID="{B1BB6B6B-7760-40E2-B422-FB2C9F415780}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="chicory_bigcity_lowkey_loop_175bpm" ID="{87E79BBB-3BD3-4D08-B578-55B2D64CB493}">
-							<Language>SFX</Language>
-							<AudioFile>chicory_bigcity_lowkey_loop_175bpm.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="679141270"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<PositioningInfo>
-						<Position Name="" ID="{B231D06B-3A35-445C-9CC8-6E4E50053F75}"/>
-					</PositioningInfo>
-					<ActiveSourceList>
-						<ActiveSource Name="chicory_bigcity_lowkey_loop_175bpm" ID="{87E79BBB-3BD3-4D08-B578-55B2D64CB493}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{D5F52CA7-7490-49C0-8056-356997D131CA}" PersistMode="Standalone"/>
 	</AudioObjects>
 </WwiseDocument>

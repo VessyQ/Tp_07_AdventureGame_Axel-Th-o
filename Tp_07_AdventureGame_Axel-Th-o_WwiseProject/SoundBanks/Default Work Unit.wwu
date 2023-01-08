@@ -3,12 +3,6 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{8894D1B6-F47A-49BC-A3EC-2771078FFB0B}" PersistMode="Standalone">
 			<ChildrenList>
-<<<<<<< HEAD
-				<SoundBank Name="Placehold" ID="{CE1DAB95-AF3E-422D-92A7-D0477367CF4E}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Stop_Placeholder" ID="{D4C5BBDA-6A2D-484D-98D8-53C5A108F570}" WorkUnitID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Placeholder" ID="{89B9F436-3B40-4911-B49F-20EC51A1C70D}" WorkUnitID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" Origin="Manual" Filter="7"/>
-=======
 				<SoundBank Name="UI" ID="{97A483D4-8B21-4051-B8D9-B9255DC6447F}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="14"/>
@@ -21,7 +15,6 @@
 						<ObjectRef Name="Play_SFX_UI_MM_Fader" ID="{36AAE2DA-1BBC-481A-90E4-53741CD4A2B1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Back" ID="{8A836C19-7290-49A8-BF90-F6BAB19A3AE8}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_PlayButton" ID="{68FB21C3-DC9A-4C16-99AB-BC8A116812D1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
->>>>>>> b16d0f3532559a253e0f3c603f6d29e2abd18832
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,7 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	173327921	Play_Placeholder			\Default Work Unit\Play_Placeholder	
-	3637037023	Stop_Placeholder			\Default Work Unit\Stop_Placeholder	
-
-Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	679141270	Placeholder	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\chicory_bigcity_lowkey_loop_175bpm_D79FB2B7.wem	679141270.wem	\Actor-Mixer Hierarchy\Default Work Unit\Placeholder	
-
