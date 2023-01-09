@@ -771,29 +771,15 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.08290155
+      - time: 0.44051746
         functionName: PlayStep
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.40682837
-        functionName: OnFootstepRight
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.59585494
+      - time: 0.97333837
         functionName: PlayStep
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.936781
-        functionName: OnFootstepLeft
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -1372,14 +1358,14 @@ ModelImporter:
           postInfinity: 3
           rotationOrder: 4
       events:
-      - time: 0.4266667
+      - time: 0.443223
         functionName: OnFootstepRight
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.95666665
+      - time: 0.9599779
         functionName: OnFootstepLeft
         data: 
         objectReferenceParameter: {instanceID: 0}
