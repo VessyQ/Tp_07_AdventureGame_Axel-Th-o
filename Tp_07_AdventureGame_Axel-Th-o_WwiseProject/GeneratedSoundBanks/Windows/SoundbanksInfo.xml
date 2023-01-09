@@ -85,7 +85,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{5E62527C-23E2-68FB-F51B-2D4DD14C2711}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{B82EFB99-7FE5-9D5B-99BE-EECB51798D95}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -219,5 +219,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D9DE9CFF-7A98-AE56-61A4-7CE15CCD4B9D}</FileHash>
+	<FileHash>{7C04C5B9-72AC-873B-2FD5-6AA1D7ABEC9E}</FileHash>
 </SoundBanksInfo>

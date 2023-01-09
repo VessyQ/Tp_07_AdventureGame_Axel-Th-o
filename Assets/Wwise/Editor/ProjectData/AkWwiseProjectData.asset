@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284958216141097
+    m_lastTime: -8585284105853798319
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284168801537689
+    m_lastTime: -8585284105856171817
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585283211971998693
+    m_lastTime: -8585283171957649202
     List:
     - name: Ellen
       guid: 175a99ac96d561499605157c7a43114c
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585283216339839018
+    m_lastTime: -8585283171959813956
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -138,7 +138,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585283357215327793
+    m_lastTime: -8585283351140217493
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -263,7 +263,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283457283748620
+    m_lastTime: -8585283419549240191
     List:
     - name: Play_SFX_UI_MenuPause
       guid: 81470e538a8ed044b0480ef45b985f82
@@ -437,7 +437,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585283216339248504
+    m_lastTime: -8585283171959803995
     List:
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
@@ -540,7 +540,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284958216251189
+    m_lastTime: -8585284105856510916
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -554,7 +554,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585284958216181135
+    m_lastTime: -8585284105854027700
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -568,7 +568,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585283216339428664
+    m_lastTime: -8585284105853967862
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -582,10 +582,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284958216146102
+    m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000c0000000d0000001b0000001c00000024000000
+  ExpandedWaapiItemIds: 0500000006000000090000000c0000000d0000000e00000024000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
