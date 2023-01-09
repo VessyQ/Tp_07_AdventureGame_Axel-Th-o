@@ -167,23 +167,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.06228484
-        functionName: Props_EelDog_Jump_Out
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: caf78ea080ac20d4297bf1d47f5496e6,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.5608696
-        functionName: Props_EelDog_Jump_In
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: caf78ea080ac20d4297bf1d47f5496e6,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

@@ -19,7 +19,7 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Environnement" ID="{4A1E0954-1D56-45AB-9B87-BCAD0A8D7BCC}">
+				<SoundBank Name="Environnement_Lvl1" ID="{4A1E0954-1D56-45AB-9B87-BCAD0A8D7BCC}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>

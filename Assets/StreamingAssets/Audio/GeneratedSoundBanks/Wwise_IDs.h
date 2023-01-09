@@ -27,7 +27,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID ENVIRONNEMENT = 2530157555U;
+        static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 

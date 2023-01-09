@@ -85,9 +85,9 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2530157555" Type="User" Language="SFX" Hash="{B80D0CEB-E35E-FB54-DF83-4140804F22A5}">
-			<ShortName>Environnement</ShortName>
-			<Path>Environnement.bnk</Path>
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{3A496586-91DA-4907-A3EC-5E2BA786C88E}">
+			<ShortName>Environnement_Lvl1</ShortName>
+			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
@@ -106,7 +106,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2049148582" Name="Play_AMB_Water" DurationType="Infinite">
+				<Event Id="2049148582" Name="Play_AMB_Water" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="822664154"/>
 					</MediaRefs>
@@ -124,5 +124,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F424A450-3073-F1BD-DC29-A3A658AA7B70}</FileHash>
+	<FileHash>{CAE3C6C6-0D37-D40E-734A-D0E38226741A}</FileHash>
 </SoundBanksInfo>
