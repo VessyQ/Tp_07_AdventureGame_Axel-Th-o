@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" SchemaVersion="110" RootDocumentID="{D5F52CA7-7490-49C0-8056-356997D131CA}" ParentDocumentID="{D5F52CA7-7490-49C0-8056-356997D131CA}">
+<WwiseDocument Type="WorkUnit" ID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Environnement" ID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" OwnerID="{D5F52CA7-7490-49C0-8056-356997D131CA}" PersistMode="Nested">
+		<WorkUnit Name="Environnement" ID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -27,6 +27,108 @@
 								</Reference>
 							</ReferenceList>
 						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AMB" ID="{65FFD9CA-D171-4E19-ACC4-979B93FFD77C}" ShortID="872310455">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Water" ID="{7715BAAA-7694-4433-B8E9-982AC3DAB8A5}" ShortID="95401821">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Water" ID="{E148AC84-BFA8-4E2D-933F-59F6A3C74FCB}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Water.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="822664154"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Water" ID="{E148AC84-BFA8-4E2D-933F-59F6A3C74FCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Wind_Soft" ID="{447103DD-C91B-4FAE-A31F-402EEA29793B}" ShortID="555848754">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Wind_Soft" ID="{C38838B8-69B9-4A7F-8E1A-4A68644F9406}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Wind_Soft.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="771869937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Wind_Soft" ID="{C38838B8-69B9-4A7F-8E1A-4A68644F9406}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Wind_Strong" ID="{3DB57C76-4A5F-4D11-96D7-94E0469AA4FB}" ShortID="705781954">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Wind_Strong" ID="{4B92F4DA-29AB-4393-8CCD-77CE57F0ADFF}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Wind_Strong.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="812090864"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Wind_Strong" ID="{4B92F4DA-29AB-4393-8CCD-77CE57F0ADFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

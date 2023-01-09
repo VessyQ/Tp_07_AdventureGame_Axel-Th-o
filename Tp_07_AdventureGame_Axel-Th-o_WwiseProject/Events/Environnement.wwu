@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{620D8097-1E0A-425F-8C38-80026488F6FA}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
+	<Events>
+		<WorkUnit Name="Environnement" ID="{620D8097-1E0A-425F-8C38-80026488F6FA}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="AMB" ID="{A017A236-79FC-49C1-823C-3A13CF76F068}" ShortID="376532248">
+					<ChildrenList>
+						<Event Name="Play_AMB_Wind_Soft" ID="{29F4CD4A-4FCF-436D-A45A-48CC75FC0F38}">
+							<ChildrenList>
+								<Action Name="" ID="{91906E8D-E302-4EC6-B05B-6CADA2C7E9B3}" ShortID="75131039">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Wind_Soft" ID="{447103DD-C91B-4FAE-A31F-402EEA29793B}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}">
+							<ChildrenList>
+								<Action Name="" ID="{74E33C8C-8C64-4B13-8519-05547C52EC5F}" ShortID="290730500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Wind_Strong" ID="{3DB57C76-4A5F-4D11-96D7-94E0469AA4FB}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Water" ID="{2002BFBD-B6E1-4C1C-B299-19D9B5943068}">
+							<ChildrenList>
+								<Action Name="" ID="{112FDA6D-FDA2-4568-86E7-AEA787738C04}" ShortID="97437841">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Water" ID="{7715BAAA-7694-4433-B8E9-982AC3DAB8A5}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

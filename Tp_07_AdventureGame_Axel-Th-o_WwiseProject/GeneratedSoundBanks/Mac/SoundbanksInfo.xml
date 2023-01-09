@@ -85,23 +85,44 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4144675253" Type="User" Language="SFX" Hash="{6CD5F0DE-D948-A96C-C429-F3F85EE8BB12}">
-			<ShortName>Placehold</ShortName>
-			<Path>Placehold.bnk</Path>
+		<SoundBank Id="2530157555" Type="User" Language="SFX" Hash="{B80D0CEB-E35E-FB54-DF83-4140804F22A5}">
+			<ShortName>Environnement</ShortName>
+			<Path>Environnement.bnk</Path>
 			<Media>
-				<File Id="593919330" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>chicory_bigcity_lowkey_loop_175bpm 1.wav</ShortName>
-					<CachePath>SFX/chicory_bigcity_lowkey_loop_175bpm 1_10C4C929.wem</CachePath>
+				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Wind_Soft.wav</ShortName>
+					<Path>Media/771869937.wem</Path>
+					<CachePath>SFX/AMB_Wind_Soft_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="812090864" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Wind_Strong.wav</ShortName>
+					<Path>Media/812090864.wem</Path>
+					<CachePath>SFX/AMB_Wind_Strong_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="822664154" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Water.wav</ShortName>
+					<Path>Media/822664154.wem</Path>
+					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2480272828" Name="Play_Placehold" MaxAttenuation="15" DurationType="OneShot" DurationMin="15.525692" DurationMax="15.525692">
+				<Event Id="2049148582" Name="Play_AMB_Water" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="593919330"/>
+						<MediaRef Id="822664154"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1482463854" Name="Play_AMB_Wind_Soft" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="771869937"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1439945259" Name="Play_AMB_Wind_Strong" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="812090864"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{952024F1-9371-A9C8-33AF-1DF490D701B5}</FileHash>
+	<FileHash>{5FC67AAB-265B-C834-ACC4-DD7F85180524}</FileHash>
 </SoundBanksInfo>

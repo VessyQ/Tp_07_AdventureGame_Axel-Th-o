@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_PLACEHOLD = 2480272828U;
+        static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
+        static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
+        static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
         static const AkUniqueID PLAY_SFX_UI_MENUPAUSE = 3069816448U;
         static const AkUniqueID PLAY_SFX_UI_MM_BACK = 4031081037U;
         static const AkUniqueID PLAY_SFX_UI_MM_FADER = 1008742184U;
@@ -25,7 +27,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID PLACEHOLD = 4144675253U;
+        static const AkUniqueID ENVIRONNEMENT = 2530157555U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 

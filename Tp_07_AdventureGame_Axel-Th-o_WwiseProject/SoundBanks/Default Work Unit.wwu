@@ -19,9 +19,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Placehold" ID="{8F7526D9-56B7-45F6-A232-7FFB2C32206D}">
+				<SoundBank Name="Environnement" ID="{4A1E0954-1D56-45AB-9B87-BCAD0A8D7BCC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Placehold" ID="{DC049B56-D744-432E-ADD6-C317BADEF08C}" WorkUnitID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Wind_Soft" ID="{29F4CD4A-4FCF-436D-A45A-48CC75FC0F38}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Water" ID="{2002BFBD-B6E1-4C1C-B299-19D9B5943068}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

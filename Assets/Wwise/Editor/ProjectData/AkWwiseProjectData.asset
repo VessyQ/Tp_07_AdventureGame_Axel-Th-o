@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284105853798319
+    m_lastTime: -8585284958216141097
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284105856171817
+    m_lastTime: -8585284168801537689
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585284095104133137
+    m_lastTime: -8585283357215407862
     List:
-    - name: Placehold
-      guid: d926758fb756f645a2327ffb2c32206d
-      id: 4144675253
+    - name: Environnement
+      guid: 54091e4a561dab459b87bcad0a8d7bcc
+      id: 2530157555
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,10 +78,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: b6d194887af4bc49a3ec2771078ffb0b
-      - ElementName: Placehold
+      - ElementName: Environnement
         ObjectType: 7
-        guid: d926758fb756f645a2327ffb2c32206d
-      Path: SoundBanks\Default Work Unit\Placehold
+        guid: 54091e4a561dab459b87bcad0a8d7bcc
+      Path: SoundBanks\Default Work Unit\Environnement
     - name: UI
       guid: d483a497218b5140b8d9b9255dc6447f
       id: 1551306167
@@ -108,11 +108,27 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585284095103883671
+    m_lastTime: -8585283360488818485
+    List: []
+  - PhysicalPath: Events\Environnement.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8d17593394cd9d42a0d4d146fd177ccd
+    - ElementName: Environnement
+      ObjectType: 12
+      guid: 97800d620a1e5f428c3880026488f6fa
+    ParentPath: Events\Default Work Unit\Environnement
+    guid: 97800d620a1e5f428c3880026488f6fa
+    GuidInternal: 
+    m_lastTime: -8585283357215327793
     List:
-    - name: Play_Placehold
-      guid: 569b04dc44d72e43add6c317badef08c
-      id: 2480272828
+    - name: AMB
+      guid: 36a217a0fc79c149823c3a13cf76f068
+      id: 1117531639
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -120,10 +136,102 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d17593394cd9d42a0d4d146fd177ccd
-      - ElementName: Play_Placehold
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      Path: Events\Default Work Unit\Environnement\AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Water
+      guid: bdbf0220e1b61c4cb29919d9b5943068
+      id: 2049148582
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_AMB_Water
         ObjectType: 3
-        guid: 569b04dc44d72e43add6c317badef08c
-      Path: Events\Default Work Unit\Play_Placehold
+        guid: bdbf0220e1b61c4cb29919d9b5943068
+      Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Wind_Soft
+      guid: 4acdf429cf4f6d43a45a48cc75fc0f38
+      id: 1482463854
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_AMB_Wind_Soft
+        ObjectType: 3
+        guid: 4acdf429cf4f6d43a45a48cc75fc0f38
+      Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Soft
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Wind_Strong
+      guid: 3f85e4afbc790f4c8ae553afe2b9e5af
+      id: 1439945259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_AMB_Wind_Strong
+        ObjectType: 3
+        guid: 3f85e4afbc790f4c8ae553afe2b9e5af
+      Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Strong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PROPS
+      guid: 859f201f75c7a843bdf0e34f2c0730d4
+      id: 968010305
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      Path: Events\Default Work Unit\Environnement\PROPS
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -141,7 +249,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283419549240191
+    m_lastTime: -8585283457283748620
     List:
     - name: Play_SFX_UI_MenuPause
       guid: 81470e538a8ed044b0480ef45b985f82
@@ -313,7 +421,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284105856510916
+    m_lastTime: -8585284958216251189
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -327,7 +435,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585284105854027700
+    m_lastTime: -8585284958216181135
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -341,7 +449,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585284105853967862
+    m_lastTime: -8585284958216176127
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -355,10 +463,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284105853848184
+    m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0b0000000c000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

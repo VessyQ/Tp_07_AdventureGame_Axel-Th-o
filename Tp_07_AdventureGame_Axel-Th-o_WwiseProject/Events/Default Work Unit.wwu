@@ -4,17 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="UserInterface" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" PersistMode="Reference"/>
-				<Event Name="Play_Placehold" ID="{DC049B56-D744-432E-ADD6-C317BADEF08C}">
-					<ChildrenList>
-						<Action Name="" ID="{2589E660-EEAF-4430-977F-D272E4AF2A36}" ShortID="572185021">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Placeholder" ID="{29F907B2-156D-4D6C-9048-25686F831713}" WorkUnitID="{D5F52CA7-7490-49C0-8056-356997D131CA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<WorkUnit Name="Environnement" ID="{620D8097-1E0A-425F-8C38-80026488F6FA}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
