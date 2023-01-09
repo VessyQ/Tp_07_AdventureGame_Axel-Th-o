@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585284095104133137
+    m_lastTime: -8585283449307349908
     List:
     - name: Placehold
       guid: d926758fb756f645a2327ffb2c32206d
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585284095103883671
+    m_lastTime: -8585283449618732273
     List:
     - name: Play_Placehold
       guid: 569b04dc44d72e43add6c317badef08c
@@ -141,7 +141,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585284105856520888
+    m_lastTime: -8585283457283748620
     List:
     - name: Play_SFX_UI_MenuPause
       guid: 81470e538a8ed044b0480ef45b985f82
@@ -358,7 +358,7 @@ MonoBehaviour:
     m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000c0000000d000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000c0000000d00000018000000ecc90500
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

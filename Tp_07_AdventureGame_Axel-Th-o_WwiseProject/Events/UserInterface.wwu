@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
 	<Events>
 		<WorkUnit Name="UserInterface" ID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="14"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="UI" ID="{7EBF865C-55EE-454D-A47F-CE346B90D017}" ShortID="806841759">
 					<PropertyList>
