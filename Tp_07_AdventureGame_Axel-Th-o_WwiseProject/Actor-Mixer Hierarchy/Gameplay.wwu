@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A918055-03AF-439F-B3C9-E57FD32CD625}" SchemaVersion="110" RootDocumentID="{D5F52CA7-7490-49C0-8056-356997D131CA}" ParentDocumentID="{D5F52CA7-7490-49C0-8056-356997D131CA}">
+	<AudioObjects>
+		<WorkUnit Name="Gameplay" ID="{1A918055-03AF-439F-B3C9-E57FD32CD625}" OwnerID="{D5F52CA7-7490-49C0-8056-356997D131CA}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="New Actor-Mixer" ID="{DAD59236-BE4A-4EAD-B001-5CA3AA3E7970}" ShortID="635519233">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

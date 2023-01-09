@@ -31,6 +31,8 @@
 						<ActiveSource Name="chicory_bigcity_lowkey_loop_175bpm 1" ID="{F97AD949-1694-48C8-BD32-41D192F18583}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="Gameplay" ID="{1A918055-03AF-439F-B3C9-E57FD32CD625}" PersistMode="Reference"/>
+				<WorkUnit Name="Environnement" ID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
