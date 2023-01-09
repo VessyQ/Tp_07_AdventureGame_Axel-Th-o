@@ -19,12 +19,14 @@ namespace AK
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
         static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
+        static const AkUniqueID PLAY_SFX_MAINMENUSCREEN = 3484664728U;
         static const AkUniqueID PLAY_SFX_UI_MENUPAUSE = 3069816448U;
         static const AkUniqueID PLAY_SFX_UI_MM_BACK = 4031081037U;
         static const AkUniqueID PLAY_SFX_UI_MM_FADER = 1008742184U;
         static const AkUniqueID PLAY_SFX_UI_MM_NAVIGATE = 2349659389U;
         static const AkUniqueID PLAY_SFX_UI_MM_PLAYBUTTON = 2787690146U;
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
+        static const AkUniqueID STOP_SFX_MAINMENUSCREEN = 1020681794U;
     } // namespace EVENTS
 
     namespace BANKS

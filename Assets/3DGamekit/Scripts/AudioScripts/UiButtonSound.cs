@@ -10,6 +10,7 @@ public class UiButtonSound : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Play_SFX_UI_MM_PlayButton", gameObject);
     }
+    
 
     public void pointerEnter()
     {

@@ -55,6 +55,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{901B052B-8773-4C3F-8F6E-A8A3DC3386BF}" ShortID="105444375">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_SFX_MainMenuScreen" ID="{396F9763-0E02-433D-913C-EE95AB18FCB5}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_UI_MM_Fader" ID="{36AAE2DA-1BBC-481A-90E4-53741CD4A2B1}">
@@ -74,6 +84,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_UI_MenuPause" ID="{E11CDC7B-13E8-4A50-A94B-6931960790F1}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_MainMenuScreen" ID="{B4BA0D02-777C-4A18-9615-AD0EC2F267F4}">
+							<ChildrenList>
+								<Action Name="" ID="{1745C7AA-E0C2-4857-AFF3-14B1D7835E60}" ShortID="750295852">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_MainMenuScreen" ID="{396F9763-0E02-433D-913C-EE95AB18FCB5}">
+							<ChildrenList>
+								<Action Name="" ID="{4C56C875-99BC-4331-AD1D-4FE105384A02}" ShortID="755471901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1008742184	Play_SFX_UI_MM_Fader			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Fader	
+	1020681794	Stop_SFX_MainMenuScreen			\Default Work Unit\UserInterface\UI\Stop_SFX_MainMenuScreen	
 	1912011125	Play_SFX_UI_MM_Validation			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Validation	
 	2349659389	Play_SFX_UI_MM_Navigate			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Navigate	
 	2787690146	Play_SFX_UI_MM_PlayButton			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_PlayButton	
 	3069816448	Play_SFX_UI_MenuPause			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MenuPause	
+	3484664728	Play_SFX_MainMenuScreen			\Default Work Unit\UserInterface\UI\Play_SFX_MainMenuScreen	
 	4031081037	Play_SFX_UI_MM_Back			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Back	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -14,5 +16,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	709022363	SFX_UI_MM_Validation	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Validation_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Validation		69228
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	504360125	SFX_MainMenuScreen	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_MainMenuScreen_D79FB2B7.wem	504360125.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_MainMenuScreen	
 	539992270	SFX_UI_MM_Fader	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Fader_D79FB2B7.wem	539992270.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Fader	
 

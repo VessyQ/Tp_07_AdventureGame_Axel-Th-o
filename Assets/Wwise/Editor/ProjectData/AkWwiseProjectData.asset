@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585283211971998693
+    m_lastTime: -8585283123105120649
     List:
     - name: Ellen
       guid: 175a99ac96d561499605157c7a43114c
@@ -263,8 +263,31 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283457283748620
+    m_lastTime: -8585283123105025569
     List:
+    - name: Play_SFX_MainMenuScreen
+      guid: 020dbab47c77184a9615ad0ec2f267f4
+      id: 3484664728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_MainMenuScreen
+        ObjectType: 3
+        guid: 020dbab47c77184a9615ad0ec2f267f4
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_MainMenuScreen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_UI_MenuPause
       guid: 81470e538a8ed044b0480ef45b985f82
       id: 3069816448
@@ -400,6 +423,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7e08f7d57fe62345a34ebf286c86e8dd
       Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Validation
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_SFX_MainMenuScreen
+      guid: 63976f39020e3d43913cee95ab18fcb5
+      id: 1020681794
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Stop_SFX_MainMenuScreen
+        ObjectType: 3
+        guid: 63976f39020e3d43913cee95ab18fcb5
+      Path: Events\Default Work Unit\UserInterface\UI\Stop_SFX_MainMenuScreen
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -585,7 +631,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000c0000000d0000001b0000001c00000024000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c0000000d0000001b0000001c0000001d00000024000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

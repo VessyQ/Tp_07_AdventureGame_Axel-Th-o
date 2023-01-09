@@ -119,5 +119,7 @@ namespace Gamekit3D
 
             yield return Instance.StartCoroutine(Instance.Fade(1f, canvasGroup));
         }
+
+   
     }
 }

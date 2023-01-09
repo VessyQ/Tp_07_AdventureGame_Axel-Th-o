@@ -161,6 +161,36 @@
 								<ActiveSource Name="SFX_UI_MM_Fader" ID="{6AFEB07A-502D-455E-ACBF-7955DE25F741}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" ShortID="329215823">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MainMenuScreen" ID="{00899679-83F8-4D5A-9F40-37B67C7A2E6F}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MainMenuScreen.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504360125"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MainMenuScreen" ID="{00899679-83F8-4D5A-9F40-37B67C7A2E6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
