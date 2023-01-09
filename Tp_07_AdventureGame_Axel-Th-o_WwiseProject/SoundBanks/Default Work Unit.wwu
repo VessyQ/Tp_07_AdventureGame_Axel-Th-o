@@ -32,6 +32,19 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Ellen" ID="{AC995A17-D596-4961-9605-157C7A43114C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="MC_Foosteps_Puddle" ID="{FB4B3BAA-7984-4034-9EB4-4634FD99EEEF}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_Foosteps_Rock" ID="{8950A9AF-C240-4397-818C-F6620D072F54}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_Foosteps_Grass" ID="{AA683275-F7B4-4455-89B5-833F2A687771}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

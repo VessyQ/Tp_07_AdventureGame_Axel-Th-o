@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
+	<Events>
+		<WorkUnit Name="WU_Gameplay" ID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="MC_Footstep" ID="{B250356B-0A1A-48F2-99DD-2EFC9DDC6098}" ShortID="257427518">
+					<ChildrenList>
+						<Event Name="MC_Foosteps_Grass" ID="{AA683275-F7B4-4455-89B5-833F2A687771}">
+							<ChildrenList>
+								<Action Name="" ID="{9C8D060F-9DC0-427F-A714-30E24F287657}" ShortID="349426490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Foosteps_Grass" ID="{0E539C38-1E71-4C14-979B-21DD6079E0AF}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Foosteps_Puddle" ID="{FB4B3BAA-7984-4034-9EB4-4634FD99EEEF}">
+							<ChildrenList>
+								<Action Name="" ID="{5D880C75-52B1-4BA5-ACFE-6BCA1BD863F8}" ShortID="399499182">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Foosteps_Puddle" ID="{9EAB3911-BFFA-4F46-8F06-FAEA634D5403}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Foosteps_Rock" ID="{8950A9AF-C240-4397-818C-F6620D072F54}">
+							<ChildrenList>
+								<Action Name="" ID="{C571D8E0-17A3-45E9-9EAB-2D4BADAC34C3}" ShortID="149208786">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Foosteps_Rock" ID="{A72FBE66-655E-4D50-8AF9-0452B1E6B8F1}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
+        static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
+        static const AkUniqueID MC_FOOSTEPS_ROCK = 3890330639U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
         static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
@@ -27,6 +30,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID ELLEN = 1782136527U;
         static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
