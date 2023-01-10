@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
         static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
         static const AkUniqueID MC_FOOSTEPS_ROCK = 3890330639U;
+        static const AkUniqueID MC_JUMP_01 = 3881392346U;
         static const AkUniqueID MC_LAND_GRASS = 2896940196U;
         static const AkUniqueID MC_LAND_PUDDLE = 1983402694U;
         static const AkUniqueID MC_LAND_ROCK = 173644637U;

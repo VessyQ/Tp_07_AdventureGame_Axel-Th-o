@@ -18,6 +18,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9B23FF0C-D6F6-4DE6-BE12-A46A4E341DB4}" ShortID="561707371">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="MC_Foosteps_Puddle" ID="{FB4B3BAA-7984-4034-9EB4-4634FD99EEEF}">
@@ -29,6 +36,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{2478B0CB-3E9A-451D-ACF6-6067A4894D88}" ShortID="610649736">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="MC_Foosteps_Rock" ID="{8950A9AF-C240-4397-818C-F6620D072F54}">
@@ -37,6 +51,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC_Foosteps_Rock" ID="{A72FBE66-655E-4D50-8AF9-0452B1E6B8F1}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{04C737A4-0B7A-4D7B-ABEC-6CA729578853}" ShortID="692794758">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -55,6 +76,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{A7795F3D-2E9F-4AAE-9CB0-ADEF8BE51AB3}" ShortID="119629975">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="MC_Land_Puddle" ID="{FA947179-03DA-429B-B7C1-B0C2FF2693D4}">
@@ -66,6 +94,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{B9F8434A-9EE0-428F-B419-2DC495C348BD}" ShortID="923790661">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="MC_Land_Rock" ID="{6C5FAAD5-466A-4C86-843D-BEE39394F5D3}">
@@ -74,6 +109,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC_Land_Rock" ID="{F2C021C8-9202-4104-B996-2E0B97F0AD65}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0ECC0B57-F8B7-440C-9897-1333ABF54572}" ShortID="893405098">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -129,6 +171,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="MC_Jump_01" ID="{A4FD4735-80F5-4DC5-907D-F0034FB38426}">
+					<ChildrenList>
+						<Action Name="" ID="{680B8F5E-84E3-4BA2-97CF-737AEF5F20DA}" ShortID="18879849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Jump" ID="{0BDE5E7F-7393-4A4E-AA9D-481632061A86}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

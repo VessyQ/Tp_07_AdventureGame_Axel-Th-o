@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282611904420060
+    m_lastTime: -8585282526097254300
     List:
     - name: Ellen
       guid: 175a99ac96d561499605157c7a43114c
@@ -483,7 +483,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585282611904475104
+    m_lastTime: -8585282551927504230
     List:
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
@@ -571,6 +571,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6b3550b21a0af24899dd2efc9ddc6098
       Path: Events\Default Work Unit\WU_Gameplay\MC_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Jump_01
+      guid: 3547fda4f580c54d907df0034fb38426
+      id: 3881392346
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Jump_01
+        ObjectType: 3
+        guid: 3547fda4f580c54d907df0034fb38426
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Jump_01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -898,7 +918,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000090000000a0000001f000000270000002b0000002f000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a000000270000002b0000002f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
