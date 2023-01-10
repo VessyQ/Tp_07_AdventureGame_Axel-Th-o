@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID EELDOG_IN = 1398495461U;
+        static const AkUniqueID EELDONG_OUT = 3904151298U;
         static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
         static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
         static const AkUniqueID MC_FOOSTEPS_ROCK = 3890330639U;
@@ -22,6 +24,12 @@ namespace AK
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
         static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
+        static const AkUniqueID PLAY_ATTACK = 1519321238U;
+        static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
+        static const AkUniqueID PLAY_GRUNT = 2984103440U;
+        static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_MC_COMBO01HIT = 658374511U;
         static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
@@ -33,6 +41,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MM_NAVIGATE = 2349659389U;
         static const AkUniqueID PLAY_SFX_UI_MM_PLAYBUTTON = 2787690146U;
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
+        static const AkUniqueID PLAY_SPOTTED = 2262512141U;
         static const AkUniqueID STOP_SFX_MAINMENUSCREEN = 1020681794U;
     } // namespace EVENTS
 
@@ -55,6 +64,8 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID CHOMPER = 14039721U;
+        static const AkUniqueID EELDOG = 3734169157U;
         static const AkUniqueID ELLEN = 1782136527U;
         static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
         static const AkUniqueID UI = 1551306167U;

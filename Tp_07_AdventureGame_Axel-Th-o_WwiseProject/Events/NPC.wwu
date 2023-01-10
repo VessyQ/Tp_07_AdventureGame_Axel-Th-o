@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F489D973-6C53-4D53-929A-3646C4A09747}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
+	<Events>
+		<WorkUnit Name="NPC" ID="{F489D973-6C53-4D53-929A-3646C4A09747}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Chomper" ID="{0DADE2C4-0F12-4BBE-B749-5DC0D0F5CCC0}" ShortID="335004033">
+					<ChildrenList>
+						<Event Name="Play_Attack" ID="{7C6DB082-61EE-4331-B426-563664EDDB54}">
+							<ChildrenList>
+								<Action Name="" ID="{A4AA1F12-8C62-4176-8B13-009FB9FC8244}" ShortID="621401460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_Attack" ID="{2AE0ABF1-CBDC-4236-860A-EB6953D9B15B}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Frontstep" ID="{632F6BCD-795D-4038-A56F-3EB88CA3DDD3}">
+							<ChildrenList>
+								<Action Name="" ID="{BAF7F448-2D17-40D1-B1C2-5DC8296B75A1}" ShortID="295372216">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_FT_Front" ID="{187DB64C-1262-4D6A-9BB5-A9D84189CCBC}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Backstep" ID="{E5CEB6E1-D289-43E0-AC40-EC427CF20144}">
+							<ChildrenList>
+								<Action Name="" ID="{B7669C4C-3748-4C64-9B83-387FFB769C91}" ShortID="781347692">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_FT_Back" ID="{6CC59754-8E60-44E2-AF5A-FAB16326129F}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit" ID="{33452239-5582-4137-BE91-A8A386E740CE}">
+							<ChildrenList>
+								<Action Name="" ID="{E90BBBA1-A8F5-4E5D-83C1-E6E06D0E5278}" ShortID="708688767">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_Hit" ID="{19C7CCBC-B308-459A-991F-BE44ED1FA358}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grunt" ID="{DA1D5623-0171-4923-A1E3-412DE1220CE3}">
+							<ChildrenList>
+								<Action Name="" ID="{0A7552A0-289E-4590-89DB-96A27DEF2043}" ShortID="525227728">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_Grunt" ID="{ED6F2445-493D-4DC9-9397-81EB9D6BD417}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Death" ID="{FF5B4D88-3615-4AB4-B660-70B0A9530EAD}">
+							<ChildrenList>
+								<Action Name="" ID="{9A33A39B-2FCF-4411-B602-69F14382AC91}" ShortID="808838081">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_Death" ID="{8F340CFF-EBD3-48B2-B83D-3F3462CADC0D}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spotted" ID="{D9E9E537-BC7E-46CF-B9C1-DC21B05DE7B8}">
+							<ChildrenList>
+								<Action Name="" ID="{12220D5A-EFD8-4164-9E89-28956BA70978}" ShortID="148462723">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper_Spotted" ID="{6381ABA9-D806-479B-BAF3-5F357E779BA7}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Eeldog" ID="{E99A7E60-66E5-4F68-9404-A0AE8E4CA332}" ShortID="595798201">
+					<ChildrenList>
+						<Event Name="Eeldog_In" ID="{6BE561EB-5C70-4825-A4A2-D3DCA11E78E8}">
+							<ChildrenList>
+								<Action Name="" ID="{20EC8E91-CD62-4882-A0DE-C8FA2C25A93E}" ShortID="174022802">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="In_Water" ID="{F1E68ACA-8B7A-45A3-9D21-B7AF9E8EB06B}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Eeldong_Out" ID="{567BABBA-383E-4CF5-804D-A4CA3657B4C6}">
+							<ChildrenList>
+								<Action Name="" ID="{69F39D30-2CE4-455C-B7EE-78E51B97ED21}" ShortID="135851863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Out_Water" ID="{379976BE-86B7-472E-A527-33DBDD502E1C}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

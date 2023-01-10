@@ -54,6 +54,28 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Chomper" ID="{DD0DCE49-CB5F-490D-BA94-5FDC028AF5B4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Chomper" ID="{0DADE2C4-0F12-4BBE-B749-5DC0D0F5CCC0}" WorkUnitID="{F489D973-6C53-4D53-929A-3646C4A09747}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Eeldog" ID="{5CBC6B68-388E-4D32-B64B-B08E6B0F77A5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Eeldog" ID="{E99A7E60-66E5-4F68-9404-A0AE8E4CA332}" WorkUnitID="{F489D973-6C53-4D53-929A-3646C4A09747}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

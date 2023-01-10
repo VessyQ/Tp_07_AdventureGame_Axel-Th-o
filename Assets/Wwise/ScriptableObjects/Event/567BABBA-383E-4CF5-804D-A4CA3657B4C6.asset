@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11a3e6906635c9488871d22ea575ab4, type: 3}
+  m_Name: 567BABBA-383E-4CF5-804D-A4CA3657B4C6
+  m_EditorClassIdentifier: 
+  objectName: Eeldong_Out
+  id: 3904151298
+  guid: 567BABBA-383E-4CF5-804D-A4CA3657B4C6
