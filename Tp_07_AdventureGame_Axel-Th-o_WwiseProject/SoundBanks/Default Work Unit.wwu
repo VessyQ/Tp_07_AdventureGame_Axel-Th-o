@@ -27,6 +27,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Door" ID="{7F1EDE00-A57C-40AF-AF34-35FA987D9BF4}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Props_Close" ID="{4DC34300-46DE-42DF-87D7-9DCF9A36715F}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FireFly" ID="{A82176B7-440E-4354-B16D-981A15BDEA1C}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Soft" ID="{29F4CD4A-4FCF-436D-A45A-48CC75FC0F38}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>

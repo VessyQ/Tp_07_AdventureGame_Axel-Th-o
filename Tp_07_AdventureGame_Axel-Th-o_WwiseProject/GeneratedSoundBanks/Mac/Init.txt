@@ -5,6 +5,18 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4122393694	Cave			\Default Work Unit\Reverb_Zones_Bus\Cave	
 	4169379491	Starship			\Default Work Unit\Reverb_Zones_Bus\Starship	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1158104354	RVB_Starship			\Default Work Unit\Reverb_Zones_Bus\Starship\RVB_Starship	
+	1602260323	RBV_Cave			\Default Work Unit\Reverb_Zones_Bus\Cave\RBV_Cave	
+	2365566903	RVB_Jungle			\Default Work Unit\Reverb_Zones_Bus\Jungle\RVB_Jungle	
+	4142881714	RVB_Ruines			\Default Work Unit\Reverb_Zones_Bus\Ruins\RVB_Ruines	
+
+Effect plug-ins	ID	Name	Type				Notes
+	417916826	Ruins	Wwise RoomVerb			
+	850174874	Room_Medium_High_Absorbtion (Custom)	Wwise RoomVerb			
+	4122393694	Cave	Wwise RoomVerb			
+	4169379491	StarShip	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

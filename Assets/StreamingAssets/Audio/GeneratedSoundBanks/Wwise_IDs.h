@@ -32,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
+        static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
@@ -89,6 +90,14 @@ namespace AK
         static const AkUniqueID RUINS = 417916826U;
         static const AkUniqueID STARSHIP = 4169379491U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID RBV_CAVE = 1602260323U;
+        static const AkUniqueID RVB_JUNGLE = 2365566903U;
+        static const AkUniqueID RVB_RUINES = 4142881714U;
+        static const AkUniqueID RVB_STARSHIP = 1158104354U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

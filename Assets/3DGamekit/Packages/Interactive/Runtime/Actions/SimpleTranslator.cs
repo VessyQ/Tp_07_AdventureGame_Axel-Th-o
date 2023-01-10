@@ -21,6 +21,9 @@ namespace Gamekit3D.GameCommands
 
             if (m_Platform != null)
                 m_Platform.MoveCharacterController(deltaPosition);
+       
+            
         }
     }
 }
+
