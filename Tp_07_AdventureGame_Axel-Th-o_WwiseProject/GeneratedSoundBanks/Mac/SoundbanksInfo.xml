@@ -9,7 +9,323 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{3211A66E-4A62-93FA-6C70-5B8F9CD0F9C0}">
+			<ShortName>Chomper</ShortName>
+			<Path>Chomper.bnk</Path>
+			<Media>
+				<File Id="27656066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-002.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="41283733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-003.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-003_04F6F7F9.wem</CachePath>
+				</File>
+				<File Id="63455913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-005.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="71023939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-001.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="88933973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-003.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90142376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-010.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="97076617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-011.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="108871104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-002.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="118215271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-012.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="141834152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-004.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-004_71B53B85.wem</CachePath>
+				</File>
+				<File Id="163424425" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-005.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="176745953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Spotted-001.wav</ShortName>
+					<CachePath>SFX/Chomper_Spotted-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="217281900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-012.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="226505746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Spotted-003.wav</ShortName>
+					<CachePath>SFX/Chomper_Spotted-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="261660802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-007.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="270067142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-005.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="306612113" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-004.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307522573" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-002.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-002_98E7DCEA.wem</CachePath>
+				</File>
+				<File Id="323558297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-006.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="328398442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-001.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="352667902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-003.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="352766284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-004.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="372271538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-010.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="379550852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Spotted-004.wav</ShortName>
+					<CachePath>SFX/Chomper_Spotted-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="431005202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Attack-003.wav</ShortName>
+					<CachePath>SFX/Chomper_Attack-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="454154370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-001.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474226007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-004.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="484762122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Spotted-002.wav</ShortName>
+					<CachePath>SFX/Chomper_Spotted-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="489695982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-006.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="492538813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-008.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="505874479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-006.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="506494751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-007.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="544127965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-006.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-006_2659304C.wem</CachePath>
+				</File>
+				<File Id="567505663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-013.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582854367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-005.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-005_7F3BAD10.wem</CachePath>
+				</File>
+				<File Id="639672113" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-009.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="661510970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-008.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668084072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-008.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="693871948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-007.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="695766204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Attack-002.wav</ShortName>
+					<CachePath>SFX/Chomper_Attack-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="708812715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Hit-001.wav</ShortName>
+					<CachePath>SFX/Chomper_Hit-001_BFC81C1E.wem</CachePath>
+				</File>
+				<File Id="779569688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-002.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802614081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-008.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="805059776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-004.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844703719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-006.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="861890811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-003.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="870991594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-013.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888634019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Death-001.wav</ShortName>
+					<CachePath>SFX/Chomper_Death-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="918423660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Attack-004.wav</ShortName>
+					<CachePath>SFX/Chomper_Attack-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="936810226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Grunt-003.wav</ShortName>
+					<CachePath>SFX/Chomper_Grunt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="961232930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-002.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="997109112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-007.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1023734958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_Attack-001.wav</ShortName>
+					<CachePath>SFX/Chomper_Attack-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1036560010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-005.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1040262215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Back-011.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Back-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1071088346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_FT_Front-009.wav</ShortName>
+					<CachePath>SFX/Chomper_FT_Front-009_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1519321238" Name="Play_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.4516679" DurationMax="1.156225">
+					<MediaRefs>
+						<MediaRef Id="431005202"/>
+						<MediaRef Id="695766204"/>
+						<MediaRef Id="918423660"/>
+						<MediaRef Id="1023734958"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3538651317" Name="Play_Backstep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.1733125" DurationMax="0.412125">
+					<MediaRefs>
+						<MediaRef Id="108871104"/>
+						<MediaRef Id="217281900"/>
+						<MediaRef Id="306612113"/>
+						<MediaRef Id="323558297"/>
+						<MediaRef Id="328398442"/>
+						<MediaRef Id="372271538"/>
+						<MediaRef Id="639672113"/>
+						<MediaRef Id="661510970"/>
+						<MediaRef Id="861890811"/>
+						<MediaRef Id="870991594"/>
+						<MediaRef Id="997109112"/>
+						<MediaRef Id="1036560010"/>
+						<MediaRef Id="1040262215"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1172822028" Name="Play_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.6294375" DurationMax="1.1380416">
+					<MediaRefs>
+						<MediaRef Id="88933973"/>
+						<MediaRef Id="163424425"/>
+						<MediaRef Id="261660802"/>
+						<MediaRef Id="352766284"/>
+						<MediaRef Id="489695982"/>
+						<MediaRef Id="492538813"/>
+						<MediaRef Id="779569688"/>
+						<MediaRef Id="888634019"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2192672377" Name="Play_Frontstep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.1733125" DurationMax="0.412125">
+					<MediaRefs>
+						<MediaRef Id="63455913"/>
+						<MediaRef Id="71023939"/>
+						<MediaRef Id="90142376"/>
+						<MediaRef Id="97076617"/>
+						<MediaRef Id="118215271"/>
+						<MediaRef Id="352667902"/>
+						<MediaRef Id="506494751"/>
+						<MediaRef Id="567505663"/>
+						<MediaRef Id="668084072"/>
+						<MediaRef Id="805059776"/>
+						<MediaRef Id="844703719"/>
+						<MediaRef Id="961232930"/>
+						<MediaRef Id="1071088346"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2984103440" Name="Play_Grunt" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.8054375" DurationMax="1.301375">
+					<MediaRefs>
+						<MediaRef Id="27656066"/>
+						<MediaRef Id="270067142"/>
+						<MediaRef Id="454154370"/>
+						<MediaRef Id="474226007"/>
+						<MediaRef Id="505874479"/>
+						<MediaRef Id="693871948"/>
+						<MediaRef Id="802614081"/>
+						<MediaRef Id="936810226"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2960666077" Name="Play_Hit" DurationType="OneShot" DurationMin="0.34120572" DurationMax="0.4851511">
+					<MediaRefs>
+						<MediaRef Id="41283733"/>
+						<MediaRef Id="141834152"/>
+						<MediaRef Id="307522573"/>
+						<MediaRef Id="544127965"/>
+						<MediaRef Id="582854367"/>
+						<MediaRef Id="708812715"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5594575" DurationMax="1.16925">
+					<MediaRefs>
+						<MediaRef Id="176745953"/>
+						<MediaRef Id="226505746"/>
+						<MediaRef Id="379550852"/>
+						<MediaRef Id="484762122"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BB19F780-BE7E-4701-2F18-9AEA04AC9708}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,7 +335,11 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="219304270" Name="Jungle"/>
+				<Bus Id="417916826" Name="Ruins"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="4122393694" Name="Cave"/>
+				<Bus Id="4169379491" Name="Starship"/>
 			</Busses>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
@@ -108,7 +428,7 @@
 				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{80F232A1-9553-5542-20DA-BA3340ADD393}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{D5FF5FDA-4A16-2269-F12F-9D18F884C809}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -509,11 +829,32 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2035773924" Name="SW_Materials">
+					<Switches>
+						<Switch Id="560778177" Name="SW_Rock"/>
+						<Switch Id="582122640" Name="SW_Grass"/>
+						<Switch Id="4273761226" Name="SW_Puddle"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{275E7B5B-B7F4-2CF3-1444-9F8DF3838B9F}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{1BEEBE7D-963E-2CDE-55BD-9CC6F99B04B8}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
+				<File Id="7249638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-002.wav</ShortName>
+					<CachePath>SFX/Box_Break-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148277154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-001.wav</ShortName>
+					<CachePath>SFX/Box_Break-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="274394172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HealBox.wav</ShortName>
+					<CachePath>SFX/HealBox_10C4C929.wem</CachePath>
+				</File>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
 					<Path>Media/771869937.wem</Path>
@@ -528,6 +869,14 @@
 					<ShortName>AMB_Water.wav</ShortName>
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1020969190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-004.wav</ShortName>
+					<CachePath>SFX/Box_Break-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1029210976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-003.wav</ShortName>
+					<CachePath>SFX/Box_Break-003_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -546,8 +895,67 @@
 						<MediaRef Id="812090864"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4151201399" Name="Play_DestructibleBox" DurationType="OneShot" DurationMin="2.0158541" DurationMax="2.6228542">
+					<MediaRefs>
+						<MediaRef Id="7249638"/>
+						<MediaRef Id="148277154"/>
+						<MediaRef Id="1020969190"/>
+						<MediaRef Id="1029210976"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3047160268" Name="Play_Health" DurationType="OneShot" DurationMin="3.2811458" DurationMax="3.2811458">
+					<MediaRefs>
+						<MediaRef Id="274394172"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{56A15AA9-CF4D-661D-5E63-0C74E6EA359B}">
+			<ShortName>Eeldog</ShortName>
+			<Path>Eeldog.bnk</Path>
+			<Media>
+				<File Id="373965078" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson out-003.wav</ShortName>
+					<CachePath>SFX/Poisson out-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="408791125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson in -001.wav</ShortName>
+					<CachePath>SFX/Poisson in -001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="514499342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson out-002.wav</ShortName>
+					<CachePath>SFX/Poisson out-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566883040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson in -003.wav</ShortName>
+					<CachePath>SFX/Poisson in -003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="629538605" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson out-001.wav</ShortName>
+					<CachePath>SFX/Poisson out-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="858917401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Poisson in -002.wav</ShortName>
+					<CachePath>SFX/Poisson in -002_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1398495461" Name="Eeldog_In" MaxAttenuation="18" DurationType="OneShot" DurationMin="1.3263272" DurationMax="1.8940787">
+					<MediaRefs>
+						<MediaRef Id="373965078"/>
+						<MediaRef Id="514499342"/>
+						<MediaRef Id="629538605"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3904151298" Name="Eeldong_Out" MaxAttenuation="18" DurationType="OneShot" DurationMin="1.327136" DurationMax="1.779114">
+					<MediaRefs>
+						<MediaRef Id="408791125"/>
+						<MediaRef Id="566883040"/>
+						<MediaRef Id="858917401"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9ECD1ADB-9A19-E220-33F3-1384B352F746}</FileHash>
+	<FileHash>{30C72B03-BDF3-333F-6281-9E4728ACC0A1}</FileHash>
 </SoundBanksInfo>

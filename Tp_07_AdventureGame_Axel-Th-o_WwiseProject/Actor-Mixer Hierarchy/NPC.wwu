@@ -333,6 +333,9 @@
 						<RandomSequenceContainer Name="Chomper_FT_Front" ID="{187DB64C-1262-4D6A-9BB5-A9D84189CCBC}" ShortID="26956589">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{35129AA5-5B13-4FA9-AD8A-43ED93A4820E}">
@@ -674,6 +677,9 @@
 						<RandomSequenceContainer Name="Chomper_FT_Back" ID="{6CC59754-8E60-44E2-AF5A-FAB16326129F}" ShortID="274351191">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{B490C84C-535C-40E8-9CFC-8E2B77DFE2B6}">

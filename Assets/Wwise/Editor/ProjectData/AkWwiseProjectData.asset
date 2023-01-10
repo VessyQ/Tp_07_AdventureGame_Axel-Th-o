@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284105856171817
+    m_lastTime: -8585282433714342711
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,90 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy\Reverb_Zones_Bus.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+    - ElementName: Reverb_Zones_Bus
+      ObjectType: 12
+      guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
+    guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+    GuidInternal: 
+    m_lastTime: -8585282433714001259
+    List:
+    - name: Cave
+      guid: ddf8676858167a4da421c88a7dc67326
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Cave
+        ObjectType: 2
+        guid: ddf8676858167a4da421c88a7dc67326
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Cave
+    - name: Jungle
+      guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      id: 219304270
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Jungle
+        ObjectType: 2
+        guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle
+    - name: Ruins
+      guid: 900b483503a24b42bfe79fb264c945e2
+      id: 417916826
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Ruins
+        ObjectType: 2
+        guid: 900b483503a24b42bfe79fb264c945e2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins
+    - name: Starship
+      guid: 9746777af8e4244b8011d6a6c0c7322d
+      id: 4169379491
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Starship
+        ObjectType: 2
+        guid: 9746777af8e4244b8011d6a6c0c7322d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Starship
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +150,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282477411508859
+    m_lastTime: -8585282402235091358
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -166,7 +250,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585283351140217493
+    m_lastTime: -8585282402235181116
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -254,6 +338,52 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3f85e4afbc790f4c8ae553afe2b9e5af
       Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Strong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_DestructibleBox
+      guid: 456e7eaa6833814583d7eb21d16b08e6
+      id: 4151201399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_DestructibleBox
+        ObjectType: 3
+        guid: 456e7eaa6833814583d7eb21d16b08e6
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_DestructibleBox
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Health
+      guid: 821bdf95f53b90488b419c7bc25a9b97
+      id: 3047160268
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_Health
+        ObjectType: 3
+        guid: 821bdf95f53b90488b419c7bc25a9b97
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_Health
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1209,7 +1339,7 @@ MonoBehaviour:
     m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000080000000d0000000e0000002a000000
+  ExpandedWaapiItemIds: 0500000006000000080000000a0000000b0000000c0000000d0000000e0000002a0000008b050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

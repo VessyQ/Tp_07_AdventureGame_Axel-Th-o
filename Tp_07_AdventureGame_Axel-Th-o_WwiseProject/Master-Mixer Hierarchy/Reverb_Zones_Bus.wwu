@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9EC29F0E-7EC7-41B4-8A7A-8DDC1C85684C}" SchemaVersion="110" RootDocumentID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}" ParentDocumentID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}">
+	<Busses>
+		<WorkUnit Name="Reverb_Zones_Bus" ID="{9EC29F0E-7EC7-41B4-8A7A-8DDC1C85684C}" OwnerID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}" PersistMode="Nested">
+			<ChildrenList>
+				<Bus Name="Jungle" ID="{C61BCE66-5C00-4CB0-9EA5-F15DBB21F6E2}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4A277F64-2E90-4AA2-B7A2-C105C8E00846}" WorkUnitID="{CC1C28B6-A66D-4A6F-BA72-B468809CD815}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Ruins" ID="{35480B90-A203-424B-BFE7-9FB264C945E2}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4A277F64-2E90-4AA2-B7A2-C105C8E00846}" WorkUnitID="{CC1C28B6-A66D-4A6F-BA72-B468809CD815}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Cave" ID="{6867F8DD-1658-4D7A-A421-C88A7DC67326}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4A277F64-2E90-4AA2-B7A2-C105C8E00846}" WorkUnitID="{CC1C28B6-A66D-4A6F-BA72-B468809CD815}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Starship" ID="{7A774697-E4F8-4B24-8011-D6A6C0C7322D}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4A277F64-2E90-4AA2-B7A2-C105C8E00846}" WorkUnitID="{CC1C28B6-A66D-4A6F-BA72-B468809CD815}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

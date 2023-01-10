@@ -10,6 +10,7 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<WorkUnit Name="Reverb_Zones_Bus" ID="{9EC29F0E-7EC7-41B4-8A7A-8DDC1C85684C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

@@ -44,7 +44,33 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613"/>
+				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613">
+					<ChildrenList>
+						<Event Name="Play_DestructibleBox" ID="{AA7E6E45-3368-4581-83D7-EB21D16B08E6}">
+							<ChildrenList>
+								<Action Name="" ID="{5853DD9B-1E77-46F2-B6B7-5469EB011C9B}" ShortID="214048866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Box_Rock_Break" ID="{4D65B6D0-33ED-4E22-8A17-54E48AF3A55A}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Health" ID="{95DF1B82-3BF5-4890-8B41-9C7BC25A9B97}">
+							<ChildrenList>
+								<Action Name="" ID="{DD7192EA-F2C5-476E-B651-9849A5B3E05B}" ShortID="763557432">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealBox" ID="{0AC213D0-B807-4B68-A74E-67EA00A12A91}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayHealth_Loop" ID="{5814DF17-1AB6-4BAD-996F-6AD4D31BDD91}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

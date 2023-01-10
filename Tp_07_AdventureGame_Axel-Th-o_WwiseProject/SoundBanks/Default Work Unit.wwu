@@ -28,6 +28,8 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_AMB_Wind_Soft" ID="{29F4CD4A-4FCF-436D-A45A-48CC75FC0F38}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DestructibleBox" ID="{AA7E6E45-3368-4581-83D7-EB21D16B08E6}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Health" ID="{95DF1B82-3BF5-4890-8B41-9C7BC25A9B97}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Water" ID="{2002BFBD-B6E1-4C1C-B299-19D9B5943068}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

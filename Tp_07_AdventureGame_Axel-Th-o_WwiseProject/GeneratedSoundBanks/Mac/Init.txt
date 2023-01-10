@@ -1,5 +1,9 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	219304270	Jungle			\Default Work Unit\Reverb_Zones_Bus\Jungle	
+	417916826	Ruins			\Default Work Unit\Reverb_Zones_Bus\Ruins	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4122393694	Cave			\Default Work Unit\Reverb_Zones_Bus\Cave	
+	4169379491	Starship			\Default Work Unit\Reverb_Zones_Bus\Starship	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
