@@ -5,16 +5,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	2049148582	Play_AMB_Water			\Default Work Unit\Environnement\AMB\Play_AMB_Water	
 	2181098295	Props_Far			\Default Work Unit\Environnement\PROPS\Props_Far	
 	2389962849	Play_FireFly			\Default Work Unit\Environnement\PROPS\Play_FireFly	
+	4151201399	Play_DestructibleBox			\Default Work Unit\Environnement\PROPS\Play_DestructibleBox	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	275645981	PROPS_Whale_01	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Far\PROPS_Whale_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_01		1061292
-	320335259	PROPS_Insect_02	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Close\PROPS_Insect_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_02		1057692
-	405054130	PROPS_Whale_02	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Far\PROPS_Whale_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_02		1263576
-	673446851	PROPS_Insect_01	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Close\PROPS_Insect_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_01		779008
+	259430491	Box_Break-002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-002_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-002		503684
+	275645981	PROPS_Whale_01	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Far\PROPS_Whale_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_01		1061292
+	320335259	PROPS_Insect_02	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Close\PROPS_Insect_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_02		1057692
+	357594778	Box_Break-001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-001_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-001		476760
+	405054130	PROPS_Whale_02	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Far\PROPS_Whale_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_02		1263576
+	625501724	Box_Break-003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-003_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-003		387140
+	673446851	PROPS_Insect_01	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Close\PROPS_Insect_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_01		779008
+	694274688	Box_Break-004	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-004_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-004		434716
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	221504597	Props_FireFly	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_FireFly_D79FB2B7.wem	221504597.wem	\Actor-Mixer Hierarchy\Environnement\Props\Props_Loop\Props_FireFly	
-	771869937	AMB_Wind_Soft	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Wind_Soft_D79FB2B7.wem	771869937.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Soft	
-	812090864	AMB_Wind_Strong	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Wind_Strong_D79FB2B7.wem	812090864.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Strong	
-	822664154	AMB_Water	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Water_D79FB2B7.wem	822664154.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Water	
+	221504597	Props_FireFly	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_FireFly_D79FB2B7.wem	221504597.wem	\Actor-Mixer Hierarchy\Environnement\Props\Props_Loop\Props_FireFly	
+	771869937	AMB_Wind_Soft	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Wind_Soft_D79FB2B7.wem	771869937.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Soft	
+	812090864	AMB_Wind_Strong	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Wind_Strong_D79FB2B7.wem	812090864.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Strong	
+	822664154	AMB_Water	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\AMB_Water_D79FB2B7.wem	822664154.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Water	
 

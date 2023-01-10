@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{AD612875-AC14-E9FE-B622-828B4339440F}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{3211A66E-4A62-93FA-6C70-5B8F9CD0F9C0}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4BA8A233-B0D8-A782-1025-8C8D4165AD90}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -335,7 +335,11 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="219304270" Name="Jungle"/>
+				<Bus Id="417916826" Name="Ruins"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="4122393694" Name="Cave"/>
+				<Bus Id="4169379491" Name="Starship"/>
 			</Busses>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
@@ -835,7 +839,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{ED8E0155-BBF3-5FFE-3F35-8137692C168B}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{24804743-7468-3671-04DE-2AD6561222B5}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -843,6 +847,10 @@
 					<ShortName>PROPS_FireFly.wav</ShortName>
 					<Path>Media/221504597.wem</Path>
 					<CachePath>SFX/PROPS_FireFly_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="259430491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-002.wav</ShortName>
+					<CachePath>SFX/Box_Break-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="275645981" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Far\PROPS_Whale_01.wav</ShortName>
@@ -852,13 +860,25 @@
 					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
 					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="357594778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-001.wav</ShortName>
+					<CachePath>SFX/Box_Break-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="405054130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Far\PROPS_Whale_02.wav</ShortName>
 					<CachePath>SFX/PROPS_Far/PROPS_Whale_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="625501724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-003.wav</ShortName>
+					<CachePath>SFX/Box_Break-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="673446851" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Close\PROPS_Insect_01.wav</ShortName>
 					<CachePath>SFX/PROPS_Close/PROPS_Insect_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="694274688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break-004.wav</ShortName>
+					<CachePath>SFX/Box_Break-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
@@ -890,6 +910,14 @@
 				<Event Id="1439945259" Name="Play_AMB_Wind_Strong" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="812090864"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4151201399" Name="Play_DestructibleBox" DurationType="OneShot" DurationMin="2.0158541" DurationMax="2.6228542">
+					<MediaRefs>
+						<MediaRef Id="259430491"/>
+						<MediaRef Id="357594778"/>
+						<MediaRef Id="625501724"/>
+						<MediaRef Id="694274688"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
@@ -958,5 +986,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6A3A419A-238B-0FB1-4657-C744050311EE}</FileHash>
+	<FileHash>{96078533-511D-18AB-549A-F6E1C4C0CE8B}</FileHash>
 </SoundBanksInfo>

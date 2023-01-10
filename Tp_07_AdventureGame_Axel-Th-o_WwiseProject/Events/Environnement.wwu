@@ -79,6 +79,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_DestructibleBox" ID="{988DD49A-FBF9-4D0B-87ED-364478FFF0C6}">
+							<ChildrenList>
+								<Action Name="" ID="{9614E4A5-5CEA-4C07-963D-AD3B567FEDC9}" ShortID="650086189">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DestructibleBox" ID="{FA80AC51-FDAE-4C7B-9127-7CD5FD5C3F1B}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

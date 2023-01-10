@@ -33,6 +33,7 @@
 						<ObjectRef Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Water" ID="{2002BFBD-B6E1-4C1C-B299-19D9B5943068}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DestructibleBox" ID="{988DD49A-FBF9-4D0B-87ED-364478FFF0C6}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284958216141097
+    m_lastTime: -8585284105853798319
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284168801537689
+    m_lastTime: -8585282433714342711
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,90 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy\Reverb_Zones_Bus.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+    - ElementName: Reverb_Zones_Bus
+      ObjectType: 12
+      guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
+    guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+    GuidInternal: 
+    m_lastTime: -8585282433714001259
+    List:
+    - name: Cave
+      guid: ddf8676858167a4da421c88a7dc67326
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Cave
+        ObjectType: 2
+        guid: ddf8676858167a4da421c88a7dc67326
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Cave
+    - name: Jungle
+      guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      id: 219304270
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Jungle
+        ObjectType: 2
+        guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle
+    - name: Ruins
+      guid: 900b483503a24b42bfe79fb264c945e2
+      id: 417916826
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Ruins
+        ObjectType: 2
+        guid: 900b483503a24b42bfe79fb264c945e2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins
+    - name: Starship
+      guid: 9746777af8e4244b8011d6a6c0c7322d
+      id: 4169379491
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Starship
+        ObjectType: 2
+        guid: 9746777af8e4244b8011d6a6c0c7322d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Starship
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +150,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282408328104863
+    m_lastTime: -8585282379360239086
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -150,7 +234,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585282493239200657
+    m_lastTime: -8585282572054452166
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -166,7 +250,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585282408328184933
+    m_lastTime: -8585282379360341387
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -254,6 +338,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3f85e4afbc790f4c8ae553afe2b9e5af
       Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Strong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_DestructibleBox
+      guid: 9ad48d98f9fb0b4d87ed364478fff0c6
+      id: 4151201399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_DestructibleBox
+        ObjectType: 3
+        guid: 9ad48d98f9fb0b4d87ed364478fff0c6
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_DestructibleBox
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -360,7 +467,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585282493239195647
+    m_lastTime: -8585282509531058411
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -623,7 +730,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283123105025569
+    m_lastTime: -8585283115967428930
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -843,7 +950,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585282551927504230
+    m_lastTime: -8585282477415238654
     List:
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
@@ -1167,7 +1274,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284958216251189
+    m_lastTime: -8585284105856510916
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1181,7 +1288,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585284958216181135
+    m_lastTime: -8585284105854027700
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1195,7 +1302,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585282663472135188
+    m_lastTime: -8585282588392331840
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -1275,10 +1382,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284958216146102
+    m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000e0000000f0000001c0000001e000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

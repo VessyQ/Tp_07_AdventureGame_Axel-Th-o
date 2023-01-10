@@ -11764,9 +11764,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 114276095462003004}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomClip
+      - m_Target: {fileID: 5339240911090986784}
+        m_TargetAssemblyTypeName: DestructibleBox_Break, Assembly-CSharp
+        m_MethodName: onDeath
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11776,9 +11776,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5339240911090986784}
-        m_TargetAssemblyTypeName: DestructibleBox_Break, Assembly-CSharp
-        m_MethodName: onDeath
+      - m_Target: {fileID: 114276095462003004}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: PlayRandomClip
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
