@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284105853798319
+    m_lastTime: -8585284958216141097
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585284105856171817
+    m_lastTime: -8585284168801537689
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282477411508859
+    m_lastTime: -8585282408328104863
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -150,7 +150,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585282572054452166
+    m_lastTime: -8585282493239200657
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -166,7 +166,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585283351140217493
+    m_lastTime: -8585282408328184933
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -257,6 +257,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_FireFly
+      guid: b77621a80e445443b16d981a15bdea1c
+      id: 2389962849
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_FireFly
+        ObjectType: 3
+        guid: b77621a80e445443b16d981a15bdea1c
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_FireFly
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PROPS
       guid: 859f201f75c7a843bdf0e34f2c0730d4
       id: 968010305
@@ -277,6 +300,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Props_Close
+      guid: 0043c34dde46df4287d79dcf9a36715f
+      id: 1189557224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Props_Close
+        ObjectType: 3
+        guid: 0043c34dde46df4287d79dcf9a36715f
+      Path: Events\Default Work Unit\Environnement\PROPS\Props_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Props_Far
+      guid: 7916ab6f5a416e49a299e5fb0cea7520
+      id: 2181098295
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Props_Far
+        ObjectType: 3
+        guid: 7916ab6f5a416e49a299e5fb0cea7520
+      Path: Events\Default Work Unit\Environnement\PROPS\Props_Far
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\NPC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -291,7 +360,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585282509531058411
+    m_lastTime: -8585282493239195647
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -554,7 +623,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283115967428930
+    m_lastTime: -8585283123105025569
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -774,7 +843,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585282477415238654
+    m_lastTime: -8585282551927504230
     List:
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
@@ -1098,7 +1167,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284105856510916
+    m_lastTime: -8585284958216251189
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1112,7 +1181,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585284105854027700
+    m_lastTime: -8585284958216181135
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1126,7 +1195,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585282588392331840
+    m_lastTime: -8585282663472135188
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -1206,10 +1275,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284105853848184
+    m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000080000000d0000000e0000002a000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000e0000000f0000001c0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

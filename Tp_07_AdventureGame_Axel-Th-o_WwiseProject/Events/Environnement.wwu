@@ -44,7 +44,43 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613"/>
+				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613">
+					<ChildrenList>
+						<Event Name="Play_FireFly" ID="{A82176B7-440E-4354-B16D-981A15BDEA1C}">
+							<ChildrenList>
+								<Action Name="" ID="{CA29E4B1-398F-4531-879A-C08A52BF5CD2}" ShortID="352610222">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Props_FireFly" ID="{715E0DA1-DB57-4FE7-B1AD-DD34154F6E22}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}">
+							<ChildrenList>
+								<Action Name="" ID="{52F5463A-CF46-42C5-989B-6084C1CA8711}" ShortID="893434625">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_Far" ID="{EE1E940D-D496-4E84-88D7-99D82538A404}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Props_Close" ID="{4DC34300-46DE-42DF-87D7-9DCF9A36715F}">
+							<ChildrenList>
+								<Action Name="" ID="{21557FE9-36C2-42CC-8BA2-1C7C5351B097}" ShortID="956035348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_Close" ID="{ECEF4049-BE39-4C1E-B988-5EEBCA4C8D0E}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

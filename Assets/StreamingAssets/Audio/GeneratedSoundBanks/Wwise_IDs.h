@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_ATTACK = 1519321238U;
         static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
@@ -43,6 +44,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MM_PLAYBUTTON = 2787690146U;
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
         static const AkUniqueID PLAY_SPOTTED = 2262512141U;
+        static const AkUniqueID PROPS_CLOSE = 1189557224U;
+        static const AkUniqueID PROPS_FAR = 2181098295U;
         static const AkUniqueID STOP_SFX_MAINMENUSCREEN = 1020681794U;
     } // namespace EVENTS
 

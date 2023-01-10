@@ -11,6 +11,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	3881392346	MC_Jump_01			\Default Work Unit\WU_Gameplay\MC_Jump_01	
 	3890330639	MC_Foosteps_Rock			\Default Work Unit\WU_Gameplay\MC_Footstep\MC_Foosteps_Rock	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2035773924	SW_Materials			\Default Work Unit\SW_Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	560778177	SW_Rock	SW_Materials			
+	582122640	SW_Grass	SW_Materials			
+	4273761226	SW_Puddle	SW_Materials			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1307956	SFX_MC_Combo03Hit_04	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\MC_Combo03Hit\SFX_MC_Combo03Hit_04_10C4C929.wem		\Actor-Mixer Hierarchy\Gameplay\MC_Ellen\MC_Weapon\MC_Combo03Hit\SFX_MC_Combo03Hit_04		220832
 	11536569	SFX_MC_Foosteps_Grass_03	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_MC_Foosteps_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Gameplay\MC_Ellen\MC_Footstep\MC_Foosteps_Grass\SFX_MC_Foosteps_Grass_03		96096
