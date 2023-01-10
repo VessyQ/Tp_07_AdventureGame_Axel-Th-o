@@ -44,6 +44,91 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="MC_Land" ID="{CE0D4F36-0C95-47D7-BCCF-B045A8CCB143}" ShortID="620455760">
+					<ChildrenList>
+						<Event Name="MC_Land_Grass" ID="{791667FE-C386-4016-848E-6671623D3115}">
+							<ChildrenList>
+								<Action Name="" ID="{BAA3D2BA-C807-4809-9EFB-06603E8B9A0A}" ShortID="976516609">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Land_Grass" ID="{B3B8580E-89C5-40B5-9FE4-ABF18D007154}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Land_Puddle" ID="{FA947179-03DA-429B-B7C1-B0C2FF2693D4}">
+							<ChildrenList>
+								<Action Name="" ID="{290F9314-7510-48F2-A15A-D9E35FBFCFEC}" ShortID="948410263">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Land_Puddle" ID="{70F5460B-B5E5-46A0-967E-EF87AA82135B}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Land_Rock" ID="{6C5FAAD5-466A-4C86-843D-BEE39394F5D3}">
+							<ChildrenList>
+								<Action Name="" ID="{2E03337D-774A-4FB7-B2B4-3ABFE8510716}" ShortID="991765971">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Land_Rock" ID="{F2C021C8-9202-4104-B996-2E0B97F0AD65}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MC_Weapon" ID="{E84CDC47-BF8A-4DA9-9580-4C3FA7FE5B57}" ShortID="479172238">
+					<ChildrenList>
+						<Event Name="Play_MC_Combo01Hit" ID="{62308EDD-4942-48B5-9B1C-5856BD156F89}">
+							<ChildrenList>
+								<Action Name="" ID="{5691E06B-E5CD-4BE0-B73E-D7A4DC917DD1}" ShortID="589717385">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo01Hit" ID="{B447F677-4E2E-4926-AF1F-684212951DD4}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Combo02Hit" ID="{F7C9E9E1-1493-4D13-BED5-2E15A5665D63}">
+							<ChildrenList>
+								<Action Name="" ID="{60941455-17F8-478B-98F0-E33E75EDDEB4}" ShortID="543268786">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo02Hit" ID="{12280541-9D05-4F4A-BC36-37BAAEDC26C7}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Combo03Hit" ID="{06547C3D-184F-4590-B7B4-2AAA35597D2E}">
+							<ChildrenList>
+								<Action Name="" ID="{6771B412-4130-44E8-A3DC-1F0739BDA8E5}" ShortID="690474035">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo03Hit" ID="{BE6DE5D6-AFBD-4CBC-88B0-19449F847CC8}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Combo04Hit" ID="{3DD5AF15-D573-4BF9-BB9A-97CF9E1FA124}">
+							<ChildrenList>
+								<Action Name="" ID="{9D971DBA-6FCF-4CA6-B6B5-C2583E337AE7}" ShortID="620849204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo04Hit" ID="{9C2A3135-A722-4A6B-AB1D-2BB71D16DE40}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

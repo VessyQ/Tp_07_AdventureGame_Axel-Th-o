@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585283123105120649
+    m_lastTime: -8585282611904420060
     List:
     - name: Ellen
       guid: 175a99ac96d561499605157c7a43114c
@@ -483,7 +483,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585283216339248504
+    m_lastTime: -8585282611904475104
     List:
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
@@ -574,6 +574,207 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MC_Land
+      guid: 364f0dce950cd747bccfb045a8ccb143
+      id: 2166447543
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Land
+        ObjectType: 4
+        guid: 364f0dce950cd747bccfb045a8ccb143
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Land_Grass
+      guid: fe67167986c31640848e6671623d3115
+      id: 2896940196
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Land
+        ObjectType: 4
+        guid: 364f0dce950cd747bccfb045a8ccb143
+      - ElementName: MC_Land_Grass
+        ObjectType: 3
+        guid: fe67167986c31640848e6671623d3115
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Grass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Land_Puddle
+      guid: 797194fada039b42b7c1b0c2ff2693d4
+      id: 1983402694
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Land
+        ObjectType: 4
+        guid: 364f0dce950cd747bccfb045a8ccb143
+      - ElementName: MC_Land_Puddle
+        ObjectType: 3
+        guid: 797194fada039b42b7c1b0c2ff2693d4
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Puddle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Land_Rock
+      guid: d5aa5f6c6a46864c843dbee39394f5d3
+      id: 173644637
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Land
+        ObjectType: 4
+        guid: 364f0dce950cd747bccfb045a8ccb143
+      - ElementName: MC_Land_Rock
+        ObjectType: 3
+        guid: d5aa5f6c6a46864c843dbee39394f5d3
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Rock
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Weapon
+      guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      id: 710396972
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MC_Combo01Hit
+      guid: dd8e30624249b5489b1c5856bd156f89
+      id: 658374511
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Play_MC_Combo01Hit
+        ObjectType: 3
+        guid: dd8e30624249b5489b1c5856bd156f89
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Play_MC_Combo01Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MC_Combo02Hit
+      guid: e1e9c9f79314134dbed52e15a5665d63
+      id: 1935096834
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Play_MC_Combo02Hit
+        ObjectType: 3
+        guid: e1e9c9f79314134dbed52e15a5665d63
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Play_MC_Combo02Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MC_Combo03Hit
+      guid: 3d7c54064f189045b7b42aaa35597d2e
+      id: 3873886149
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Play_MC_Combo03Hit
+        ObjectType: 3
+        guid: 3d7c54064f189045b7b42aaa35597d2e
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Play_MC_Combo03Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MC_Combo04Hit
+      guid: 15afd53d73d5f94bbb9a97cf9e1fa124
+      id: 814064760
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Play_MC_Combo04Hit
+        ObjectType: 3
+        guid: 15afd53d73d5f94bbb9a97cf9e1fa124
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Play_MC_Combo04Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -614,8 +815,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585283216339428664
-    List: []
+    m_lastTime: -8585282663472135188
+    List:
+    - name: SW_Materials
+      guid: 3e1238e84bcb4f4a9508a35a1722bceb
+      id: 2035773924
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 66b925e5ce07d2439b4730ebc7432511
+      - ElementName: SW_Materials
+        ObjectType: 11
+        guid: 3e1238e84bcb4f4a9508a35a1722bceb
+      Path: Switches\Default Work Unit\SW_Materials
+      values:
+      - name: SW_Grass
+        guid: 3616bb4644d4ea4ba65ad9097339f1c4
+        id: 582122640
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66b925e5ce07d2439b4730ebc7432511
+        - ElementName: SW_Materials
+          ObjectType: 11
+          guid: 3e1238e84bcb4f4a9508a35a1722bceb
+        - ElementName: SW_Grass
+          ObjectType: 10
+          guid: 3616bb4644d4ea4ba65ad9097339f1c4
+      - name: SW_Puddle
+        guid: bda850f9062d7a4aa982111997abd810
+        id: 4273761226
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66b925e5ce07d2439b4730ebc7432511
+        - ElementName: SW_Materials
+          ObjectType: 11
+          guid: 3e1238e84bcb4f4a9508a35a1722bceb
+        - ElementName: SW_Puddle
+          ObjectType: 10
+          guid: bda850f9062d7a4aa982111997abd810
+      - name: SW_Rock
+        guid: f126d092edc60f49ae60b60f96373ec6
+        id: 560778177
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 66b925e5ce07d2439b4730ebc7432511
+        - ElementName: SW_Materials
+          ObjectType: 11
+          guid: 3e1238e84bcb4f4a9508a35a1722bceb
+        - ElementName: SW_Rock
+          ObjectType: 10
+          guid: f126d092edc60f49ae60b60f96373ec6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -631,7 +898,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c0000000d0000001b0000001c0000001d00000024000000
+  ExpandedWaapiItemIds: 0500000006000000090000000a0000001f000000270000002b0000002f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

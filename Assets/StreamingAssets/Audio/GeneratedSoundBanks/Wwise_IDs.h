@@ -16,9 +16,16 @@ namespace AK
         static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
         static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
         static const AkUniqueID MC_FOOSTEPS_ROCK = 3890330639U;
+        static const AkUniqueID MC_LAND_GRASS = 2896940196U;
+        static const AkUniqueID MC_LAND_PUDDLE = 1983402694U;
+        static const AkUniqueID MC_LAND_ROCK = 173644637U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
         static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
+        static const AkUniqueID PLAY_MC_COMBO01HIT = 658374511U;
+        static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
+        static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
+        static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
         static const AkUniqueID PLAY_SFX_MAINMENUSCREEN = 3484664728U;
         static const AkUniqueID PLAY_SFX_UI_MENUPAUSE = 3069816448U;
         static const AkUniqueID PLAY_SFX_UI_MM_BACK = 4031081037U;
@@ -28,6 +35,22 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
         static const AkUniqueID STOP_SFX_MAINMENUSCREEN = 1020681794U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SW_MATERIALS
+        {
+            static const AkUniqueID GROUP = 2035773924U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SW_GRASS = 582122640U;
+                static const AkUniqueID SW_PUDDLE = 4273761226U;
+                static const AkUniqueID SW_ROCK = 560778177U;
+            } // namespace SWITCH
+        } // namespace SW_MATERIALS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

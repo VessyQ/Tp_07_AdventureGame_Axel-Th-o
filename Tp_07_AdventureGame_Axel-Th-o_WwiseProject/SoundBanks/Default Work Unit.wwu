@@ -40,9 +40,16 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="MC_Land_Grass" ID="{791667FE-C386-4016-848E-6671623D3115}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Foosteps_Puddle" ID="{FB4B3BAA-7984-4034-9EB4-4634FD99EEEF}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_Land_Puddle" ID="{FA947179-03DA-429B-B7C1-B0C2FF2693D4}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Foosteps_Rock" ID="{8950A9AF-C240-4397-818C-F6620D072F54}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Foosteps_Grass" ID="{AA683275-F7B4-4455-89B5-833F2A687771}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Combo03Hit" ID="{06547C3D-184F-4590-B7B4-2AAA35597D2E}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Combo01Hit" ID="{62308EDD-4942-48B5-9B1C-5856BD156F89}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Combo04Hit" ID="{3DD5AF15-D573-4BF9-BB9A-97CF9E1FA124}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_Land_Rock" ID="{6C5FAAD5-466A-4C86-843D-BEE39394F5D3}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MC_Combo02Hit" ID="{F7C9E9E1-1493-4D13-BED5-2E15A5665D63}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

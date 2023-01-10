@@ -7,10 +7,10 @@ public class MC_Footsteps : MonoBehaviour
 
 
 {
-    [Header("Wwise AUdio")]
+    [Header("Wwise Audio")]
     public AK.Wwise.Event footstepEvent;
     public AK.Wwise.Event jumpEvent;
-    public AK.Wwise.Event landtepEvent;
+    public AK.Wwise.Event landEvent;
 
     public GameObject leftFootEmitter;
     public GameObject rightFootEmitter;
@@ -31,4 +31,21 @@ public class MC_Footsteps : MonoBehaviour
             footstepEvent.Post(rightFootEmitter);
         }
     }
+
+    private void OnJumpAnim(AnimationEvent animationEvent)
+    {
+        if (animationEvent.animatorClipInfo.weight > 0.5f)
+        {
+            jumpEvent.Post(leftFootEmitter);
+        }
+    }
+
+    private void OnLandAnim(AnimationEvent animationEvent)
+    {
+        if (animationEvent.animatorClipInfo.weight > 0.5f)
+        {
+            landEvent.Post(leftFootEmitter);
+        }
+    }
+
 }

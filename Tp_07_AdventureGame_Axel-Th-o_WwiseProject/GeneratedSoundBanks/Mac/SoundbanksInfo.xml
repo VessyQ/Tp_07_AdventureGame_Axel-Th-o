@@ -21,8 +21,17 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2035773924" Name="SW_Materials">
+					<Switches>
+						<Switch Id="560778177" Name="SW_Rock"/>
+						<Switch Id="582122640" Name="SW_Grass"/>
+						<Switch Id="4273761226" Name="SW_Puddle"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{EE92B3EB-C9AF-49E9-688D-C9AB91829842}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{E167A6BA-1F9F-A42D-9B0A-7FE67BD7E3A9}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -87,6 +96,9 @@
 					<MediaRefs>
 						<MediaRef Id="384204942"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1020681794" Name="Stop_SFX_MainMenuScreen"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1912011125" Name="Play_SFX_UI_MM_Validation" DurationType="OneShot" DurationMin="0.3600625" DurationMax="0.3600625">
 					<MediaRefs>
@@ -96,17 +108,33 @@
 				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{B82EFB99-7FE5-9D5B-99BE-EECB51798D95}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{C93B03FB-0637-D616-C4CD-4C01D0C1A770}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
+				<File Id="1307956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_04.wav</ShortName>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="11536569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_03.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Grass_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="16249450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="21925048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="41680137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_03.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Puddle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="73796053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="83627431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_01.wav</ShortName>
@@ -120,9 +148,49 @@
 					<ShortName>SFX_MC_Foosteps_Grass_01.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Grass_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="148175301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_01.wav</ShortName>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158471398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_01.wav</ShortName>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="201487244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="204792160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227693047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="322883862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_02.wav</ShortName>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323145811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="363808535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="367885731" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_04.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="376678370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="401651177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="411932410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_05.wav</ShortName>
@@ -132,9 +200,25 @@
 					<ShortName>SFX_MC_Foosteps_Puddle_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Puddle_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="498153445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_02.wav</ShortName>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="512621845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634689452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_04.wav</ShortName>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="645477539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_03.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="683306689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="699530999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_05.wav</ShortName>
@@ -144,17 +228,69 @@
 					<ShortName>SFX_MC_Foosteps_Grass_05.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Grass_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="730337992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_02.wav</ShortName>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="743621085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_03.wav</ShortName>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="747998321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="761245616" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_04.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="778022980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="808354261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="824368895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_01.wav</ShortName>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="852795320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_04.wav</ShortName>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="870062637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_01.wav</ShortName>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="873712508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_04.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Puddle_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="878251415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_03.wav</ShortName>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="895196884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="903070737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_03.wav</ShortName>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="930018962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_04.wav</ShortName>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1027833215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_02.wav</ShortName>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1041551490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_03.wav</ShortName>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1059488728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_01.wav</ShortName>
@@ -187,6 +323,65 @@
 						<MediaRef Id="699530999"/>
 						<MediaRef Id="761245616"/>
 						<MediaRef Id="895196884"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2896940196" Name="MC_Land_Grass" DurationType="OneShot" DurationMin="0.5" DurationMax="0.625">
+					<MediaRefs>
+						<MediaRef Id="16249450"/>
+						<MediaRef Id="227693047"/>
+						<MediaRef Id="323145811"/>
+						<MediaRef Id="363808535"/>
+						<MediaRef Id="747998321"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1983402694" Name="MC_Land_Puddle" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="401651177"/>
+						<MediaRef Id="512621845"/>
+						<MediaRef Id="683306689"/>
+						<MediaRef Id="778022980"/>
+						<MediaRef Id="808354261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="173644637" Name="MC_Land_Rock" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="21925048"/>
+						<MediaRef Id="73796053"/>
+						<MediaRef Id="201487244"/>
+						<MediaRef Id="204792160"/>
+						<MediaRef Id="376678370"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="658374511" Name="Play_MC_Combo01Hit" DurationType="OneShot" DurationMin="0.8529792" DurationMax="0.8529792">
+					<MediaRefs>
+						<MediaRef Id="148175301"/>
+						<MediaRef Id="498153445"/>
+						<MediaRef Id="634689452"/>
+						<MediaRef Id="1041551490"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1935096834" Name="Play_MC_Combo02Hit" DurationType="OneShot" DurationMin="1.1421459" DurationMax="1.1421459">
+					<MediaRefs>
+						<MediaRef Id="852795320"/>
+						<MediaRef Id="870062637"/>
+						<MediaRef Id="903070737"/>
+						<MediaRef Id="1027833215"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3873886149" Name="Play_MC_Combo03Hit" DurationType="OneShot" DurationMin="1.1496667" DurationMax="1.1496667">
+					<MediaRefs>
+						<MediaRef Id="1307956"/>
+						<MediaRef Id="322883862"/>
+						<MediaRef Id="743621085"/>
+						<MediaRef Id="824368895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="814064760" Name="Play_MC_Combo04Hit" DurationType="OneShot" DurationMin="1.1967708" DurationMax="1.1967708">
+					<MediaRefs>
+						<MediaRef Id="158471398"/>
+						<MediaRef Id="730337992"/>
+						<MediaRef Id="878251415"/>
+						<MediaRef Id="930018962"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -230,5 +425,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C47B3AF-B1FA-319D-0FAC-D7F3C913AB55}</FileHash>
+	<FileHash>{4B13161D-4CAB-256F-643D-3CE53126CD75}</FileHash>
 </SoundBanksInfo>

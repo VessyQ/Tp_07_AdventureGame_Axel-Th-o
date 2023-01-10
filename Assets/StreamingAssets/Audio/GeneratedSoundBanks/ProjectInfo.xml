@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="Tp_07_AdventureGame_Axel-Th-o_WwiseProject" GUID="{8EE885B3-2EDD-418A-93ED-78C28F2420CB}" Generator="2022.1.1.8100"/>
+	<Project Name="Tp_07_AdventureGame_Axel-Th-o_WwiseProject" GUID="{8EE885B3-2EDD-418A-93ED-78C28F2420CB}" Generator="2022.1.0.8070"/>
 	<CacheRoot>../../../../Tp_07_AdventureGame_Axel-Th-o_WwiseProject/.cache</CacheRoot>
 	<Platforms>
 		<Platform Name="Mac" GUID="{B1DFD2DB-68FF-44DB-8155-AD3B0A79CC6A}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Tp_07_AdventureGame_Axel-Th-o_WwiseProject/GeneratedSoundBanks/Mac"/>
@@ -9,5 +9,5 @@
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{011E6A79-683F-4551-AA2A-77C04499C197}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{BD70C1B5-65D4-D66F-08FB-B7B555C67FF5}</FileHash>
+	<FileHash>{C0AA071C-0D45-60E6-69BB-19A6C117F0F4}</FileHash>
 </ProjectInfo>
