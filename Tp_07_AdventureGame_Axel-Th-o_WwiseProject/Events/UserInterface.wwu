@@ -105,12 +105,9 @@
 								<Action Name="" ID="{4C56C875-99BC-4331-AD1D-4FE105384A02}" ShortID="755471901">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
-										</Reference>
-									</ReferenceList>
+									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>

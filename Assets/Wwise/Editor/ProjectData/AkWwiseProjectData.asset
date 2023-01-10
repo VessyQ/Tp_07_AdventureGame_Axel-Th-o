@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284105853798319
+    m_lastTime: -8585284958216141097
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585282433714342711
+    m_lastTime: -8585282387014025506
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
     guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
     GuidInternal: 
-    m_lastTime: -8585282433714001259
+    m_lastTime: -8585282387014020499
     List:
     - name: Cave
       guid: ddf8676858167a4da421c88a7dc67326
@@ -150,7 +150,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282379360239086
+    m_lastTime: -8585282336251837533
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -234,7 +234,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585282572054452166
+    m_lastTime: -8585282493239200657
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -250,7 +250,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585282379360341387
+    m_lastTime: -8585282375176919342
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -467,7 +467,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585282509531058411
+    m_lastTime: -8585282493239195647
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -730,7 +730,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585283115967428930
+    m_lastTime: -8585282323371419894
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -950,8 +950,51 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585282477415238654
+    m_lastTime: -8585282320797232997
     List:
+    - name: MC_Death
+      guid: 2d92187a521e12418981a8c54595fd72
+      id: 3389321894
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Feedback
+        ObjectType: 4
+        guid: e3369875c93fd147bf594454a8810ebc
+      - ElementName: MC_Death
+        ObjectType: 3
+        guid: 2d92187a521e12418981a8c54595fd72
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Feedback\MC_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Feedback
+      guid: e3369875c93fd147bf594454a8810ebc
+      id: 3835700829
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Feedback
+        ObjectType: 4
+        guid: e3369875c93fd147bf594454a8810ebc
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Feedback
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MC_Foosteps_Grass
       guid: 753268aab4f7554489b5833f2a687771
       id: 1233953106
@@ -1038,6 +1081,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6b3550b21a0af24899dd2efc9ddc6098
       Path: Events\Default Work Unit\WU_Gameplay\MC_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Hit
+      guid: 4555c4a6512be444934a77b49caa263c
+      id: 3349748359
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Feedback
+        ObjectType: 4
+        guid: e3369875c93fd147bf594454a8810ebc
+      - ElementName: MC_Hit
+        ObjectType: 3
+        guid: 4555c4a6512be444934a77b49caa263c
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Feedback\MC_Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1147,6 +1213,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: d5aa5f6c6a46864c843dbee39394f5d3
       Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Rock
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Respawn
+      guid: 2689a0368e79104185855985ab13a0bb
+      id: 748388956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Feedback
+        ObjectType: 4
+        guid: e3369875c93fd147bf594454a8810ebc
+      - ElementName: MC_Respawn
+        ObjectType: 3
+        guid: 2689a0368e79104185855985ab13a0bb
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Feedback\MC_Respawn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1262,6 +1351,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_Pedestral_Idle
+      guid: 4c5ad282c0dc6241a985e141256aea9b
+      id: 605838133
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Play_SFX_Pedestral_Idle
+        ObjectType: 3
+        guid: 4c5ad282c0dc6241a985e141256aea9b
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Play_SFX_Pedestral_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_SFX_Pedestral_Idle
+      guid: c60074b21e19084999cf49247b5ade9a
+      id: 3561745923
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Weapon
+        ObjectType: 4
+        guid: 47dc4ce88abfa94d95804c3fa7fe5b57
+      - ElementName: Stop_SFX_Pedestral_Idle
+        ObjectType: 3
+        guid: c60074b21e19084999cf49247b5ade9a
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Weapon\Stop_SFX_Pedestral_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1274,7 +1409,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284105856510916
+    m_lastTime: -8585284958216251189
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1288,7 +1423,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585284105854027700
+    m_lastTime: -8585284958216181135
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1302,7 +1437,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585282588392331840
+    m_lastTime: -8585282663472135188
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -1382,10 +1517,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284105853848184
+    m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000080000000b0000000c00000022000000230000002700000047000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

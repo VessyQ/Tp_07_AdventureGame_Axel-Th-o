@@ -351,7 +351,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{E167A6BA-1F9F-A42D-9B0A-7FE67BD7E3A9}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{40A9A7E0-873C-9540-E277-789B132B33B1}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -428,7 +428,7 @@
 				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{F3606B03-7287-7BBA-EB6D-9E15FA72F89C}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{AF6B99C8-EDAF-083E-2759-FB09AAF2607C}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -455,6 +455,14 @@
 				<File Id="41680137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_03.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Foosteps_Puddle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="56405457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_01.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57160597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Death.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Death_10C4C929.wem</CachePath>
 				</File>
 				<File Id="70573892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_06.wav</ShortName>
@@ -520,6 +528,10 @@
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="323926715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_03.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="363808535" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_03.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_03_10C4C929.wem</CachePath>
@@ -552,6 +564,10 @@
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_04.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="479317692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Respawn.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Respawn_10C4C929.wem</CachePath>
+				</File>
 				<File Id="498153445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_02.wav</ShortName>
 					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_02_10C4C929.wem</CachePath>
@@ -559,6 +575,15 @@
 				<File Id="512621845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="522421376" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_Pedestral_Idle.wav</ShortName>
+					<Path>Media/522421376.wem</Path>
+					<CachePath>SFX/SFX_Pedestral_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="622493110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_02.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="634689452" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_04.wav</ShortName>
@@ -591,6 +616,10 @@
 				<File Id="747998321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_05.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="751209892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_04.wav</ShortName>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="761245616" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_04.wav</ShortName>
@@ -678,6 +707,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3389321894" Name="MC_Death" DurationType="OneShot" DurationMin="3.1041458" DurationMax="3.1041458">
+					<MediaRefs>
+						<MediaRef Id="57160597"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1233953106" Name="MC_Foosteps_Grass" DurationType="OneShot" DurationMin="0.375" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="11536569"/>
@@ -730,6 +764,14 @@
 						<MediaRef Id="985272136"/>
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3349748359" Name="MC_Hit" DurationType="OneShot" DurationMin="0.40366668" DurationMax="0.65133333">
+					<MediaRefs>
+						<MediaRef Id="56405457"/>
+						<MediaRef Id="323926715"/>
+						<MediaRef Id="622493110"/>
+						<MediaRef Id="751209892"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3881392346" Name="MC_Jump_01" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
@@ -796,6 +838,11 @@
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="748388956" Name="MC_Respawn" DurationType="OneShot" DurationMin="2.6607084" DurationMax="2.6607084">
+					<MediaRefs>
+						<MediaRef Id="479317692"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="658374511" Name="Play_MC_Combo01Hit" DurationType="OneShot" DurationMin="0.8529792" DurationMax="0.8529792">
 					<MediaRefs>
 						<MediaRef Id="148175301"/>
@@ -828,6 +875,12 @@
 						<MediaRef Id="930018962"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="605838133" Name="Play_SFX_Pedestral_Idle" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="522421376"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3561745923" Name="Stop_SFX_Pedestral_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
@@ -839,7 +892,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{24804743-7468-3671-04DE-2AD6561222B5}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{853C8DAA-8E07-2B1D-9ECE-792B3D1EB8CB}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -986,5 +1039,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96078533-511D-18AB-549A-F6E1C4C0CE8B}</FileHash>
+	<FileHash>{C9632065-D476-E308-E94D-3024F8F719DA}</FileHash>
 </SoundBanksInfo>

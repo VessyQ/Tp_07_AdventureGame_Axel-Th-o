@@ -169,6 +169,40 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Pedestral_Idle" ID="{82D25A4C-DCC0-4162-A985-E141256AEA9B}">
+							<ChildrenList>
+								<Action Name="" ID="{67A72065-8111-4A7C-A86E-9F9DF3FE19BB}" ShortID="589965570">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Pedestral_Idle" ID="{F974D8F6-0A3D-4DD8-B59C-E3B168DC4DEE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Pedestral_Idle" ID="{B27400C6-191E-4908-99CF-49247B5ADE9A}">
+							<ChildrenList>
+								<Action Name="" ID="{7135C897-ED48-404B-9576-34E63AD3ED69}" ShortID="419220142">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A99BBECA-A29B-4CCF-89F3-6E775EC19B51}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Pedestral_Idle" ID="{F974D8F6-0A3D-4DD8-B59C-E3B168DC4DEE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="MC_Jump_01" ID="{A4FD4735-80F5-4DC5-907D-F0034FB38426}">
@@ -182,6 +216,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="MC_Feedback" ID="{759836E3-3FC9-47D1-BF59-4454A8810EBC}" ShortID="97611249">
+					<ChildrenList>
+						<Event Name="MC_Hit" ID="{A6C45545-2B51-44E4-934A-77B49CAA263C}">
+							<ChildrenList>
+								<Action Name="" ID="{C9979D35-807F-4EB1-A888-968DE34C1952}" ShortID="942065811">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Hit" ID="{4628ACC7-92BC-4CB1-85C6-FB10A71CE48D}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Death" ID="{7A18922D-1E52-4112-8981-A8C54595FD72}">
+							<ChildrenList>
+								<Action Name="" ID="{8EDDE201-3E45-4362-9631-BD9F233AEFD5}" ShortID="512469231">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Death" ID="{140ACF4A-1EAF-4305-A9AD-1385AADAD98A}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_Respawn" ID="{36A08926-798E-4110-8585-5985AB13A0BB}">
+							<ChildrenList>
+								<Action Name="" ID="{A011923D-B428-459E-8CAF-A690E772AAC5}" ShortID="155996856">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Respawn" ID="{446E76AE-6605-45AC-AF1F-432E113B2705}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
