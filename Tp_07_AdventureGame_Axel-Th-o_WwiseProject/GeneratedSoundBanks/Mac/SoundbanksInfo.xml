@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{3211A66E-4A62-93FA-6C70-5B8F9CD0F9C0}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{AD612875-AC14-E9FE-B622-828B4339440F}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BB19F780-BE7E-4701-2F18-9AEA04AC9708}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -335,11 +335,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="219304270" Name="Jungle"/>
-				<Bus Id="417916826" Name="Ruins"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
-				<Bus Id="4122393694" Name="Cave"/>
-				<Bus Id="4169379491" Name="Starship"/>
 			</Busses>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
@@ -428,7 +424,7 @@
 				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{D5FF5FDA-4A16-2269-F12F-9D18F884C809}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{F3606B03-7287-7BBA-EB6D-9E15FA72F89C}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -839,21 +835,30 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{1BEEBE7D-963E-2CDE-55BD-9CC6F99B04B8}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{ED8E0155-BBF3-5FFE-3F35-8137692C168B}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
-				<File Id="7249638" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Box_Break-002.wav</ShortName>
-					<CachePath>SFX/Box_Break-002_10C4C929.wem</CachePath>
+				<File Id="221504597" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>PROPS_FireFly.wav</ShortName>
+					<Path>Media/221504597.wem</Path>
+					<CachePath>SFX/PROPS_FireFly_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="148277154" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Box_Break-001.wav</ShortName>
-					<CachePath>SFX/Box_Break-001_10C4C929.wem</CachePath>
+				<File Id="275645981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Far\PROPS_Whale_01.wav</ShortName>
+					<CachePath>SFX/PROPS_Far/PROPS_Whale_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="274394172" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HealBox.wav</ShortName>
-					<CachePath>SFX/HealBox_10C4C929.wem</CachePath>
+				<File Id="320335259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
+					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="405054130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Far\PROPS_Whale_02.wav</ShortName>
+					<CachePath>SFX/PROPS_Far/PROPS_Whale_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="673446851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Close\PROPS_Insect_01.wav</ShortName>
+					<CachePath>SFX/PROPS_Close/PROPS_Insect_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
@@ -870,14 +875,6 @@
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="1020969190" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Box_Break-004.wav</ShortName>
-					<CachePath>SFX/Box_Break-004_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1029210976" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Box_Break-003.wav</ShortName>
-					<CachePath>SFX/Box_Break-003_10C4C929.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
 				<Event Id="2049148582" Name="Play_AMB_Water" MaxAttenuation="15" DurationType="Infinite">
@@ -885,27 +882,31 @@
 						<MediaRef Id="822664154"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1482463854" Name="Play_AMB_Wind_Soft" DurationType="Infinite">
+				<Event Id="1482463854" Name="Play_AMB_Wind_Soft" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="771869937"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1439945259" Name="Play_AMB_Wind_Strong" DurationType="Infinite">
+				<Event Id="1439945259" Name="Play_AMB_Wind_Strong" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="812090864"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4151201399" Name="Play_DestructibleBox" DurationType="OneShot" DurationMin="2.0158541" DurationMax="2.6228542">
+				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="7249638"/>
-						<MediaRef Id="148277154"/>
-						<MediaRef Id="1020969190"/>
-						<MediaRef Id="1029210976"/>
+						<MediaRef Id="221504597"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3047160268" Name="Play_Health" DurationType="OneShot" DurationMin="3.2811458" DurationMax="3.2811458">
+				<Event Id="1189557224" Name="Props_Close" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="274394172"/>
+						<MediaRef Id="320335259"/>
+						<MediaRef Id="673446851"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2181098295" Name="Props_Far" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="275645981"/>
+						<MediaRef Id="405054130"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -957,5 +958,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{30C72B03-BDF3-333F-6281-9E4728ACC0A1}</FileHash>
+	<FileHash>{6414CE79-AF72-FE42-B259-E95E791C57F3}</FileHash>
 </SoundBanksInfo>

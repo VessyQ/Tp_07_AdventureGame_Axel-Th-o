@@ -46,29 +46,39 @@
 				</Folder>
 				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613">
 					<ChildrenList>
-						<Event Name="Play_DestructibleBox" ID="{AA7E6E45-3368-4581-83D7-EB21D16B08E6}">
+						<Event Name="Play_FireFly" ID="{A82176B7-440E-4354-B16D-981A15BDEA1C}">
 							<ChildrenList>
-								<Action Name="" ID="{5853DD9B-1E77-46F2-B6B7-5469EB011C9B}" ShortID="214048866">
+								<Action Name="" ID="{CA29E4B1-398F-4531-879A-C08A52BF5CD2}" ShortID="352610222">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Box_Rock_Break" ID="{4D65B6D0-33ED-4E22-8A17-54E48AF3A55A}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+											<ObjectRef Name="Props_FireFly" ID="{715E0DA1-DB57-4FE7-B1AD-DD34154F6E22}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Health" ID="{95DF1B82-3BF5-4890-8B41-9C7BC25A9B97}">
+						<Event Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}">
 							<ChildrenList>
-								<Action Name="" ID="{DD7192EA-F2C5-476E-B651-9849A5B3E05B}" ShortID="763557432">
+								<Action Name="" ID="{52F5463A-CF46-42C5-989B-6084C1CA8711}" ShortID="893434625">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="HealBox" ID="{0AC213D0-B807-4B68-A74E-67EA00A12A91}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+											<ObjectRef Name="PROPS_Far" ID="{EE1E940D-D496-4E84-88D7-99D82538A404}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayHealth_Loop" ID="{5814DF17-1AB6-4BAD-996F-6AD4D31BDD91}"/>
+						<Event Name="Props_Close" ID="{4DC34300-46DE-42DF-87D7-9DCF9A36715F}">
+							<ChildrenList>
+								<Action Name="" ID="{21557FE9-36C2-42CC-8BA2-1C7C5351B097}" ShortID="956035348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_Close" ID="{ECEF4049-BE39-4C1E-B988-5EEBCA4C8D0E}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
