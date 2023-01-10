@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11a3e6906635c9488871d22ea575ab4, type: 3}
+  m_Name: FF5B4D88-3615-4AB4-B660-70B0A9530EAD
+  m_EditorClassIdentifier: 
+  objectName: Play_Death
+  id: 1172822028
+  guid: FF5B4D88-3615-4AB4-B660-70B0A9530EAD

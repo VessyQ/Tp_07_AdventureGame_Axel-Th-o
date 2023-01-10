@@ -3516,6 +3516,8 @@ GameObject:
   - component: {fileID: 65771025306039616}
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
+  - component: {fileID: 271467146890193464}
+  - component: {fileID: 4974594410279645071}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3688,6 +3690,79 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &271467146890193464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffdb7dbf30c9764b80342eec3928bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 75640c298375b984e90f7f4538211eca,
+      type: 2}
+  FrontStep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f92090bcb39e8142949d5d98412208f,
+      type: 2}
+  BackStep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8fd4b120816ba184db5d6b5357f9c94b,
+      type: 2}
+  Hit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b3daabb80738a85479bbbb0844fd3099,
+      type: 2}
+  Grunt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 78b20a1be5d1c254b9e5e463f3987a58,
+      type: 2}
+  Death:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2cbc0e7cff6f5144d8539bd2b61d83e8,
+      type: 2}
+  Spotted:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f00249879dae9724ab61428eb63dc22a,
+      type: 2}
+  Chomper: {fileID: 1722084123150156}
+--- !u!114 &4974594410279645071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39035fa0e5ca9c2459c3d49476c68e51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4709ded1787a8d14bab35cf01e45f9b4,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0
