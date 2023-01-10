@@ -325,10 +325,18 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BB19F780-BE7E-4701-2F18-9AEA04AC9708}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{20B21D10-28A2-263F-A99A-EC20C445D440}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="850174874" Name="Room_Medium_High_Absorbtion (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="417916826" Name="Ruins" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4122393694" Name="Cave" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4169379491" Name="StarShip" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -336,11 +344,41 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="219304270" Name="Jungle"/>
-				<Bus Id="417916826" Name="Ruins"/>
+				<Bus Id="417916826" Name="Ruins">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="417916826"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="4122393694" Name="Cave"/>
 				<Bus Id="4169379491" Name="Starship"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1158104354" Name="RVB_Starship">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4169379491"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1602260323" Name="RBV_Cave">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4122393694"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2365566903" Name="RVB_Jungle">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="850174874"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4142881714" Name="RVB_Ruines"/>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
 					<Switches>
@@ -428,7 +466,7 @@
 				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{F3606B03-7287-7BBA-EB6D-9E15FA72F89C}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{06886014-7BAB-CD57-B8E4-0D45C34DD828}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -839,7 +877,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{24804743-7468-3671-04DE-2AD6561222B5}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{A6694BEE-7066-52A6-A996-22A5C4C6E231}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -895,6 +933,10 @@
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="1024306742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door   Stone   Large   001 by DWOBoyle Id-474178.wav</ShortName>
+					<CachePath>SFX/Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="2049148582" Name="Play_AMB_Water" MaxAttenuation="15" DurationType="Infinite">
@@ -918,6 +960,11 @@
 						<MediaRef Id="357594778"/>
 						<MediaRef Id="625501724"/>
 						<MediaRef Id="694274688"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2547633870" Name="Play_Door" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.489796" DurationMax="3.489796">
+					<MediaRefs>
+						<MediaRef Id="1024306742"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
@@ -986,5 +1033,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{791961D5-3A75-A121-4E94-35B095FF541B}</FileHash>
+	<FileHash>{3049C017-84DA-C40C-4ECF-7EEA002138A7}</FileHash>
 </SoundBanksInfo>

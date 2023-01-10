@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
     guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
     GuidInternal: 
-    m_lastTime: -8585282433714001259
+    m_lastTime: -8585282329747193107
     List:
     - name: Cave
       guid: ddf8676858167a4da421c88a7dc67326
@@ -104,6 +104,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
       Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle
+    - name: RBV_Cave
+      guid: 6fd81e0918970d40ad0b1613689bdbc5
+      id: 1602260323
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Cave
+        ObjectType: 2
+        guid: ddf8676858167a4da421c88a7dc67326
+      - ElementName: RBV_Cave
+        ObjectType: 1
+        guid: 6fd81e0918970d40ad0b1613689bdbc5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Cave\RBV_Cave
     - name: Ruins
       guid: 900b483503a24b42bfe79fb264c945e2
       id: 417916826
@@ -121,6 +141,66 @@ MonoBehaviour:
         ObjectType: 2
         guid: 900b483503a24b42bfe79fb264c945e2
       Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins
+    - name: RVB_Jungle
+      guid: 099c8d35913c744799d24cd0b33f8035
+      id: 2365566903
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Jungle
+        ObjectType: 2
+        guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      - ElementName: RVB_Jungle
+        ObjectType: 1
+        guid: 099c8d35913c744799d24cd0b33f8035
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle\RVB_Jungle
+    - name: RVB_Ruines
+      guid: 77b506d2d8abe143816d0cae00fbc405
+      id: 4142881714
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Ruins
+        ObjectType: 2
+        guid: 900b483503a24b42bfe79fb264c945e2
+      - ElementName: RVB_Ruines
+        ObjectType: 1
+        guid: 77b506d2d8abe143816d0cae00fbc405
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins\RVB_Ruines
+    - name: RVB_Starship
+      guid: 5e518301047de5439453000e2777b4ea
+      id: 1158104354
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Starship
+        ObjectType: 2
+        guid: 9746777af8e4244b8011d6a6c0c7322d
+      - ElementName: RVB_Starship
+        ObjectType: 1
+        guid: 5e518301047de5439453000e2777b4ea
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Starship\RVB_Starship
     - name: Starship
       guid: 9746777af8e4244b8011d6a6c0c7322d
       id: 4169379491
@@ -150,7 +230,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282379360239086
+    m_lastTime: -8585282356973788806
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -250,7 +330,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585282379360341387
+    m_lastTime: -8585282356973709311
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -361,6 +441,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9ad48d98f9fb0b4d87ed364478fff0c6
       Path: Events\Default Work Unit\Environnement\PROPS\Play_DestructibleBox
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Door
+      guid: 00de1e7f7ca5af40af3435fa987d9bf4
+      id: 2547633870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_Door
+        ObjectType: 3
+        guid: 00de1e7f7ca5af40af3435fa987d9bf4
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1385,7 +1488,7 @@ MonoBehaviour:
     m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000200000003000000050000000600000007000000080000000e0000000f0000002100000023000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
