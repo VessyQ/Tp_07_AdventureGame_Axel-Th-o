@@ -1,27 +1,38 @@
 Event	ID	Name			Wwise Object Path	Notes
+	863824191	Play_SFX_PressurePad_Loop			\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Play_SFX_PressurePad_Loop	
 	1189557224	Props_Close			\Default Work Unit\Environnement\PROPS\Props_Close	
 	1439945259	Play_AMB_Wind_Strong			\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Strong	
 	1482463854	Play_AMB_Wind_Soft			\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Soft	
+	1616564399	Play_SFX_HealBox			\Default Work Unit\Environnement\PROPS\PROPS_HealBox\Play_SFX_HealBox	
+	1941366886	Play_SFX_PressurePad_Activate			\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Play_SFX_PressurePad_Activate	
 	2049148582	Play_AMB_Water			\Default Work Unit\Environnement\AMB\Play_AMB_Water	
 	2181098295	Props_Far			\Default Work Unit\Environnement\PROPS\Props_Far	
 	2389962849	Play_FireFly			\Default Work Unit\Environnement\PROPS\Play_FireFly	
 	2547633870	Play_Door			\Default Work Unit\Environnement\PROPS\Play_Door	
+	2757622389	Stop_SFX_Loop_Crystal			\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Stop_SFX_Loop_Crystal	
+	3449537228	Play_SFX_Crystal_Activate			\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Play_SFX_Crystal_Activate	
+	3936093387	Play_SFX_Loop_Crystal			\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Play_SFX_Loop_Crystal	
 	4151201399	Play_DestructibleBox			\Default Work Unit\Environnement\PROPS\Play_DestructibleBox	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	259430491	Box_Break-002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-002_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-002		503684
-	275645981	PROPS_Whale_01	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Far\PROPS_Whale_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_01		1061292
-	320335259	PROPS_Insect_02	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Close\PROPS_Insect_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_02		1057692
-	357594778	Box_Break-001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-001_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-001		476760
-	405054130	PROPS_Whale_02	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Far\PROPS_Whale_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_02		1263576
-	625501724	Box_Break-003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-003_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-003		387140
-	673446851	PROPS_Insect_01	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Close\PROPS_Insect_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_01		779008
-	694274688	Box_Break-004	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-004_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-004		434716
-	1024306742	Large_Door_Open	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\Large_Door\Large_Door_Open		307896
+	253935470	SFX_Crystal_Activate	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Crystal\SFX_Crystal_Activate_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Crystal\SFX_Crystal_Activate		245204
+	259430491	Box_Break-002	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-002_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-002		503684
+	275645981	PROPS_Whale_01	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Far\PROPS_Whale_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_01		1061292
+	320335259	PROPS_Insect_02	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Close\PROPS_Insect_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_02		1057692
+	357594778	Box_Break-001	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-001_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-001		476760
+	367348154	SFX_HealBox	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_HealBox\SFX_HealBox_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_HealBox\SFX_HealBox		630076
+	405054130	PROPS_Whale_02	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Far\PROPS_Whale_02_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Far\PROPS_Whale_02		1263576
+	614579002	SFX_PressurePad_Activate	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Pressure Pad\SFX_PressurePad_Activate_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Pressure Pad\SFX_PressurePad_Activate		227992
+	625501724	Box_Break-003	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-003_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-003		387140
+	673446851	PROPS_Insect_01	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Close\PROPS_Insect_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_01		779008
+	694274688	Box_Break-004	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Box_Break-004_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-004		434716
+	1024306742	Large_Door_Open	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\Large_Door\Large_Door_Open		307896
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	221504597	Props_FireFly	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_FireFly_D79FB2B7.wem	221504597.wem	\Actor-Mixer Hierarchy\Environnement\Props\Props_Loop\Props_FireFly	
-	771869937	AMB_Wind_Soft	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Wind_Soft_D79FB2B7.wem	771869937.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Soft	
-	812090864	AMB_Wind_Strong	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Wind_Strong_D79FB2B7.wem	812090864.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Strong	
-	822664154	AMB_Water	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Water_D79FB2B7.wem	822664154.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Water	
+	221504597	Props_FireFly	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_FireFly_D79FB2B7.wem	221504597.wem	\Actor-Mixer Hierarchy\Environnement\Props\Props_Loop\Props_FireFly	
+	350764459	SFX_PressurePad_Loop	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Pressure Pad\SFX_PressurePad_Loop_D79FB2B7.wem	350764459.wem	\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Pressure Pad\SFX_PressurePad_Loop	
+	771869937	AMB_Wind_Soft	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Wind_Soft_D79FB2B7.wem	771869937.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Soft	
+	812090864	AMB_Wind_Strong	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Wind_Strong_D79FB2B7.wem	812090864.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Wind_Strong	
+	822664154	AMB_Water	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\AMB_Water_D79FB2B7.wem	822664154.wem	\Actor-Mixer Hierarchy\Environnement\AMB\AMB_Water	
+	991152073	SFX_Loop_Crystal	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\PROPS_Crystal\SFX_Loop_Crystal_D79FB2B7.wem	991152073.wem	\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Crystal\SFX_Loop_Crystal	
 

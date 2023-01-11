@@ -325,10 +325,18 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4BA8A233-B0D8-A782-1025-8C8D4165AD90}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2A95999A-6BCB-18D4-E65F-C1209C0FE442}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="850174874" Name="Room_Medium_High_Absorbtion (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="417916826" Name="Ruins" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4122393694" Name="Cave" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4169379491" Name="StarShip" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -336,11 +344,41 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="219304270" Name="Jungle"/>
-				<Bus Id="417916826" Name="Ruins"/>
+				<Bus Id="417916826" Name="Ruins">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="417916826"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="4122393694" Name="Cave"/>
 				<Bus Id="4169379491" Name="Starship"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1158104354" Name="RVB_Starship">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4169379491"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1602260323" Name="RBV_Cave">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4122393694"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2365566903" Name="RVB_Jungle">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="850174874"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4142881714" Name="RVB_Ruines"/>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
 					<Switches>
@@ -351,7 +389,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{40A9A7E0-873C-9540-E277-789B132B33B1}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{99AFB6BE-45CC-A0A0-6080-A5D690D5E2DE}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -371,11 +409,6 @@
 					<ShortName>SFX_UI_MM_Navigate.wav</ShortName>
 					<CachePath>SFX/SFX_UI_MM_Navigate_10C4C929.wem</CachePath>
 				</File>
-				<File Id="504360125" Language="SFX" Streaming="true" Location="Loose">
-					<ShortName>SFX_MainMenuScreen.wav</ShortName>
-					<Path>Media/504360125.wem</Path>
-					<CachePath>SFX/SFX_MainMenuScreen_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="539992270" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_UI_MM_Fader.wav</ShortName>
 					<Path>Media/539992270.wem</Path>
@@ -387,11 +420,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3484664728" Name="Play_SFX_MainMenuScreen" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="504360125"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3484664728" Name="Play_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3069816448" Name="Play_SFX_UI_MenuPause" DurationType="OneShot" DurationMin="1.1522083" DurationMax="1.1522083">
 					<MediaRefs>
 						<MediaRef Id="377659748"/>
@@ -416,19 +445,15 @@
 					<MediaRefs>
 						<MediaRef Id="384204942"/>
 					</MediaRefs>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1020681794" Name="Stop_SFX_MainMenuScreen"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1912011125" Name="Play_SFX_UI_MM_Validation" DurationType="OneShot" DurationMin="0.3600625" DurationMax="0.3600625">
 					<MediaRefs>
 						<MediaRef Id="709022363"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{AF6B99C8-EDAF-083E-2759-FB09AAF2607C}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{72211C53-2BD1-A123-C8FE-FE834161D8C2}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -892,7 +917,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{853C8DAA-8E07-2B1D-9ECE-792B3D1EB8CB}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{E4D753B9-BE15-8777-4C48-F7BF7D485109}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -900,6 +925,10 @@
 					<ShortName>PROPS_FireFly.wav</ShortName>
 					<Path>Media/221504597.wem</Path>
 					<CachePath>SFX/PROPS_FireFly_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="253935470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Crystal\SFX_Crystal_Activate.wav</ShortName>
+					<CachePath>SFX/PROPS_Crystal/SFX_Crystal_Activate_10C4C929.wem</CachePath>
 				</File>
 				<File Id="259430491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-002.wav</ShortName>
@@ -913,13 +942,26 @@
 					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
 					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="350764459" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>PROPS_Pressure Pad\SFX_PressurePad_Loop.wav</ShortName>
+					<Path>Media/350764459.wem</Path>
+					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Loop_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="357594778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-001.wav</ShortName>
 					<CachePath>SFX/Box_Break-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="367348154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_HealBox\SFX_HealBox.wav</ShortName>
+					<CachePath>SFX/PROPS_HealBox/SFX_HealBox_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="405054130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Far\PROPS_Whale_02.wav</ShortName>
 					<CachePath>SFX/PROPS_Far/PROPS_Whale_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="614579002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PROPS_Pressure Pad\SFX_PressurePad_Activate.wav</ShortName>
+					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Activate_10C4C929.wem</CachePath>
 				</File>
 				<File Id="625501724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-003.wav</ShortName>
@@ -948,6 +990,15 @@
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="991152073" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>PROPS_Crystal\SFX_Loop_Crystal.wav</ShortName>
+					<Path>Media/991152073.wem</Path>
+					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1024306742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door   Stone   Large   001 by DWOBoyle Id-474178.wav</ShortName>
+					<CachePath>SFX/Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="2049148582" Name="Play_AMB_Water" MaxAttenuation="15" DurationType="Infinite">
@@ -973,9 +1024,39 @@
 						<MediaRef Id="694274688"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2547633870" Name="Play_Door" DurationType="OneShot" DurationMin="3.489796" DurationMax="3.489796">
+					<MediaRefs>
+						<MediaRef Id="1024306742"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="221504597"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" DurationType="OneShot" DurationMin="1.2766042" DurationMax="1.2766042">
+					<MediaRefs>
+						<MediaRef Id="253935470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1616564399" Name="Play_SFX_HealBox" DurationType="OneShot" DurationMin="3.2811458" DurationMax="3.2811458">
+					<MediaRefs>
+						<MediaRef Id="367348154"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3936093387" Name="Play_SFX_Loop_Crystal" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="991152073"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1941366886" Name="Play_SFX_PressurePad_Activate" DurationType="OneShot" DurationMin="1.1869583" DurationMax="1.1869583">
+					<MediaRefs>
+						<MediaRef Id="614579002"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="863824191" Name="Play_SFX_PressurePad_Loop" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="350764459"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1189557224" Name="Props_Close" MaxAttenuation="15" DurationType="Infinite">
@@ -990,6 +1071,7 @@
 						<MediaRef Id="405054130"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{56A15AA9-CF4D-661D-5E63-0C74E6EA359B}">
@@ -1039,5 +1121,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C9632065-D476-E308-E94D-3024F8F719DA}</FileHash>
+	<FileHash>{337B1AF7-03C4-4866-26BB-F74AB3726F71}</FileHash>
 </SoundBanksInfo>

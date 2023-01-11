@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
     guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
     GuidInternal: 
-    m_lastTime: -8585282387014020499
+    m_lastTime: -8585282313556010893
     List:
     - name: Cave
       guid: ddf8676858167a4da421c88a7dc67326
@@ -104,6 +104,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
       Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle
+    - name: RBV_Cave
+      guid: 6fd81e0918970d40ad0b1613689bdbc5
+      id: 1602260323
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Cave
+        ObjectType: 2
+        guid: ddf8676858167a4da421c88a7dc67326
+      - ElementName: RBV_Cave
+        ObjectType: 1
+        guid: 6fd81e0918970d40ad0b1613689bdbc5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Cave\RBV_Cave
     - name: Ruins
       guid: 900b483503a24b42bfe79fb264c945e2
       id: 417916826
@@ -121,6 +141,66 @@ MonoBehaviour:
         ObjectType: 2
         guid: 900b483503a24b42bfe79fb264c945e2
       Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins
+    - name: RVB_Jungle
+      guid: 099c8d35913c744799d24cd0b33f8035
+      id: 2365566903
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Jungle
+        ObjectType: 2
+        guid: 66ce1bc6005cb04c9ea5f15dbb21f6e2
+      - ElementName: RVB_Jungle
+        ObjectType: 1
+        guid: 099c8d35913c744799d24cd0b33f8035
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Jungle\RVB_Jungle
+    - name: RVB_Ruines
+      guid: 77b506d2d8abe143816d0cae00fbc405
+      id: 4142881714
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Ruins
+        ObjectType: 2
+        guid: 900b483503a24b42bfe79fb264c945e2
+      - ElementName: RVB_Ruines
+        ObjectType: 1
+        guid: 77b506d2d8abe143816d0cae00fbc405
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Ruins\RVB_Ruines
+    - name: RVB_Starship
+      guid: 5e518301047de5439453000e2777b4ea
+      id: 1158104354
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Reverb_Zones_Bus
+        ObjectType: 12
+        guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
+      - ElementName: Starship
+        ObjectType: 2
+        guid: 9746777af8e4244b8011d6a6c0c7322d
+      - ElementName: RVB_Starship
+        ObjectType: 1
+        guid: 5e518301047de5439453000e2777b4ea
+      Path: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus\Starship\RVB_Starship
     - name: Starship
       guid: 9746777af8e4244b8011d6a6c0c7322d
       id: 4169379491
@@ -150,7 +230,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585282336251837533
+    m_lastTime: -8585281331632644073
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -250,7 +330,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585282375176919342
+    m_lastTime: -8585281328746478186
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -364,6 +444,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Door
+      guid: 00de1e7f7ca5af40af3435fa987d9bf4
+      id: 2547633870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_Door
+        ObjectType: 3
+        guid: 00de1e7f7ca5af40af3435fa987d9bf4
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_FireFly
       guid: b77621a80e445443b16d981a15bdea1c
       id: 2389962849
@@ -384,6 +487,159 @@ MonoBehaviour:
         ObjectType: 3
         guid: b77621a80e445443b16d981a15bdea1c
       Path: Events\Default Work Unit\Environnement\PROPS\Play_FireFly
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LargeDoor
+      guid: c1471a67c503ce4c93f161325353c70f
+      id: 290334991
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Play_LargeDoor
+        ObjectType: 3
+        guid: c1471a67c503ce4c93f161325353c70f
+      Path: Events\Default Work Unit\Environnement\PROPS\Play_LargeDoor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Crystal_Activate
+      guid: c7d8e0271333a84b82df1a77ed3640e4
+      id: 3449537228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_Crystal
+        ObjectType: 4
+        guid: 5eec6a77f0cb544d9b442bd6a30259af
+      - ElementName: Play_SFX_Crystal_Activate
+        ObjectType: 3
+        guid: c7d8e0271333a84b82df1a77ed3640e4
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Play_SFX_Crystal_Activate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_HealBox
+      guid: b010ccfd9dd4b749bc0b763fd80c394f
+      id: 1616564399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_HealBox
+        ObjectType: 4
+        guid: 4e6be42148dab3479056ee7ba4a455b4
+      - ElementName: Play_SFX_HealBox
+        ObjectType: 3
+        guid: b010ccfd9dd4b749bc0b763fd80c394f
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_HealBox\Play_SFX_HealBox
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Loop_Crystal
+      guid: 02c6f266b1acf8428166a2768157416c
+      id: 3936093387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_Crystal
+        ObjectType: 4
+        guid: 5eec6a77f0cb544d9b442bd6a30259af
+      - ElementName: Play_SFX_Loop_Crystal
+        ObjectType: 3
+        guid: 02c6f266b1acf8428166a2768157416c
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Play_SFX_Loop_Crystal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_PressurePad_Activate
+      guid: 795bb6777464854f812378abd1e97556
+      id: 1941366886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_PressurePad
+        ObjectType: 4
+        guid: 1d86037cb2cee1478d2e6da24dece5eb
+      - ElementName: Play_SFX_PressurePad_Activate
+        ObjectType: 3
+        guid: 795bb6777464854f812378abd1e97556
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Play_SFX_PressurePad_Activate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_PressurePad_Loop
+      guid: a72780943dedec46873078a3f9b632dd
+      id: 863824191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_PressurePad
+        ObjectType: 4
+        guid: 1d86037cb2cee1478d2e6da24dece5eb
+      - ElementName: Play_SFX_PressurePad_Loop
+        ObjectType: 3
+        guid: a72780943dedec46873078a3f9b632dd
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Play_SFX_PressurePad_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -430,6 +686,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PROPS_Crystal
+      guid: 5eec6a77f0cb544d9b442bd6a30259af
+      id: 2203876090
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_Crystal
+        ObjectType: 4
+        guid: 5eec6a77f0cb544d9b442bd6a30259af
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_Crystal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Props_Far
       guid: 7916ab6f5a416e49a299e5fb0cea7520
       id: 2181098295
@@ -450,6 +729,104 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7916ab6f5a416e49a299e5fb0cea7520
       Path: Events\Default Work Unit\Environnement\PROPS\Props_Far
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PROPS_HealBox
+      guid: 4e6be42148dab3479056ee7ba4a455b4
+      id: 2289818025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_HealBox
+        ObjectType: 4
+        guid: 4e6be42148dab3479056ee7ba4a455b4
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_HealBox
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PROPS_PressurePad
+      guid: 1d86037cb2cee1478d2e6da24dece5eb
+      id: 1923549896
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_PressurePad
+        ObjectType: 4
+        guid: 1d86037cb2cee1478d2e6da24dece5eb
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_PressurePad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_SFX_Loop_Crystal
+      guid: 5751b04b9c5f9c4a8d1889f7ea9b4890
+      id: 2757622389
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_Crystal
+        ObjectType: 4
+        guid: 5eec6a77f0cb544d9b442bd6a30259af
+      - ElementName: Stop_SFX_Loop_Crystal
+        ObjectType: 3
+        guid: 5751b04b9c5f9c4a8d1889f7ea9b4890
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Stop_SFX_Loop_Crystal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_SFX_PressurePad_Loop
+      guid: d5b9b69c5232484b9830ed9f4ed2ec91
+      id: 3101927429
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: PROPS_PressurePad
+        ObjectType: 4
+        guid: 1d86037cb2cee1478d2e6da24dece5eb
+      - ElementName: Stop_SFX_PressurePad_Loop
+        ObjectType: 3
+        guid: d5b9b69c5232484b9830ed9f4ed2ec91
+      Path: Events\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Stop_SFX_PressurePad_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -730,7 +1107,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585282323371419894
+    m_lastTime: -8585281401132374561
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -950,7 +1327,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585282320797232997
+    m_lastTime: -8585281338199653955
     List:
     - name: MC_Death
       guid: 2d92187a521e12418981a8c54595fd72
@@ -1520,7 +1897,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000000b0000000c00000022000000230000002700000047000000
+  ExpandedWaapiItemIds: 060000000700000008000000090000001f00000037000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

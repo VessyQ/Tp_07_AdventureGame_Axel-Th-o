@@ -101,6 +101,117 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="PROPS_Crystal" ID="{776AEC5E-CBF0-4D54-9B44-2BD6A30259AF}" ShortID="649104012">
+							<ChildrenList>
+								<Event Name="Play_SFX_Crystal_Activate" ID="{27E0D8C7-3313-4BA8-82DF-1A77ED3640E4}">
+									<ChildrenList>
+										<Action Name="" ID="{30594B66-C3F9-473F-A8E2-D709807F8AD9}" ShortID="971252564">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Crystal_Activate" ID="{4EF9C88A-E404-4812-B715-5BEE7C958C30}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Loop_Crystal" ID="{66F2C602-ACB1-42F8-8166-A2768157416C}">
+									<ChildrenList>
+										<Action Name="" ID="{2E20725B-F11A-4583-BE21-F09823D18B79}" ShortID="999802498">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Loop_Crystal" ID="{EF2A63C0-AA9E-4BEB-A1FC-1BA4373B3A87}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_SFX_Loop_Crystal" ID="{4BB05157-5F9C-4A9C-8D18-89F7EA9B4890}">
+									<ChildrenList>
+										<Action Name="" ID="{BB1901A1-0F14-4ED8-9156-D673005235B5}" ShortID="830436578">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Loop_Crystal" ID="{EF2A63C0-AA9E-4BEB-A1FC-1BA4373B3A87}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PROPS_HealBox" ID="{21E46B4E-DA48-47B3-9056-EE7BA4A455B4}" ShortID="698508954">
+							<ChildrenList>
+								<Event Name="Play_SFX_HealBox" ID="{FDCC10B0-D49D-49B7-BC0B-763FD80C394F}">
+									<ChildrenList>
+										<Action Name="" ID="{73349FA0-15ED-47CB-AF08-31A65359956C}" ShortID="708213437">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_HealBox" ID="{FB453423-BF43-446B-94D6-1BF03AE31EE5}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PROPS_PressurePad" ID="{7C03861D-CEB2-47E1-8D2E-6DA24DECE5EB}" ShortID="100234965">
+							<ChildrenList>
+								<Event Name="Play_SFX_PressurePad_Activate" ID="{77B65B79-6474-4F85-8123-78ABD1E97556}">
+									<ChildrenList>
+										<Action Name="" ID="{EE889D12-CA56-49D7-827B-59113166BEEF}" ShortID="612290683">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_PressurePad_Activate" ID="{DEC93DD7-1D23-4898-8E92-20E8A673738C}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_PressurePad_Loop" ID="{948027A7-ED3D-46EC-8730-78A3F9B632DD}">
+									<ChildrenList>
+										<Action Name="" ID="{927F3F22-1E9E-441D-A5D4-278169D64674}" ShortID="345389788">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_PressurePad_Loop" ID="{E57D97CF-F2CC-413A-9C01-EF8B7D388045}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_SFX_PressurePad_Loop" ID="{9CB6B9D5-3252-4B48-9830-ED9F4ED2EC91}">
+									<ChildrenList>
+										<Action Name="" ID="{21889FDF-E418-4EA4-A53A-D9237C7BD5CC}" ShortID="735534291">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_PressurePad_Loop" ID="{E57D97CF-F2CC-413A-9C01-EF8B7D388045}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_LargeDoor" ID="{671A47C1-03C5-4CCE-93F1-61325353C70F}">
+							<ChildrenList>
+								<Action Name="" ID="{1E23B474-62D2-4D43-ADF4-C614F175D858}" ShortID="304629324">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Large_Door_Open" ID="{8FF6243B-ADBF-4BE8-BFBF-9F122F84F610}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
