@@ -1,10 +1,15 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	89505537	GAMEPLAY			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY	
 	348963605	REVERB			\Default Work Unit\Master Audio Bus\REVERB	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
-	662417162	NPC			\Default Work Unit\Master Audio Bus\SFX\NPC	
-	1020409454	Chomper_Bus			\Default Work Unit\Master Audio Bus\SFX\NPC\Chomper_Bus	
-	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX\NPC\Player_Bus	
+	649836026	Eeldog_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\Eeldog_Bus	
+	1020409454	Chomper_Bus			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Chomper_Bus	
+	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Player_Bus	
+	2383018230	PROPS_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\PROPS_Bus	
+	2530157555	ENVIRONNEMENT			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT	
+	3319158528	AMB_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\AMB_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\SFX\MUSIC	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1158104354	RVB_Starship			\Default Work Unit\Master Audio Bus\REVERB\RVB_Starship	

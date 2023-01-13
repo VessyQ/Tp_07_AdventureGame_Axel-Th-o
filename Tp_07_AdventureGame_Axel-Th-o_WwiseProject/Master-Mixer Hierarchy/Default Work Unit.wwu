@@ -73,14 +73,54 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Bus Name="NPC" ID="{DBFC07C4-C79F-450D-A042-BBF7B9F82055}">
+								<Bus Name="GAMEPLAY" ID="{DBFC07C4-C79F-450D-A042-BBF7B9F82055}">
 									<PropertyList>
+										<Property Name="Color" Type="int16" Value="18"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<Bus Name="Chomper_Bus" ID="{533B7825-76D7-4536-9D6D-E04859DDD2FD}"/>
-										<Bus Name="Player_Bus" ID="{E11B78B9-FB58-41A8-AAA0-746ADB04BCDC}"/>
+										<Bus Name="Chomper_Bus" ID="{533B7825-76D7-4536-9D6D-E04859DDD2FD}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="Player_Bus" ID="{E11B78B9-FB58-41A8-AAA0-746ADB04BCDC}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
 									</ChildrenList>
+								</Bus>
+								<Bus Name="ENVIRONNEMENT" ID="{81660E2F-EB56-45F0-B482-D8B354C52C34}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="AMB_Bus" ID="{B68493E7-4E85-499E-89FC-B43BC1C69182}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="Eeldog_Bus" ID="{7368210A-9A65-4544-A6B2-5BFF04EAD1CB}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="MUSIC" ID="{A1F0B423-FC62-4E9D-93FB-8642A113DA90}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 								</Bus>
 							</ChildrenList>
 						</Bus>

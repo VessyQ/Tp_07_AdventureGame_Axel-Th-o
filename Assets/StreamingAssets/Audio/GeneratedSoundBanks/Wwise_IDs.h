@@ -103,10 +103,15 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMB_BUS = 3319158528U;
         static const AkUniqueID CHOMPER_BUS = 1020409454U;
+        static const AkUniqueID EELDOG_BUS = 649836026U;
+        static const AkUniqueID ENVIRONNEMENT = 2530157555U;
+        static const AkUniqueID GAMEPLAY = 89505537U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID NPC = 662417162U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PLAYER_BUS = 1138681361U;
+        static const AkUniqueID PROPS_BUS = 2383018230U;
         static const AkUniqueID REVERB = 348963605U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
