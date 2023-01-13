@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BF8E1BEF-4130-49F5-CD8E-35AF7409D3F0}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B47C99A8-C83D-4397-BD83-1EF77A2F7D5A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -340,12 +340,17 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="89505537" Name="GAMEPLAY"/>
 				<Bus Id="348963605" Name="REVERB"/>
 				<Bus Id="393239870" Name="SFX"/>
-				<Bus Id="662417162" Name="NPC"/>
+				<Bus Id="649836026" Name="Eeldog_Bus"/>
 				<Bus Id="1020409454" Name="Chomper_Bus"/>
 				<Bus Id="1138681361" Name="Player_Bus"/>
+				<Bus Id="2383018230" Name="PROPS_Bus"/>
+				<Bus Id="2530157555" Name="ENVIRONNEMENT"/>
+				<Bus Id="3319158528" Name="AMB_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="1158104354" Name="RVB_Starship">
@@ -454,7 +459,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{50139479-A829-DD7C-8880-6EEA1517AFC8}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{247095A0-262E-0960-B54A-4C89673F62FA}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1084,7 +1089,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{EA3F7441-9C4D-EEA8-BF22-2A104017E747}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{B06CC66C-FF54-4DEE-528D-39A02361C52B}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -1220,7 +1225,6 @@
 						<MediaRef Id="694274688"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2547633870" Name="Play_Door" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="221504597"/>
@@ -1281,7 +1285,7 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{90620046-FED1-41DF-241B-EDA506E0D28D}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{D7699366-5B51-0137-3D0F-094811D4593E}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1339,22 +1343,22 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1874288895" Name="Idle" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.294521" DurationMax="4.294521">
+				<Event Id="1874288895" Name="Idle" MaxAttenuation="30" DurationType="OneShot" DurationMin="4.294521" DurationMax="4.294521">
 					<MediaRefs>
 						<MediaRef Id="740425003"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
+				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="30" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
 					<MediaRefs>
 						<MediaRef Id="882690975"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="15" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
+				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="30" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
 					<MediaRefs>
 						<MediaRef Id="945260532"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
+				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
 					<MediaRefs>
 						<MediaRef Id="68653273"/>
 						<MediaRef Id="231617569"/>
@@ -1365,17 +1369,17 @@
 						<MediaRef Id="892157658"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
+				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
 					<MediaRefs>
 						<MediaRef Id="101654162"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
+				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
 					<MediaRefs>
 						<MediaRef Id="608542439"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
+				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
 					<MediaRefs>
 						<MediaRef Id="651032483"/>
 					</MediaRefs>
@@ -1429,5 +1433,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8B5ADC94-AF14-8427-5D63-9A2362B35FEF}</FileHash>
+	<FileHash>{ACDCB535-E40E-F1BB-0EE1-2887A5037BBD}</FileHash>
 </SoundBanksInfo>

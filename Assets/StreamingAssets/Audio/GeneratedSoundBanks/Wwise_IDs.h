@@ -35,7 +35,6 @@ namespace AK
         static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
-        static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;

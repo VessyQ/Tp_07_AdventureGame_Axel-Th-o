@@ -11,7 +11,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2049148582	Play_AMB_Water			\Default Work Unit\Environnement\AMB\Play_AMB_Water	
 	2181098295	Props_Far			\Default Work Unit\Environnement\PROPS\Props_Far	
 	2389962849	Play_FireFly			\Default Work Unit\Environnement\PROPS\Play_FireFly	
-	2547633870	Play_Door			\Default Work Unit\Environnement\PROPS\Play_Door	
 	2757622389	Stop_SFX_Loop_Crystal			\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Stop_SFX_Loop_Crystal	
 	2893093968	Play_LargeDoor_02			\Default Work Unit\Environnement\PROPS\Play_LargeDoor_02	
 	3449537228	Play_SFX_Crystal_Activate			\Default Work Unit\Environnement\PROPS\PROPS_Crystal\Play_SFX_Crystal_Activate	

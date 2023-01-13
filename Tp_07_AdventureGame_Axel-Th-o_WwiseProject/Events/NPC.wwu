@@ -193,6 +193,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Forcefield" ID="{C487B1C3-66D7-41F4-8921-8088DAB28DC3}">
+							<ChildrenList>
+								<Action Name="" ID="{3FB0BD4B-8A24-45A7-A9E1-E5B24043F422}" ShortID="1009799646">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ForceField" ID="{066170EE-AC05-42C1-9FBD-0EA213FB4969}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grenade_Bond" ID="{55233163-5923-41BB-A0E2-E26AF15D1FFE}">
+							<ChildrenList>
+								<Action Name="" ID="{372CE471-8EDA-4330-AC40-BA35C4A1E780}" ShortID="111388829">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade_Bond" ID="{205317C7-69F9-40AF-9B3C-FA62C4C694A6}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grenade_Explosion" ID="{D02EC978-4F75-48B0-AAD3-CABC56200A6F}">
+							<ChildrenList>
+								<Action Name="" ID="{8D9A26B0-81FB-4672-A561-B8341157DB96}" ShortID="119491924">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade_Explosion" ID="{6021D131-1F6F-4D85-B9C5-5B2DE710D852}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
