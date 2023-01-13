@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{00FB1EE8-0E07-8C40-79B8-4C41D24DF1AE}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{6708D320-9D07-B7DC-F7F0-7ED45803E54A}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BF8E1BEF-4130-49F5-CD8E-35AF7409D3F0}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B47C99A8-C83D-4397-BD83-1EF77A2F7D5A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -340,12 +340,17 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="89505537" Name="GAMEPLAY"/>
 				<Bus Id="348963605" Name="REVERB"/>
 				<Bus Id="393239870" Name="SFX"/>
-				<Bus Id="662417162" Name="NPC"/>
+				<Bus Id="649836026" Name="Eeldog_Bus"/>
 				<Bus Id="1020409454" Name="Chomper_Bus"/>
 				<Bus Id="1138681361" Name="Player_Bus"/>
+				<Bus Id="2383018230" Name="PROPS_Bus"/>
+				<Bus Id="2530157555" Name="ENVIRONNEMENT"/>
+				<Bus Id="3319158528" Name="AMB_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="1158104354" Name="RVB_Starship">
@@ -454,7 +459,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{13F6EDAA-7BBE-144C-C652-CAD0D126E594}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{29F50E7F-BDD2-2BB6-8852-517E160A999E}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1084,7 +1089,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{89395EC9-1A07-9C73-7E28-F10BF1DE9491}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{36CB3D6C-D485-9D60-F85B-07D3F920A825}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -1281,7 +1286,7 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{56A15AA9-CF4D-661D-5E63-0C74E6EA359B}">
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{3733AF9A-9166-E61B-A833-0EBDA1A610AB}">
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
 			<Media>
@@ -1328,5 +1333,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8ADA3029-B398-D60D-5316-9EF9A01D9CAC}</FileHash>
+	<FileHash>{E6426E92-0291-4215-9B0B-F1797C51DEB5}</FileHash>
 </SoundBanksInfo>

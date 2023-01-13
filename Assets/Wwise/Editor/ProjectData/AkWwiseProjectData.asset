@@ -38,8 +38,31 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585279782186954886
+    m_lastTime: -8585279749634899981
     List:
+    - name: AMB_Bus
+      guid: e79384b6854e9e4989fcb43bc1c69182
+      id: 3319158528
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: f7bbeea0989c524ca3fe4ebf550dcd9c
+      - ElementName: ENVIRONNEMENT
+        ObjectType: 2
+        guid: 2f0e668156ebf045b482d8b354c52c34
+      - ElementName: AMB_Bus
+        ObjectType: 2
+        guid: e79384b6854e9e4989fcb43bc1c69182
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\AMB_Bus
     - name: Chomper_Bus
       guid: 25783b53d77636459d6de04859ddd2fd
       id: 1020409454
@@ -56,13 +79,76 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: f7bbeea0989c524ca3fe4ebf550dcd9c
-      - ElementName: NPC
+      - ElementName: GAMEPLAY
         ObjectType: 2
         guid: c407fcdb9fc70d45a042bbf7b9f82055
       - ElementName: Chomper_Bus
         ObjectType: 2
         guid: 25783b53d77636459d6de04859ddd2fd
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\NPC\Chomper_Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Chomper_Bus
+    - name: Eeldog_Bus
+      guid: 0a216873659a4445a6b25bff04ead1cb
+      id: 649836026
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: f7bbeea0989c524ca3fe4ebf550dcd9c
+      - ElementName: ENVIRONNEMENT
+        ObjectType: 2
+        guid: 2f0e668156ebf045b482d8b354c52c34
+      - ElementName: Eeldog_Bus
+        ObjectType: 2
+        guid: 0a216873659a4445a6b25bff04ead1cb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\Eeldog_Bus
+    - name: ENVIRONNEMENT
+      guid: 2f0e668156ebf045b482d8b354c52c34
+      id: 2530157555
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: f7bbeea0989c524ca3fe4ebf550dcd9c
+      - ElementName: ENVIRONNEMENT
+        ObjectType: 2
+        guid: 2f0e668156ebf045b482d8b354c52c34
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT
+    - name: GAMEPLAY
+      guid: c407fcdb9fc70d45a042bbf7b9f82055
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: f7bbeea0989c524ca3fe4ebf550dcd9c
+      - ElementName: GAMEPLAY
+        ObjectType: 2
+        guid: c407fcdb9fc70d45a042bbf7b9f82055
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -77,9 +163,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: NPC
-      guid: c407fcdb9fc70d45a042bbf7b9f82055
-      id: 662417162
+    - name: MUSIC
+      guid: 23b4f0a162fc9d4e93fb8642a113da90
+      id: 3991942870
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -93,10 +179,10 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: f7bbeea0989c524ca3fe4ebf550dcd9c
-      - ElementName: NPC
+      - ElementName: MUSIC
         ObjectType: 2
-        guid: c407fcdb9fc70d45a042bbf7b9f82055
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\NPC
+        guid: 23b4f0a162fc9d4e93fb8642a113da90
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\MUSIC
     - name: Player_Bus
       guid: b9781be158fba841aaa0746adb04bcdc
       id: 1138681361
@@ -113,13 +199,36 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: f7bbeea0989c524ca3fe4ebf550dcd9c
-      - ElementName: NPC
+      - ElementName: GAMEPLAY
         ObjectType: 2
         guid: c407fcdb9fc70d45a042bbf7b9f82055
       - ElementName: Player_Bus
         ObjectType: 2
         guid: b9781be158fba841aaa0746adb04bcdc
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\NPC\Player_Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Player_Bus
+    - name: PROPS_Bus
+      guid: 6be938fb15af2b42a4f735915e1322a9
+      id: 2383018230
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2922bf02f24fd04e9bd2fb03251c2ca5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: f7bbeea0989c524ca3fe4ebf550dcd9c
+      - ElementName: ENVIRONNEMENT
+        ObjectType: 2
+        guid: 2f0e668156ebf045b482d8b354c52c34
+      - ElementName: PROPS_Bus
+        ObjectType: 2
+        guid: 6be938fb15af2b42a4f735915e1322a9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\PROPS_Bus
     - name: RBV_Cave
       guid: 6fd81e0918970d40ad0b1613689bdbc5
       id: 1602260323
@@ -2044,7 +2153,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b000000150000001600000017000000180000001e0000001f000000220000002300000024000000260000002700000031000000340000003700000067000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b0000000f00000010000000150000001600000017000000180000001e0000001f000000220000002300000024000000260000002700000031000000340000003700000067000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
