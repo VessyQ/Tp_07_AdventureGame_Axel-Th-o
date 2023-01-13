@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	290334991	Play_LargeDoor			\Default Work Unit\Environnement\PROPS\Play_LargeDoor	
 	863824191	Play_SFX_PressurePad_Loop			\Default Work Unit\Environnement\PROPS\PROPS_PressurePad\Play_SFX_PressurePad_Loop	
 	1189557224	Props_Close			\Default Work Unit\Environnement\PROPS\Props_Close	
 	1439945259	Play_AMB_Wind_Strong			\Default Work Unit\Environnement\AMB\Play_AMB_Wind_Strong	
@@ -26,7 +27,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	625501724	Box_Break-003	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-003_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-003		387140
 	673446851	PROPS_Insect_01	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_Close\PROPS_Insect_01_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\PROPS_Close\PROPS_Insect_01		779008
 	694274688	Box_Break-004	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Box_Break-004_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\DestructibleBox\Box_Break-004		434716
-	1024306742	Large_Door_Open	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\Large_Door\Large_Door_Open		307896
+	870359449	Cinematic01_Large_Door_Open	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\Cinematic01_Large_Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Environnement\Props\Large_Door\Cinematic01_Large_Door_Open		1178724
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	221504597	Props_FireFly	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\PROPS_FireFly_D79FB2B7.wem	221504597.wem	\Actor-Mixer Hierarchy\Environnement\Props\Props_Loop\Props_FireFly	

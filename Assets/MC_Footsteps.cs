@@ -12,6 +12,8 @@ public class MC_Footsteps : MonoBehaviour
     public AK.Wwise.Event jumpEvent;
     public AK.Wwise.Event landEvent;
 
+    //public AK.Wwise.Switch MySwitch;
+
     public GameObject leftFootEmitter;
     public GameObject rightFootEmitter;
 
@@ -20,6 +22,7 @@ public class MC_Footsteps : MonoBehaviour
     {
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
+            //MySwitch.SetValue(leftFootEmitter);
             footstepEvent.Post(leftFootEmitter);
         }
     }
@@ -28,6 +31,7 @@ public class MC_Footsteps : MonoBehaviour
     {
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
+            //MySwitch.SetValue(rightFootEmitter);
             footstepEvent.Post(rightFootEmitter);
         }
     }
@@ -36,6 +40,7 @@ public class MC_Footsteps : MonoBehaviour
     {
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
+            //MySwitch.SetValue(leftFootEmitter);
             jumpEvent.Post(leftFootEmitter);
         }
     }
@@ -44,6 +49,7 @@ public class MC_Footsteps : MonoBehaviour
     {
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
+            //MySwitch.SetValue(leftFootEmitter);
             landEvent.Post(leftFootEmitter);
         }
     }

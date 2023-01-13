@@ -453,7 +453,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{72211C53-2BD1-A123-C8FE-FE834161D8C2}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{EE156452-C9D6-6E02-A419-AB3730BC40E6}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -868,6 +868,51 @@
 						<MediaRef Id="479317692"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2259949926" Name="Play_Footstep_Ground" DurationType="OneShot" DurationMin="0.375" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="30206952"/>
+						<MediaRef Id="365447167"/>
+						<MediaRef Id="841674552"/>
+						<MediaRef Id="935693238"/>
+						<MediaRef Id="939771480"/>
+						<MediaRef Id="981526951"/>
+						<MediaRef Id="985272136"/>
+						<MediaRef Id="1057186456"/>
+						<MediaRef Id="1063380024"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="582122640" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="11536569"/>
+								<MediaRef Id="124628122"/>
+								<MediaRef Id="130593510"/>
+								<MediaRef Id="367885731"/>
+								<MediaRef Id="716545357"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="4273761226"/>
+							<MediaRefs>
+								<MediaRef Id="41680137"/>
+								<MediaRef Id="411932410"/>
+								<MediaRef Id="424271162"/>
+								<MediaRef Id="873712508"/>
+								<MediaRef Id="1059488728"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="560778177"/>
+							<MediaRefs>
+								<MediaRef Id="83627431"/>
+								<MediaRef Id="645477539"/>
+								<MediaRef Id="699530999"/>
+								<MediaRef Id="761245616"/>
+								<MediaRef Id="895196884"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="658374511" Name="Play_MC_Combo01Hit" DurationType="OneShot" DurationMin="0.8529792" DurationMax="0.8529792">
 					<MediaRefs>
 						<MediaRef Id="148175301"/>
@@ -917,7 +962,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{E4D753B9-BE15-8777-4C48-F7BF7D485109}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{AD4C72D8-1836-D5B2-8BDE-A43E483F64A4}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -990,14 +1035,14 @@
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="870359449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cinematic01_Large_Door_Open.wav</ShortName>
+					<CachePath>SFX/Cinematic01_Large_Door_Open_10C4C929.wem</CachePath>
+				</File>
 				<File Id="991152073" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_Crystal\SFX_Loop_Crystal.wav</ShortName>
 					<Path>Media/991152073.wem</Path>
 					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="1024306742" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Door   Stone   Large   001 by DWOBoyle Id-474178.wav</ShortName>
-					<CachePath>SFX/Door   Stone   Large   001 by DWOBoyle Id-474178_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -1024,14 +1069,15 @@
 						<MediaRef Id="694274688"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2547633870" Name="Play_Door" DurationType="OneShot" DurationMin="3.489796" DurationMax="3.489796">
-					<MediaRefs>
-						<MediaRef Id="1024306742"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="2547633870" Name="Play_Door" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="221504597"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="290334991" Name="Play_LargeDoor" DurationType="OneShot" DurationMin="6.1386876" DurationMax="6.1386876">
+					<MediaRefs>
+						<MediaRef Id="870359449"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" DurationType="OneShot" DurationMin="1.2766042" DurationMax="1.2766042">
@@ -1044,7 +1090,7 @@
 						<MediaRef Id="367348154"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3936093387" Name="Play_SFX_Loop_Crystal" DurationType="Infinite">
+				<Event Id="3936093387" Name="Play_SFX_Loop_Crystal" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="991152073"/>
 					</MediaRefs>
@@ -1121,5 +1167,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{337B1AF7-03C4-4866-26BB-F74AB3726F71}</FileHash>
+	<FileHash>{F17121B5-9BD7-33B8-A3B7-CDCCB12B93AC}</FileHash>
 </SoundBanksInfo>

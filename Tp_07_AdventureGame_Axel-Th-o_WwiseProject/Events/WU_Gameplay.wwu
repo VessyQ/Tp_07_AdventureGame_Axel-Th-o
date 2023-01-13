@@ -63,6 +63,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Footstep_Ground" ID="{344EDD50-A14B-488A-A47C-42BC519264AA}">
+							<ChildrenList>
+								<Action Name="" ID="{BA78E80C-5EB0-4B41-A299-B9D359E670E5}" ShortID="1038486544">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Footstep" ID="{FF677437-0702-4CF6-A11E-F8B2016B38A6}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E672F86B-B67F-4876-B9F5-AC17881F7B7C}" ShortID="576363638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MC_Land" ID="{CE0D4F36-0C95-47D7-BCCF-B045A8CCB143}" ShortID="620455760">

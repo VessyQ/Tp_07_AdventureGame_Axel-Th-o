@@ -34,9 +34,11 @@ namespace AK
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
+        static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
+        static const AkUniqueID PLAY_LARGEDOOR = 290334991U;
         static const AkUniqueID PLAY_MC_COMBO01HIT = 658374511U;
         static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;

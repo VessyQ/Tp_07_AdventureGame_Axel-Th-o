@@ -32,7 +32,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="SW_Puddle" ID="{F950A8BD-2D06-4A7A-A982-111997ABD810}" WorkUnitID="{E525B966-07CE-43D2-9B47-30EBC7432511}"/>
+									<ObjectRef Name="SW_Grass" ID="{46BB1636-D444-4BEA-A65A-D9097339F1C4}" WorkUnitID="{E525B966-07CE-43D2-9B47-30EBC7432511}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>

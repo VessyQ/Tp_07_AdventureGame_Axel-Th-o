@@ -6,8 +6,8 @@ public class PressurePadScript : MonoBehaviour
 {
     public void onEnter()
     {
-        AkSoundEngine.PostEvent("Play_SFX_PressurePad_Activate", gameObject);
-        AkSoundEngine.PostEvent("Play_Door", gameObject);
+        //AkSoundEngine.PostEvent("Play_SFX_PressurePad_Activate", gameObject);
+        AkSoundEngine.PostEvent("Play_LargeDoor", gameObject);
     }
 
 }

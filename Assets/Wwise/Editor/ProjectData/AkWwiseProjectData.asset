@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585281331632644073
+    m_lastTime: -8585280007792624849
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -330,7 +330,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585281328746478186
+    m_lastTime: -8585280087872137871
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -1327,7 +1327,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585281338199653955
+    m_lastTime: -8585280047908369105
     List:
     - name: MC_Death
       guid: 2d92187a521e12418981a8c54595fd72
@@ -1636,6 +1636,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Footstep_Ground
+      guid: 50dd4e344ba18a48a47c42bc519264aa
+      id: 2259949926
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Footstep
+        ObjectType: 4
+        guid: 6b3550b21a0af24899dd2efc9ddc6098
+      - ElementName: Play_Footstep_Ground
+        ObjectType: 3
+        guid: 50dd4e344ba18a48a47c42bc519264aa
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Footstep\Play_Footstep_Ground
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_MC_Combo01Hit
       guid: dd8e30624249b5489b1c5856bd156f89
       id: 658374511
@@ -1814,7 +1837,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585282663472135188
+    m_lastTime: -8585279988047296077
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -1897,7 +1920,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 060000000700000008000000090000001f00000037000000
+  ExpandedWaapiItemIds: 010000000600000007000000080000000c000000150000001600000017000000180000001f00000023000000240000002600000027000000310000003400000037000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

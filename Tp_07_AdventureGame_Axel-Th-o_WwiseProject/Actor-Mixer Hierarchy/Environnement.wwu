@@ -394,9 +394,22 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Large_Door_Open" ID="{8FF6243B-ADBF-4BE8-BFBF-9F122F84F610}" ShortID="232877515">
+								<Sound Name="Cinematic01_Large_Door_Open" ID="{3AE47FEB-9723-490A-868D-43D81B267568}" ShortID="19637058">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -407,16 +420,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Door   Stone   Large   001 by DWOBoyle Id-474178" ID="{8FAEEBBD-4A0A-4E0D-85EA-B9145D9C5D44}">
+										<AudioFileSource Name="Cinematic01_Large_Door_Open" ID="{080D98BF-DE08-4E39-8679-BD980D7629AA}">
 											<Language>SFX</Language>
-											<AudioFile>Door   Stone   Large   001 by DWOBoyle Id-474178.wav</AudioFile>
+											<AudioFile>Cinematic01_Large_Door_Open.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1024306742"/>
+												<MediaID ID="870359449"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Door   Stone   Large   001 by DWOBoyle Id-474178" ID="{8FAEEBBD-4A0A-4E0D-85EA-B9145D9C5D44}" Platform="Linked"/>
+										<ActiveSource Name="Cinematic01_Large_Door_Open" ID="{080D98BF-DE08-4E39-8679-BD980D7629AA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -435,6 +448,29 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="SFX_Crystal_Activate" ID="{4EF9C88A-E404-4812-B715-5BEE7C958C30}" ShortID="443733542">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -452,20 +488,34 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{AB690F31-D453-42AF-87D6-D7BDD7E0D9C6}"/>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Crystal_Activate" ID="{7B648586-81CD-4547-B27E-8FD5934B02FE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Loop_Crystal" ID="{EF2A63C0-AA9E-4BEB-A1FC-1BA4373B3A87}" ShortID="132229024">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="15 m attenuation" ID="{663F7EC9-BA4C-46B6-873B-F696EAAA7517}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 										</Reference>
@@ -482,6 +532,9 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{279C9291-0414-4A13-B078-9C3E3320A8CA}"/>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Loop_Crystal" ID="{9A88AE96-E194-4FD6-9DF6-8CAA92B8AFBF}" Platform="Linked"/>
 									</ActiveSourceList>

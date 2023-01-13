@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1233953106	MC_Foosteps_Grass			\Default Work Unit\WU_Gameplay\MC_Footstep\MC_Foosteps_Grass	
 	1935096834	Play_MC_Combo02Hit			\Default Work Unit\WU_Gameplay\MC_Weapon\Play_MC_Combo02Hit	
 	1983402694	MC_Land_Puddle			\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Puddle	
+	2259949926	Play_Footstep_Ground			\Default Work Unit\WU_Gameplay\MC_Footstep\Play_Footstep_Ground	
 	2896940196	MC_Land_Grass			\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Grass	
 	3349748359	MC_Hit			\Default Work Unit\WU_Gameplay\MC_Feedback\MC_Hit	
 	3389321894	MC_Death			\Default Work Unit\WU_Gameplay\MC_Feedback\MC_Death	
