@@ -152,6 +152,23 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{67A30122-5619-4680-8E60-0572AC282407}" ShortID="689072485">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D54D7147-4A68-44EB-958A-B5F9F251EE6E}" ShortID="903927193">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo01Hit_Vox" ID="{92D8286B-3D84-4180-913F-1C8BC0F29C04}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_MC_Combo02Hit" ID="{F7C9E9E1-1493-4D13-BED5-2E15A5665D63}">
@@ -160,6 +177,23 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC_Combo02Hit" ID="{12280541-9D05-4F4A-BC36-37BAAEDC26C7}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7902C4B9-135E-463E-9BF7-86CCAE838E7C}" ShortID="638003097">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FCC47C27-25F8-4FEF-AF74-45198BE89B6A}" ShortID="859478279">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo02Hit_Vox" ID="{1B2D0706-7527-4202-8890-9B4A7DE47EDB}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -174,6 +208,23 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9EDADAE9-57AE-41AA-80AA-61EF80B5AD53}" ShortID="516577471">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{67899CA9-CA5A-4BAF-A240-B648B460B71C}" ShortID="300907576">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo03Hit_Vox" ID="{E7FBAE5C-4E6B-400C-A7F2-97BD5FDED061}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_MC_Combo04Hit" ID="{3DD5AF15-D573-4BF9-BB9A-97CF9E1FA124}">
@@ -182,6 +233,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC_Combo04Hit" ID="{9C2A3135-A722-4A6B-AB1D-2BB71D16DE40}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FB5C81CA-97FA-42CC-8D21-59BD2C9FA7B0}" ShortID="261939851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MC_Foley" ID="{AA7BA2FF-8B18-4DEA-BF05-81A0FF65EADE}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E079ED1D-FC07-42EA-8629-A90A6B3E5ECC}" ShortID="934669292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Combo04Hit_Vox" ID="{6B9B49FD-7070-4AA4-8C45-C09EE73C13EF}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -242,6 +307,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Hit" ID="{4628ACC7-92BC-4CB1-85C6-FB10A71CE48D}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0BB39C6C-E14B-45E4-AFAC-E4C7ED9F114B}" ShortID="255021381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Hit_Vox" ID="{1D04C491-C0C3-4A54-A1A6-DC1F32A84991}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

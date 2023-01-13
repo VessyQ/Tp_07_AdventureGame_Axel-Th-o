@@ -25,6 +25,8 @@ namespace AK
         static const AkUniqueID MC_LAND_PUDDLE = 1983402694U;
         static const AkUniqueID MC_LAND_ROCK = 173644637U;
         static const AkUniqueID MC_RESPAWN = 748388956U;
+        static const AkUniqueID PLAY_AMB_ARENA = 1865989278U;
+        static const AkUniqueID PLAY_AMB_TROPICAL = 841394337U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
         static const AkUniqueID PLAY_AMB_WIND_STRONG = 1439945259U;
@@ -39,10 +41,12 @@ namespace AK
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LARGEDOOR = 290334991U;
+        static const AkUniqueID PLAY_LARGEDOOR_02 = 2893093968U;
         static const AkUniqueID PLAY_MC_COMBO01HIT = 658374511U;
         static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
         static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
+        static const AkUniqueID PLAY_PROPS_LIGHTMUSHROOM = 3801361087U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
         static const AkUniqueID PLAY_SFX_HEALBOX = 1616564399U;
         static const AkUniqueID PLAY_SFX_LOOP_CRYSTAL = 3936093387U;
@@ -91,11 +95,12 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID CAVE = 4122393694U;
-        static const AkUniqueID JUNGLE = 219304270U;
+        static const AkUniqueID CHOMPER_BUS = 1020409454U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID RUINS = 417916826U;
-        static const AkUniqueID STARSHIP = 4169379491U;
+        static const AkUniqueID NPC = 662417162U;
+        static const AkUniqueID PLAYER_BUS = 1138681361U;
+        static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

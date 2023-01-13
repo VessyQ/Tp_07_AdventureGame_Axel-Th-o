@@ -1,19 +1,19 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	219304270	Jungle			\Default Work Unit\Reverb_Zones_Bus\Jungle	
-	417916826	Ruins			\Default Work Unit\Reverb_Zones_Bus\Ruins	
+	348963605	REVERB			\Default Work Unit\Master Audio Bus\REVERB	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	662417162	NPC			\Default Work Unit\Master Audio Bus\SFX\NPC	
+	1020409454	Chomper_Bus			\Default Work Unit\Master Audio Bus\SFX\NPC\Chomper_Bus	
+	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX\NPC\Player_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	4122393694	Cave			\Default Work Unit\Reverb_Zones_Bus\Cave	
-	4169379491	Starship			\Default Work Unit\Reverb_Zones_Bus\Starship	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1158104354	RVB_Starship			\Default Work Unit\Reverb_Zones_Bus\Starship\RVB_Starship	
-	1602260323	RBV_Cave			\Default Work Unit\Reverb_Zones_Bus\Cave\RBV_Cave	
-	2365566903	RVB_Jungle			\Default Work Unit\Reverb_Zones_Bus\Jungle\RVB_Jungle	
-	4142881714	RVB_Ruines			\Default Work Unit\Reverb_Zones_Bus\Ruins\RVB_Ruines	
+	1158104354	RVB_Starship			\Default Work Unit\Master Audio Bus\REVERB\RVB_Starship	
+	1602260323	RBV_Cave			\Default Work Unit\Master Audio Bus\REVERB\RBV_Cave	
+	2365566903	RVB_Jungle			\Default Work Unit\Master Audio Bus\REVERB\RVB_Jungle	
+	4142881714	RVB_Ruines			\Default Work Unit\Master Audio Bus\REVERB\RVB_Ruines	
 
 Effect plug-ins	ID	Name	Type				Notes
-	417916826	Ruins	Wwise RoomVerb			
-	850174874	Room_Medium_High_Absorbtion (Custom)	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	4122393694	Cave	Wwise RoomVerb			
 	4169379491	StarShip	Wwise RoomVerb			
 

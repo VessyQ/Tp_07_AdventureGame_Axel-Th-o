@@ -42,6 +42,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_AMB_Arena" ID="{86A0BF64-F8C6-43D7-8F4D-98AD544FAE7C}">
+							<ChildrenList>
+								<Action Name="" ID="{5583B4C9-24E5-470C-BA1F-F0A120723ABD}" ShortID="562501497">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Arena" ID="{4B1692BA-BB97-430F-AF36-B4F11F945A43}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Tropical" ID="{2155792A-2F5A-4A79-BF5A-05295A6BAAE2}">
+							<ChildrenList>
+								<Action Name="" ID="{E82C341E-608E-47D1-B556-1DDCE56A1076}" ShortID="1018274128">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tropical" ID="{9F18FB31-D6AD-415C-98C9-7BBB76E1010A}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613">
@@ -207,6 +229,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Cinematic01_Large_Door_Open" ID="{3AE47FEB-9723-490A-868D-43D81B267568}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_LargeDoor_02" ID="{C7C79A53-91FB-4137-96D7-73641E6BAFB2}">
+							<ChildrenList>
+								<Action Name="" ID="{3B749372-C902-45D0-8745-FA5C06C17481}" ShortID="878370050">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematic02_Large_Door_Open" ID="{DE9C4EB7-720B-491F-95FA-633DD51FA999}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PROPS_LightMushroom" ID="{C5AE7422-7570-4A35-BE96-BBABEEBD34A6}">
+							<ChildrenList>
+								<Action Name="" ID="{840AD3B1-EF68-42ED-AEC7-941EC71545FA}" ShortID="981126723">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_LightMushroom" ID="{E04956FE-B776-4072-B3E9-BA9A5973C25E}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -79,15 +79,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_SFX_MainMenuScreen" ID="{B4BA0D02-777C-4A18-9615-AD0EC2F267F4}"/>
+						<Event Name="Play_SFX_MainMenuScreen" ID="{B4BA0D02-777C-4A18-9615-AD0EC2F267F4}">
+							<ChildrenList>
+								<Action Name="" ID="{07AAD5FF-30F4-4C0D-8AB2-B729D6AD5609}" ShortID="211943853">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Stop_SFX_MainMenuScreen" ID="{396F9763-0E02-433D-913C-EE95AB18FCB5}">
 							<ChildrenList>
 								<Action Name="" ID="{4C56C875-99BC-4331-AD1D-4FE105384A02}" ShortID="755471901">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MainMenuScreen" ID="{CA26B5E2-5115-408B-B260-DC93A3869E18}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>

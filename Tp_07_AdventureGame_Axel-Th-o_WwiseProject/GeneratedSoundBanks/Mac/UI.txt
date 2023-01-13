@@ -15,5 +15,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	709022363	SFX_UI_MM_Validation	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\SFX_UI_MM_Validation_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Validation		69228
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	504360125	SFX_MainMenuScreen	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\SFX_MainMenuScreen_D79FB2B7.wem	504360125.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_MainMenuScreen	
 	539992270	SFX_UI_MM_Fader	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\SFX_UI_MM_Fader_D79FB2B7.wem	539992270.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Fader	
 

@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<Effect Name="Cave" ID="{5E55D659-B331-4703-9A23-64391F093C82}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 					<PropertyList>
-						<Property Name="ERPattern" Type="int32" Value="10"/>
+						<Property Name="ERPattern" Type="int32" Value="12"/>
+						<Property Name="RoomSize" Type="Real32" Value="-1"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="Ruins" ID="{B06BFC44-1BD7-401D-8BD6-C65BA995A231}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">

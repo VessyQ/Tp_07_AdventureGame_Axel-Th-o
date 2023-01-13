@@ -9,6 +9,7 @@ public class UiButtonSound : MonoBehaviour
     public void onClick()
     {
         AkSoundEngine.PostEvent("Play_SFX_UI_MM_PlayButton", gameObject);
+        AkSoundEngine.PostEvent("Stop_SFX_MainMenuScreen", gameObject);
     }
     
 
