@@ -114,6 +114,87 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Golem" ID="{06B86F4F-DFA4-4321-B0F7-CB3F344E15DD}" ShortID="1049260793">
+					<ChildrenList>
+						<Event Name="Play_Golem_Footsteps" ID="{C2CF3629-9024-443F-8A80-6100A8A25C85}">
+							<ChildrenList>
+								<Action Name="" ID="{58806A2C-B91C-4B83-810E-87DBE45120BD}" ShortID="944198683">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Golem_Footsteps" ID="{2EE54165-B642-4563-94CD-E002112AB90B}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Golem_Hit" ID="{C84CBB10-9E08-40B0-AD93-DBE1FA00F59B}">
+							<ChildrenList>
+								<Action Name="" ID="{DBDAA95E-6D91-4A70-BD03-12F96C2456F7}" ShortID="412863192">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Golem_Hit" ID="{BD0ABAFF-D100-4929-8E9D-B5AE8DA1A4B5}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Golem_Canon" ID="{06C96CD7-C63E-4AF9-945A-E946CC76D802}">
+							<ChildrenList>
+								<Action Name="" ID="{EE850193-1A9B-4216-B393-B0D013D57F67}" ShortID="239224173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gollem_attack_canon" ID="{0DA0EA50-71FB-4FBD-A09F-FB84F80E022D}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Golem_Punch" ID="{CA4F6733-F63C-4FD5-8528-A12BA65FF06F}">
+							<ChildrenList>
+								<Action Name="" ID="{4BC98B23-AB38-42A4-A98B-3D7A3F59E660}" ShortID="211618553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gollem_attack_punch" ID="{AEDE87B9-71B1-496D-B42D-F21E7FCF14B5}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Golem_Zone" ID="{AC190522-2853-44F4-8869-1EE051387A8E}">
+							<ChildrenList>
+								<Action Name="" ID="{4235DF9D-FECE-4263-8F07-103277EB2CEF}" ShortID="394849552">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gollem_attack_zone" ID="{0492CEBB-874D-425B-93FA-45C49FD645A0}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Idle" ID="{06C2BBBA-DF5B-4F2D-A032-75E7F80CC5B5}">
+							<ChildrenList>
+								<Action Name="" ID="{935CA9B0-BC73-4EB0-BEE7-03FD845658C3}" ShortID="63125959">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gollem_idle" ID="{7FE7ECD9-7D9A-4FAB-B790-5F074193AA68}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Golem_Death" ID="{E81C203C-A9C1-4B94-B604-A3CFB22082FF}">
+							<ChildrenList>
+								<Action Name="" ID="{09F77512-83D0-424C-9255-EA3568200DD9}" ShortID="758406143">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gollem_Death" ID="{F80515AD-1FFD-42E2-8507-3DC6A3A602C6}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

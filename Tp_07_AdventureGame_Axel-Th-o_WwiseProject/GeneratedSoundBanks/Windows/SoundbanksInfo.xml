@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{00FB1EE8-0E07-8C40-79B8-4C41D24DF1AE}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{595729C6-63CC-C135-A088-240D1CE42C33}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -454,7 +454,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{13F6EDAA-7BBE-144C-C652-CAD0D126E594}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{50139479-A829-DD7C-8880-6EEA1517AFC8}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1084,7 +1084,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{89395EC9-1A07-9C73-7E28-F10BF1DE9491}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{EA3F7441-9C4D-EEA8-BF22-2A104017E747}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -1281,6 +1281,107 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{90620046-FED1-41DF-241B-EDA506E0D28D}">
+			<ShortName>Golem</ShortName>
+			<Path>Golem.bnk</Path>
+			<Media>
+				<File Id="68653273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-005.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="101654162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem hit-002.wav</ShortName>
+					<CachePath>SFX/Gollem hit-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231617569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-008.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="283383031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-002.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344424039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-006.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="475061488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-007.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="608542439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem attack punch.wav</ShortName>
+					<CachePath>SFX/Gollem attack punch_10C4C929.wem</CachePath>
+				</File>
+				<File Id="643786967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-003.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="651032483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem attack zone.wav</ShortName>
+					<CachePath>SFX/Gollem attack zone_10C4C929.wem</CachePath>
+				</File>
+				<File Id="740425003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem idle.wav</ShortName>
+					<CachePath>SFX/Gollem idle_10C4C929.wem</CachePath>
+				</File>
+				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem attack canon .wav</ShortName>
+					<CachePath>SFX/Gollem attack canon _10C4C929.wem</CachePath>
+				</File>
+				<File Id="892157658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem footsteps-004.wav</ShortName>
+					<CachePath>SFX/Gollem footsteps-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="945260532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gollem death .wav</ShortName>
+					<CachePath>SFX/Gollem death _10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1874288895" Name="Idle" MaxAttenuation="15" DurationType="OneShot" DurationMin="4.294521" DurationMax="4.294521">
+					<MediaRefs>
+						<MediaRef Id="740425003"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
+					<MediaRefs>
+						<MediaRef Id="882690975"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="15" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
+					<MediaRefs>
+						<MediaRef Id="945260532"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
+					<MediaRefs>
+						<MediaRef Id="68653273"/>
+						<MediaRef Id="231617569"/>
+						<MediaRef Id="283383031"/>
+						<MediaRef Id="344424039"/>
+						<MediaRef Id="475061488"/>
+						<MediaRef Id="643786967"/>
+						<MediaRef Id="892157658"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
+					<MediaRefs>
+						<MediaRef Id="101654162"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
+					<MediaRefs>
+						<MediaRef Id="608542439"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
+					<MediaRefs>
+						<MediaRef Id="651032483"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{56A15AA9-CF4D-661D-5E63-0C74E6EA359B}">
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
@@ -1328,5 +1429,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B2059C47-3B19-D8E6-18B7-EF11FD1BAC0A}</FileHash>
+	<FileHash>{63F6F65B-026C-12C5-0DBB-07277D0342D4}</FileHash>
 </SoundBanksInfo>

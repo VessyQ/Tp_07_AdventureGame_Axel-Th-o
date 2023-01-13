@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID EELDOG_IN = 1398495461U;
         static const AkUniqueID EELDONG_OUT = 3904151298U;
+        static const AkUniqueID IDLE = 1874288895U;
         static const AkUniqueID MC_DEATH = 3389321894U;
         static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
         static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
@@ -38,6 +39,12 @@ namespace AK
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
+        static const AkUniqueID PLAY_GOLEM_CANON = 2325028998U;
+        static const AkUniqueID PLAY_GOLEM_DEATH = 4251967229U;
+        static const AkUniqueID PLAY_GOLEM_FOOTSTEPS = 1608204570U;
+        static const AkUniqueID PLAY_GOLEM_HIT = 1268948556U;
+        static const AkUniqueID PLAY_GOLEM_PUNCH = 755919311U;
+        static const AkUniqueID PLAY_GOLEM_ZONE = 2651173411U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LARGEDOOR = 290334991U;
@@ -90,6 +97,7 @@ namespace AK
         static const AkUniqueID EELDOG = 3734169157U;
         static const AkUniqueID ELLEN = 1782136527U;
         static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
+        static const AkUniqueID GOLEM = 3623907463U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 

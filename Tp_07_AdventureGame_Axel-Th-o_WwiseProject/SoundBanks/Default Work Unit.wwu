@@ -98,6 +98,17 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Golem" ID="{4FF37950-A3FC-44C6-9AD1-3C192A95D818}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Golem" ID="{06B86F4F-DFA4-4321-B0F7-CB3F344E15DD}" WorkUnitID="{F489D973-6C53-4D53-929A-3646C4A09747}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
