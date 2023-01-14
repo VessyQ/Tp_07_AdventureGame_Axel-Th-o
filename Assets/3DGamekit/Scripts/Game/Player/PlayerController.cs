@@ -450,6 +450,7 @@ namespace Gamekit3D
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
                 hurtAudioPlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("MC_Hit", gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)

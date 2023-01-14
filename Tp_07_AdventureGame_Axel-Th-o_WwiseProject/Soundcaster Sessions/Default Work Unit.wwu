@@ -4,7 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{BCEE07D8-7A3F-4D66-8DC2-8A72D03C182B}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="SoundCaster" ID="{31C863C0-1C2A-465A-95CE-742AF6B041F3}">
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter" ID="{54D10354-5132-405B-85DF-86897A1654F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="SW_Grass" ID="{46BB1636-D444-4BEA-A65A-D9097339F1C4}"/>
