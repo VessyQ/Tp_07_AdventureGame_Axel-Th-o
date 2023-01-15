@@ -773,6 +773,346 @@
 								<ActiveSource Name="SFX_LightMushroom" ID="{80C5B2FD-052F-4FEC-B5AC-80BD5BE851A6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<ActorMixer Name="Magic_Door" ID="{4816987C-7F90-4B04-B630-D7631E35C101}" ShortID="751052805">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Magic_Door_Close" ID="{330EF57E-9215-43A2-B599-EDE52DF5FF20}" ShortID="6183697">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic_Door_Close" ID="{BA3A0A1C-1A50-489B-ABE2-04E51D78A41B}">
+											<Language>SFX</Language>
+											<AudioFile>Magic_Door_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="18896886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic_Door_Close" ID="{BA3A0A1C-1A50-489B-ABE2-04E51D78A41B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Magic_Door_Far" ID="{0F6A5B1B-6C8C-4D4D-B776-FE6E526B672F}" ShortID="981337929">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic_Door_Far" ID="{B0B5DD5C-84F1-4140-96F0-436D71855534}">
+											<Language>SFX</Language>
+											<AudioFile>Magic_Door_Far.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="309210825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic_Door_Far" ID="{B0B5DD5C-84F1-4140-96F0-436D71855534}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Magic_Door_Middle" ID="{DBCB1699-BB76-446F-B965-A451EFDF7A3A}" ShortID="401598076">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic_Door_Middle" ID="{C457656A-4783-4CF1-9BF9-8145D06CCCC6}">
+											<Language>SFX</Language>
+											<AudioFile>Magic_Door_Middle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="313411430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic_Door_Middle" ID="{C457656A-4783-4CF1-9BF9-8145D06CCCC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Magic_Door_PortalPass-001" ID="{74B29FB2-5613-486E-826F-69C77DA59EA2}" ShortID="167414572">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}">
+											<Language>SFX</Language>
+											<AudioFile>Magic_Door_PortalPass-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155243058"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Magic_Door_Random" ID="{4F788DEF-3EC8-4F57-B50F-58F360D66546}" ShortID="719254102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Magic_Door_RandomEvent-006" ID="{01C8ACD9-05AC-4936-9ADC-988250237088}" ShortID="939579211">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1038969575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Door_RandomEvent-005" ID="{1C39DE43-D853-4B90-8438-A224EF038DD9}" ShortID="1028916113">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="3784940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Door_RandomEvent-001" ID="{9E5F1887-255B-43B4-8498-3B02E676002B}" ShortID="959898760">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="844975121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Door_RandomEvent-003" ID="{EAE2DA33-42BB-483D-BBCB-8C68BE56786A}" ShortID="1063350064">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310114697"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Door_RandomEvent-004" ID="{E35C433F-5ABC-4C73-94E2-7F8333AD74D4}" ShortID="829179137">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835727629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Door_RandomEvent-002" ID="{830B5088-2748-436F-959F-684F26E1BFA0}" ShortID="498521355">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}">
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_RandomEvent-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="797543225"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="AMB" ID="{65FFD9CA-D171-4E19-ACC4-979B93FFD77C}" ShortID="872310455">

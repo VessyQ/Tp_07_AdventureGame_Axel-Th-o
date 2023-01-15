@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{595729C6-63CC-C135-A088-240D1CE42C33}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{ED02EE11-C77A-EA2C-6A40-DFD2667A0E40}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -64,6 +64,10 @@
 				<File Id="217281900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-012.wav</ShortName>
 					<CachePath>SFX/Chomper_FT_Back-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="218100142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MBCK ANIMAL Alpaca Spit.wav</ShortName>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit_10C4C929.wem</CachePath>
 				</File>
 				<File Id="226505746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-003.wav</ShortName>
@@ -148,6 +152,10 @@
 				<File Id="567505663" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-013.wav</ShortName>
 					<CachePath>SFX/Chomper_FT_Front-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="575345053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MBCK ANIMAL Alpaca Spit 1.wav</ShortName>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="582854367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-005.wav</ShortName>
@@ -246,6 +254,11 @@
 						<MediaRef Id="918423660"/>
 						<MediaRef Id="1023734958"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3538651317" Name="Play_Backstep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.1733125" DurationMax="0.412125">
 					<MediaRefs>
@@ -263,6 +276,11 @@
 						<MediaRef Id="1036560010"/>
 						<MediaRef Id="1040262215"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1172822028" Name="Play_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.6294375" DurationMax="1.1380416">
 					<MediaRefs>
@@ -275,6 +293,11 @@
 						<MediaRef Id="779569688"/>
 						<MediaRef Id="888634019"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2192672377" Name="Play_Frontstep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.1733125" DurationMax="0.412125">
 					<MediaRefs>
@@ -292,6 +315,11 @@
 						<MediaRef Id="961232930"/>
 						<MediaRef Id="1071088346"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2984103440" Name="Play_Grunt" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.8054375" DurationMax="1.301375">
 					<MediaRefs>
@@ -304,6 +332,11 @@
 						<MediaRef Id="802614081"/>
 						<MediaRef Id="936810226"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2960666077" Name="Play_Hit" DurationType="OneShot" DurationMin="0.34120572" DurationMax="0.4851511">
 					<MediaRefs>
@@ -314,6 +347,22 @@
 						<MediaRef Id="582854367"/>
 						<MediaRef Id="708812715"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2639041089" Name="Play_Spitter" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.20805208" DurationMax="0.21590625">
+					<MediaRefs>
+						<MediaRef Id="218100142"/>
+						<MediaRef Id="575345053"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5594575" DurationMax="1.16925">
 					<MediaRefs>
@@ -322,17 +371,22 @@
 						<MediaRef Id="379550852"/>
 						<MediaRef Id="484762122"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{63636439-2248-EBBF-DC3E-298DD4A5D1FB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{43ABCAE2-08E3-6599-E8CC-E786DFB6A252}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1203617187" Name="Machine_Gun_Hangar" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="4122393694" Name="Cave" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="4169379491" Name="StarShip" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -370,7 +424,7 @@
 				<AuxBus Id="3264109334" Name="RVB_Portal">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="4169379491"/>
+							<PluginRef Id="1203617187"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -398,7 +452,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{9A59F600-40CA-B05E-EBF2-C487EF4F47D3}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{94CEE01E-883D-3644-C62C-96B9529BAFB8}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -471,7 +525,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{7B6529E1-8F35-1CE0-F529-920D558ED7DA}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{174FD49F-9E14-E6B3-59FA-8CDAEE1B77C7}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -840,6 +894,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3797607032" Name="MC_Foosteps_Puddle" DurationType="OneShot" DurationMin="0.5" DurationMax="0.75">
 					<MediaRefs>
@@ -858,6 +917,11 @@
 						<MediaRef Id="1059488728"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3890330639" Name="MC_Foosteps_Rock" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
@@ -876,6 +940,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3349748359" Name="MC_Hit" DurationType="OneShot" DurationMin="0.40366668" DurationMax="0.65133333">
 					<MediaRefs>
@@ -889,6 +958,11 @@
 						<MediaRef Id="624254207"/>
 						<MediaRef Id="751209892"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3881392346" Name="MC_Jump_01" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
@@ -899,6 +973,11 @@
 						<MediaRef Id="242158069"/>
 						<MediaRef Id="428843161"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2896940196" Name="MC_Land_Grass" DurationType="OneShot" DurationMin="0.5" DurationMax="0.625">
 					<MediaRefs>
@@ -917,6 +996,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1983402694" Name="MC_Land_Puddle" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
@@ -935,6 +1019,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="173644637" Name="MC_Land_Rock" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
@@ -953,6 +1042,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="748388956" Name="MC_Respawn" DurationType="OneShot" DurationMin="2.6607084" DurationMax="2.6607084">
 					<MediaRefs>
@@ -971,6 +1065,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="582122640" Default="true"/>
@@ -1023,6 +1122,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1935096834" Name="Play_MC_Combo02Hit" DurationType="OneShot" DurationMin="1.1421459" DurationMax="1.1421459">
 					<MediaRefs>
@@ -1043,6 +1147,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3873886149" Name="Play_MC_Combo03Hit" DurationType="OneShot" DurationMin="1.1496667" DurationMax="1.1496667">
 					<MediaRefs>
@@ -1063,6 +1172,11 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="814064760" Name="Play_MC_Combo04Hit" DurationType="OneShot" DurationMin="1.1967708" DurationMax="1.1967708">
 					<MediaRefs>
@@ -1083,11 +1197,21 @@
 						<MediaRef Id="1057186456"/>
 						<MediaRef Id="1063380024"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="605838133" Name="Play_SFX_Pedestral_Idle" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="522421376"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3561745923" Name="Stop_SFX_Pedestral_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1101,10 +1225,19 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{B06CC66C-FF54-4DEE-528D-39A02361C52B}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{86237940-C7C3-C8CE-0494-DFFAE3EF61FF}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
+				<File Id="3784940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-005.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="18896886" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Magic_Door_Close.wav</ShortName>
+					<Path>Media/18896886.wem</Path>
+					<CachePath>SFX/Magic_Door_Close_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="221504597" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_FireFly.wav</ShortName>
 					<Path>Media/221504597.wem</Path>
@@ -1131,6 +1264,20 @@
 					<ShortName>AMB_Arena.wav</ShortName>
 					<Path>Media/308410978.wem</Path>
 					<CachePath>SFX/AMB_Arena_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="309210825" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Magic_Door_Far.wav</ShortName>
+					<Path>Media/309210825.wem</Path>
+					<CachePath>SFX/Magic_Door_Far_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="310114697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-003.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313411430" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Magic_Door_Middle.wav</ShortName>
+					<Path>Media/313411430.wem</Path>
+					<CachePath>SFX/Magic_Door_Middle_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="320335259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
@@ -1178,6 +1325,10 @@
 					<Path>Media/771869937.wem</Path>
 					<CachePath>SFX/AMB_Wind_Soft_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="797543225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-002.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="804665530" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_LightMushroom.wav</ShortName>
 					<Path>Media/804665530.wem</Path>
@@ -1193,6 +1344,14 @@
 					<Path>Media/822664154.wem</Path>
 					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="835727629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-004.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844975121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-001.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="870359449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic01_Large_Door_Open.wav</ShortName>
 					<CachePath>SFX/Cinematic01_Large_Door_Open_10C4C929.wem</CachePath>
@@ -1202,32 +1361,61 @@
 					<Path>Media/991152073.wem</Path>
 					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="1038969575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_RandomEvent-006.wav</ShortName>
+					<CachePath>SFX/Magic_Door_RandomEvent-006_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="1865989278" Name="Play_AMB_Arena" MaxAttenuation="90" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="308410978"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="841394337" Name="Play_AMB_Tropical" MaxAttenuation="80" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="283393023"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2049148582" Name="Play_AMB_Water" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="822664154"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1482463854" Name="Play_AMB_Wind_Soft" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="771869937"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1439945259" Name="Play_AMB_Wind_Strong" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="812090864"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4151201399" Name="Play_DestructibleBox" DurationType="OneShot" DurationMin="2.0158541" DurationMax="2.6228542">
 					<MediaRefs>
@@ -1236,68 +1424,173 @@
 						<MediaRef Id="625501724"/>
 						<MediaRef Id="694274688"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2389962849" Name="Play_FireFly" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="221504597"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="290334991" Name="Play_LargeDoor" DurationType="OneShot" DurationMin="6.1386876" DurationMax="6.1386876">
 					<MediaRefs>
 						<MediaRef Id="870359449"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2893093968" Name="Play_LargeDoor_02" DurationType="OneShot" DurationMin="7.25" DurationMax="7.25">
 					<MediaRefs>
 						<MediaRef Id="556895116"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1363367052" Name="Play_MD_Close" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="18896886"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1149044379" Name="Play_MD_Far" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="309210825"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1418619230" Name="Play_MD_Mid" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="313411430"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="871905469" Name="Play_MD_Random" DurationType="OneShot" DurationMin="2.001" DurationMax="4.6703334">
+					<MediaRefs>
+						<MediaRef Id="3784940"/>
+						<MediaRef Id="310114697"/>
+						<MediaRef Id="797543225"/>
+						<MediaRef Id="835727629"/>
+						<MediaRef Id="844975121"/>
+						<MediaRef Id="1038969575"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3801361087" Name="Play_PROPS_LightMushroom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="804665530"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" DurationType="OneShot" DurationMin="1.2766042" DurationMax="1.2766042">
 					<MediaRefs>
 						<MediaRef Id="253935470"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1616564399" Name="Play_SFX_HealBox" DurationType="OneShot" DurationMin="3.2811458" DurationMax="3.2811458">
 					<MediaRefs>
 						<MediaRef Id="367348154"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3936093387" Name="Play_SFX_Loop_Crystal" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="991152073"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1941366886" Name="Play_SFX_PressurePad_Activate" DurationType="OneShot" DurationMin="1.1869583" DurationMax="1.1869583">
 					<MediaRefs>
 						<MediaRef Id="614579002"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="863824191" Name="Play_SFX_PressurePad_Loop" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="350764459"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1189557224" Name="Props_Close" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="320335259"/>
 						<MediaRef Id="673446851"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2181098295" Name="Props_Far" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="275645981"/>
 						<MediaRef Id="405054130"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{B406F090-1708-ABCA-0E3D-E1A77BAEBC50}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{FEAAC1BD-AA22-BBBA-AA8B-1B24120C96F7}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1343,7 +1636,7 @@
 				</File>
 				<File Id="822529370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Digital 1 by Lisnmusic Id-122070 1.wav</ShortName>
-					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_10C4C929.wem</CachePath>
+					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_E54B7F51.wem</CachePath>
 				</File>
 				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack canon .wav</ShortName>
@@ -1371,21 +1664,41 @@
 					<MediaRefs>
 						<MediaRef Id="740425003"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1403021813" Name="Play_Forcefield" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.3477082" DurationMax="2.3477082">
 					<MediaRefs>
 						<MediaRef Id="887278440"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
 					<MediaRefs>
 						<MediaRef Id="882690975"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="40" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
 					<MediaRefs>
 						<MediaRef Id="945260532"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
 					<MediaRefs>
@@ -1397,35 +1710,65 @@
 						<MediaRef Id="643786967"/>
 						<MediaRef Id="892157658"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
 					<MediaRefs>
 						<MediaRef Id="101654162"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
 					<MediaRefs>
 						<MediaRef Id="608542439"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
 					<MediaRefs>
 						<MediaRef Id="651032483"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3895507240" Name="Play_Grenade_Bond" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6918594" DurationMax="0.6918594">
 					<MediaRefs>
 						<MediaRef Id="822529370"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3906147804" Name="Play_Grenade_Explosion" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.95254165" DurationMax="0.95254165">
 					<MediaRefs>
 						<MediaRef Id="903881172"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{56A15AA9-CF4D-661D-5E63-0C74E6EA359B}">
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{88225B2E-7614-727A-46A3-7C98FC9B5592}">
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
 			<Media>
@@ -1461,6 +1804,11 @@
 						<MediaRef Id="514499342"/>
 						<MediaRef Id="629538605"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3904151298" Name="Eeldong_Out" MaxAttenuation="18" DurationType="OneShot" DurationMin="1.327136" DurationMax="1.779114">
 					<MediaRefs>
@@ -1468,9 +1816,14 @@
 						<MediaRef Id="566883040"/>
 						<MediaRef Id="858917401"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{084A4502-8E7B-AEBD-CF48-0D122161A0FF}</FileHash>
+	<FileHash>{9D3A871E-1D07-D448-6E17-20AE2ADB46BB}</FileHash>
 </SoundBanksInfo>

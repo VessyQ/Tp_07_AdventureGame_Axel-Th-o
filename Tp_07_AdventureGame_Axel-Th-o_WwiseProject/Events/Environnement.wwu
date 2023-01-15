@@ -245,6 +245,54 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Magic_Door" ID="{C72383F5-20D6-45B5-8675-C26C3A011C44}" ShortID="855894150">
+							<ChildrenList>
+								<Event Name="Play_MD_Close" ID="{027A2E62-4BC5-4E26-8BA9-C48E47F2F95A}">
+									<ChildrenList>
+										<Action Name="" ID="{07A38E30-19D6-4EBD-B250-172102D936C6}" ShortID="152071714">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_Door_Close" ID="{330EF57E-9215-43A2-B599-EDE52DF5FF20}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MD_Mid" ID="{A0D108A4-849C-468C-B454-DBA72275485D}">
+									<ChildrenList>
+										<Action Name="" ID="{BFF9D3D1-80B3-4547-B21D-7D9FE8325736}" ShortID="750609800">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_Door_Middle" ID="{DBCB1699-BB76-446F-B965-A451EFDF7A3A}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MD_Far" ID="{B69490A7-2C37-43F0-8CBC-A4ECDEA9D606}">
+									<ChildrenList>
+										<Action Name="" ID="{88D18AC6-B03E-4E23-8892-6B87B2F03F32}" ShortID="1015692737">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_Door_Far" ID="{0F6A5B1B-6C8C-4D4D-B776-FE6E526B672F}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MD_Random" ID="{FF5EAABC-DD91-4EEB-B227-784CFC29D397}">
+									<ChildrenList>
+										<Action Name="" ID="{562F9B85-1460-4A0F-AF35-712330DFE8BC}" ShortID="59018119">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_Door_Random" ID="{4F788DEF-3EC8-4F57-B50F-58F360D66546}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

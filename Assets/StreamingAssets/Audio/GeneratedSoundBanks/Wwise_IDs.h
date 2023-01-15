@@ -55,6 +55,10 @@ namespace AK
         static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
         static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
+        static const AkUniqueID PLAY_MD_CLOSE = 1363367052U;
+        static const AkUniqueID PLAY_MD_FAR = 1149044379U;
+        static const AkUniqueID PLAY_MD_MID = 1418619230U;
+        static const AkUniqueID PLAY_MD_RANDOM = 871905469U;
         static const AkUniqueID PLAY_PROPS_LIGHTMUSHROOM = 3801361087U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
         static const AkUniqueID PLAY_SFX_HEALBOX = 1616564399U;
