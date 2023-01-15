@@ -351,7 +351,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585278886792588077
+    m_lastTime: -8585278049378006419
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -465,7 +465,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585279681956625683
+    m_lastTime: -8585278049378288525
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -484,6 +484,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 36a217a0fc79c149823c3a13cf76f068
       Path: Events\Default Work Unit\Environnement\AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Magic_Door
+      guid: f58323c7d620b5458675c26c3a011c44
+      id: 2257496957
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -691,6 +714,110 @@ MonoBehaviour:
         ObjectType: 3
         guid: 539ac7c7fb91374196d773641e6bafb2
       Path: Events\Default Work Unit\Environnement\PROPS\Play_LargeDoor_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MD_Close
+      guid: 622e7a02c54b264e8ba9c48e47f2f95a
+      id: 1363367052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      - ElementName: Play_MD_Close
+        ObjectType: 3
+        guid: 622e7a02c54b264e8ba9c48e47f2f95a
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MD_Far
+      guid: a79094b6372cf0438cbca4ecdea9d606
+      id: 1149044379
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      - ElementName: Play_MD_Far
+        ObjectType: 3
+        guid: a79094b6372cf0438cbca4ecdea9d606
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Far
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MD_Mid
+      guid: a408d1a09c848c46b454dba72275485d
+      id: 1418619230
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      - ElementName: Play_MD_Mid
+        ObjectType: 3
+        guid: a408d1a09c848c46b454dba72275485d
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Mid
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MD_Random
+      guid: bcaa5eff91ddeb4eb227784cfc29d397
+      id: 871905469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      - ElementName: Play_MD_Random
+        ObjectType: 3
+        guid: bcaa5eff91ddeb4eb227784cfc29d397
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Random
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1048,11 +1175,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585278157976010140
-=======
-    m_lastTime: -8585278097134761708
->>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0

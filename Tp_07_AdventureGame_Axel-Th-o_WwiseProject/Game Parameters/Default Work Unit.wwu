@@ -3,7 +3,13 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="New_Game_Parameter" ID="{54D10354-5132-405B-85DF-86897A1654F2}"/>
+				<GameParameter Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="SoundCaster" ID="{31C863C0-1C2A-465A-95CE-742AF6B041F3}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="New_Game_Parameter" ID="{54D10354-5132-405B-85DF-86897A1654F2}"/>
+							<GameParameterRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
