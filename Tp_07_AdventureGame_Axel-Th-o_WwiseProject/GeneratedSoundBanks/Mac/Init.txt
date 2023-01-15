@@ -7,6 +7,15 @@ State	ID	Name	State Group			Notes
 	3118032615	Portal	Reverb_Zone			
 	4122393694	Cave	Reverb_Zone			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	215792503	Portal	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RBV_Cave		
+	430303230	Cave	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RVB_Portal		
+	433724290	Cave	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RVB_Default		
+	591998246	Default	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RVB_Default		
+	623878185	Portal	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RVB_Default		
+	923331639	Default	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RBV_Cave		
+	970153379	Default	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RVB_Portal		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	GAMEPLAY			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY	
 	348963605	REVERB			\Default Work Unit\Master Audio Bus\REVERB	
@@ -27,8 +36,8 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
 	4122393694	Cave	Wwise RoomVerb			
-	4169379491	StarShip	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

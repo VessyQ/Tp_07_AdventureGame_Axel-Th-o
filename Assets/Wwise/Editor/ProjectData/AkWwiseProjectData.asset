@@ -1048,7 +1048,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585279651806577446
+    m_lastTime: -8585278097134761708
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -1521,6 +1521,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3922453382553741be91a8a386e740ce
       Path: Events\Default Work Unit\NPC\Chomper\Play_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spitter
+      guid: ec8d24d1da0f5d43be7e62cb352c18be
+      id: 2639041089
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: NPC
+        ObjectType: 12
+        guid: 73d989f4536c534d929a3646c4a09747
+      - ElementName: Chomper
+        ObjectType: 4
+        guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
+      - ElementName: Play_Spitter
+        ObjectType: 3
+        guid: ec8d24d1da0f5d43be7e62cb352c18be
+      Path: Events\Default Work Unit\NPC\Chomper\Play_Spitter
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2470,7 +2493,7 @@ MonoBehaviour:
     m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0c0000000d0000000e000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
