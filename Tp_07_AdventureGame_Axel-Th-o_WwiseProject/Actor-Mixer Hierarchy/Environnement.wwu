@@ -18,6 +18,15 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="Props_Loop" ID="{4C43657E-DE9F-4C77-8E78-4D495EB62EBD}" ShortID="672839393">
@@ -781,6 +790,11 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -788,6 +802,15 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="AMB_Bus" ID="{B68493E7-4E85-499E-89FC-B43BC1C69182}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

@@ -8,6 +8,27 @@
 						<Property Name="ERPattern" Type="int32" Value="12"/>
 						<Property Name="RoomSize" Type="Real32" Value="-1"/>
 					</PropertyList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+								<CustomState Name="" ID="{98A269C1-9D0C-4316-8A5F-1E1F08A38672}" ShortID="1002906065"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+								<CustomState Name="" ID="{19B32760-3FA6-41DD-8D08-0D8689741EDA}" ShortID="907284108"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+								<CustomState Name="" ID="{EB5FD1D7-B4A4-4663-822D-2EC8632832D2}" ShortID="1044800517"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Effect>
 				<Effect Name="Ruins" ID="{B06BFC44-1BD7-401D-8BD6-C65BA995A231}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 					<PropertyList>
@@ -188,6 +209,27 @@
 						<Property Name="ERPattern" Type="int32" Value="18"/>
 						<Property Name="RoomSize" Type="Real32" Value="41"/>
 					</PropertyList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+								<CustomState Name="" ID="{D4ACD317-6DFD-4CBC-97D5-7409683D47A2}" ShortID="713410142"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+								<CustomState Name="" ID="{AAFA523B-99C8-48E8-A3A9-5BCD5D378F70}" ShortID="122266118"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+								<CustomState Name="" ID="{783001D5-ED40-47F3-A9AF-47B223BA1A88}" ShortID="298851387"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Effect>
 			</ChildrenList>
 		</WorkUnit>

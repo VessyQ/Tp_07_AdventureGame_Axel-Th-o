@@ -21,6 +21,11 @@
 							<ChildrenList>
 								<AuxBus Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -28,12 +33,41 @@
 											<ObjectRef Name="Cave" ID="{5E55D659-B331-4703-9A23-64391F093C82}" WorkUnitID="{50A2C270-4EE1-4139-BE4A-7EBA827CFA82}"/>
 										</Reference>
 									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+												<CustomState Name="" ID="{479B5A4B-28A3-43D1-A53D-6DA00E0EB328}" ShortID="923331639">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+												<CustomState Name="" ID="{153ABC22-3CAD-4CD4-A51C-C20AE9EC3954}" ShortID="960462282"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+												<CustomState Name="" ID="{F2C6C7F1-17B8-41FA-A13D-2F1797B62135}" ShortID="215792503">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</AuxBus>
-								<AuxBus Name="RVB_Jungle" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}">
+								<AuxBus Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -43,26 +77,83 @@
 											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+												<CustomState Name="" ID="{253564FB-CA66-4252-9A94-DB93A2D099F4}" ShortID="591998246">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-7"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+												<CustomState Name="" ID="{4B1E384F-4301-4090-926D-5A154E1822A5}" ShortID="433724290">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+												<CustomState Name="" ID="{8D0612CA-9639-428D-A761-53DF95465A18}" ShortID="623878185">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</AuxBus>
-								<AuxBus Name="RVB_Ruines" ID="{D206B577-ABD8-43E1-816D-0CAE00FBC405}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-								</AuxBus>
-								<AuxBus Name="RVB_Starship" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}">
+								<AuxBus Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<ObjectRef Name="StarShip" ID="{F3BBC9E0-A6B8-4F99-9EBB-9AD65016BAD2}" WorkUnitID="{50A2C270-4EE1-4139-BE4A-7EBA827CFA82}"/>
+											<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+												<CustomState Name="" ID="{BCF43EEB-88A8-4212-8787-C588A7F7D11E}" ShortID="970153379">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+												<CustomState Name="" ID="{A6356408-0BAD-472F-831A-2219697897C0}" ShortID="430303230">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+												<CustomState Name="" ID="{A3EAEBF4-E4DA-4E5F-B417-20D68AE6A6AE}" ShortID="1049719979"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
@@ -125,6 +216,27 @@
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+								<CustomState Name="" ID="{AF18B4A0-53D6-4E47-9CC0-169800331476}" ShortID="1002756743"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+								<CustomState Name="" ID="{CE3846A6-C965-4397-9B6E-61B7683EC0AE}" ShortID="198039031"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+								<CustomState Name="" ID="{FEAD31DA-63A2-49F6-AD26-CD7201D50E91}" ShortID="820949788"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Bus>
 				<WorkUnit Name="Reverb_Zones_Bus" ID="{9EC29F0E-7EC7-41B4-8A7A-8DDC1C85684C}" PersistMode="Reference"/>
 			</ChildrenList>

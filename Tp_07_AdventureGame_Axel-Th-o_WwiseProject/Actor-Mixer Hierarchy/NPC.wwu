@@ -192,6 +192,15 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Chomper_Bus" ID="{533B7825-76D7-4536-9D6D-E04859DDD2FD}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Chomper_Attack" ID="{2AE0ABF1-CBDC-4236-860A-EB6953D9B15B}" ShortID="264283214">
@@ -1965,6 +1974,15 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Out_Water" ID="{379976BE-86B7-472E-A527-33DBDD502E1C}" ShortID="761276833">
@@ -2318,6 +2336,15 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

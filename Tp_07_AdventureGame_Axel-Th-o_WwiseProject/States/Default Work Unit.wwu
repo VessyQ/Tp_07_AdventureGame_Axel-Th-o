@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D49549AF-56B7-4820-BE0A-555A4C7CEC2C}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{D49549AF-56B7-4820-BE0A-555A4C7CEC2C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D49549AF-56B7-4820-BE0A-555A4C7CEC2C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{68CC11CB-A4FE-4484-9A4E-7A6938213D2F}"/>
+						<State Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+						<State Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+						<State Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+							<EndState Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+							<EndState Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -76,6 +76,23 @@ namespace AK
         static const AkUniqueID STOP_SFX_PEDESTRAL_IDLE = 3561745923U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace REVERB_ZONE
+        {
+            static const AkUniqueID GROUP = 709278834U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID DEFAULT = 782826392U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PORTAL = 3118032615U;
+            } // namespace STATE
+        } // namespace REVERB_ZONE
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace SW_MATERIALS
@@ -126,9 +143,8 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID RBV_CAVE = 1602260323U;
-        static const AkUniqueID RVB_JUNGLE = 2365566903U;
-        static const AkUniqueID RVB_RUINES = 4142881714U;
-        static const AkUniqueID RVB_STARSHIP = 1158104354U;
+        static const AkUniqueID RVB_DEFAULT = 1823207219U;
+        static const AkUniqueID RVB_PORTAL = 3264109334U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

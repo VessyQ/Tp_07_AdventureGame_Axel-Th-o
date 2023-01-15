@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	709278834	Reverb_Zone			\Default Work Unit\Reverb_Zone	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Reverb_Zone			
+	782826392	Default	Reverb_Zone			
+	3118032615	Portal	Reverb_Zone			
+	4122393694	Cave	Reverb_Zone			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	GAMEPLAY			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY	
 	348963605	REVERB			\Default Work Unit\Master Audio Bus\REVERB	
@@ -12,10 +21,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\SFX\MUSIC	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1158104354	RVB_Starship			\Default Work Unit\Master Audio Bus\REVERB\RVB_Starship	
 	1602260323	RBV_Cave			\Default Work Unit\Master Audio Bus\REVERB\RBV_Cave	
-	2365566903	RVB_Jungle			\Default Work Unit\Master Audio Bus\REVERB\RVB_Jungle	
-	4142881714	RVB_Ruines			\Default Work Unit\Master Audio Bus\REVERB\RVB_Ruines	
+	1823207219	RVB_Default			\Default Work Unit\Master Audio Bus\REVERB\RVB_Default	
+	3264109334	RVB_Portal			\Default Work Unit\Master Audio Bus\REVERB\RVB_Portal	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			

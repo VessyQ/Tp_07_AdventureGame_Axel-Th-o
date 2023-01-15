@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4CC6584F-4D5C-7772-05D1-0A13CF93ED88}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{63636439-2248-EBBF-DC3E-298DD4A5D1FB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -353,13 +353,6 @@
 				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="1158104354" Name="RVB_Starship">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="4169379491"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
 				<AuxBus Id="1602260323" Name="RBV_Cave">
 					<PluginRefs>
 						<ShareSets>
@@ -367,18 +360,34 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="2365566903" Name="RVB_Jungle">
+				<AuxBus Id="1823207219" Name="RVB_Default">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="48620415"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="4142881714" Name="RVB_Ruines"/>
+				<AuxBus Id="3264109334" Name="RVB_Portal">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4169379491"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="3671138082" Name="New_Game_Parameter"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="709278834" Name="Reverb_Zone">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="3118032615" Name="Portal"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
 					<Switches>
@@ -462,7 +471,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{247095A0-262E-0960-B54A-4C89673F62FA}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{7B6529E1-8F35-1CE0-F529-920D558ED7DA}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1463,5 +1472,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8627D4E-0B05-D917-197E-019BE76EF376}</FileHash>
+	<FileHash>{084A4502-8E7B-AEBD-CF48-0D122161A0FF}</FileHash>
 </SoundBanksInfo>

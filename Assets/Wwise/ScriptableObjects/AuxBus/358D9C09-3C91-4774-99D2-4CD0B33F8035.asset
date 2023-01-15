@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e606e3b1499830e4cbae8d9fcc4f6afb, type: 3}
   m_Name: 358D9C09-3C91-4774-99D2-4CD0B33F8035
   m_EditorClassIdentifier: 
-  objectName: RVB_Jungle
-  id: 2365566903
+  objectName: RVB_Default
+  id: 1823207219
   guid: 358D9C09-3C91-4774-99D2-4CD0B33F8035
