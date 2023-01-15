@@ -1801,7 +1801,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585279902084846840
+    m_lastTime: -8585278887434650081
     List:
     - name: MC_Death
       guid: 2d92187a521e12418981a8c54595fd72
@@ -2283,8 +2283,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585284958216251189
-    List: []
+    m_lastTime: -8585278887436486661
+    List:
+    - name: New_Game_Parameter
+      guid: 5403d15432515b4085df86897a1654f2
+      id: 3671138082
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8acad04d98a8134e883ecb0873b51438
+      - ElementName: New_Game_Parameter
+        ObjectType: 13
+        guid: 5403d15432515b4085df86897a1654f2
+      Path: Game Parameters\Default Work Unit\New_Game_Parameter
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

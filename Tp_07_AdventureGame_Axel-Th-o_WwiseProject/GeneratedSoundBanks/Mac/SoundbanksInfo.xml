@@ -325,7 +325,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B47C99A8-C83D-4397-BD83-1EF77A2F7D5A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4CC6584F-4D5C-7772-05D1-0A13CF93ED88}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -376,6 +376,9 @@
 				</AuxBus>
 				<AuxBus Id="4142881714" Name="RVB_Ruines"/>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3671138082" Name="New_Game_Parameter"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
 					<Switches>
@@ -1285,7 +1288,7 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{D7699366-5B51-0137-3D0F-094811D4593E}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{B406F090-1708-ABCA-0E3D-E1A77BAEBC50}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1329,13 +1332,25 @@
 					<ShortName>Gollem idle.wav</ShortName>
 					<CachePath>SFX/Gollem idle_10C4C929.wem</CachePath>
 				</File>
+				<File Id="822529370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Digital 1 by Lisnmusic Id-122070 1.wav</ShortName>
+					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack canon .wav</ShortName>
 					<CachePath>SFX/Gollem attack canon _10C4C929.wem</CachePath>
 				</File>
+				<File Id="887278440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Scifi, Energy, Force Field, Holo, Power Down SND7133.wav</ShortName>
+					<CachePath>SFX/Scifi, Energy, Force Field, Holo, Power Down SND7133_10C4C929.wem</CachePath>
+				</File>
 				<File Id="892157658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-004.wav</ShortName>
 					<CachePath>SFX/Gollem footsteps-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="903881172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MAFCK IMPACT Sweetener Explosion Distorted Modulated Short 1.wav</ShortName>
+					<CachePath>SFX/MAFCK IMPACT Sweetener Explosion Distorted Modulated Short 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="945260532" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem death .wav</ShortName>
@@ -1343,22 +1358,27 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1874288895" Name="Idle" MaxAttenuation="30" DurationType="OneShot" DurationMin="4.294521" DurationMax="4.294521">
+				<Event Id="1874288895" Name="Idle" MaxAttenuation="40" DurationType="OneShot" DurationMin="4.294521" DurationMax="4.294521">
 					<MediaRefs>
 						<MediaRef Id="740425003"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="30" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
+				<Event Id="1403021813" Name="Play_Forcefield" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.3477082" DurationMax="2.3477082">
+					<MediaRefs>
+						<MediaRef Id="887278440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325028998" Name="Play_Golem_Canon" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.6654377" DurationMax="5.6654377">
 					<MediaRefs>
 						<MediaRef Id="882690975"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="30" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
+				<Event Id="4251967229" Name="Play_Golem_Death" MaxAttenuation="40" DurationType="OneShot" DurationMin="6.8982916" DurationMax="6.8982916">
 					<MediaRefs>
 						<MediaRef Id="945260532"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
+				<Event Id="1608204570" Name="Play_Golem_Footsteps" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6356458" DurationMax="1.1886041">
 					<MediaRefs>
 						<MediaRef Id="68653273"/>
 						<MediaRef Id="231617569"/>
@@ -1369,19 +1389,29 @@
 						<MediaRef Id="892157658"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
+				<Event Id="1268948556" Name="Play_Golem_Hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.98929167" DurationMax="0.98929167">
 					<MediaRefs>
 						<MediaRef Id="101654162"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
+				<Event Id="755919311" Name="Play_Golem_Punch" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.7463334" DurationMax="2.7463334">
 					<MediaRefs>
 						<MediaRef Id="608542439"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
+				<Event Id="2651173411" Name="Play_Golem_Zone" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.8061042" DurationMax="2.8061042">
 					<MediaRefs>
 						<MediaRef Id="651032483"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3895507240" Name="Play_Grenade_Bond" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6918594" DurationMax="0.6918594">
+					<MediaRefs>
+						<MediaRef Id="822529370"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3906147804" Name="Play_Grenade_Explosion" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.95254165" DurationMax="0.95254165">
+					<MediaRefs>
+						<MediaRef Id="903881172"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1433,5 +1463,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ACDCB535-E40E-F1BB-0EE1-2887A5037BBD}</FileHash>
+	<FileHash>{D8627D4E-0B05-D917-197E-019BE76EF376}</FileHash>
 </SoundBanksInfo>

@@ -81,6 +81,7 @@ namespace Gamekit3D
             if (explosionTimer > 0 && m_SinceFired > explosionTimer)
             {
                 Explosion();
+                AkSoundEngine.PostEvent("Play_Grenade_Explosion", gameObject);
             }
         }
 
@@ -138,6 +139,7 @@ namespace Gamekit3D
         {
             if (bouncePlayer != null)
                 bouncePlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("Play_Grenade_Bond", gameObject);
         }
 
         private Vector3 GetVelocity(Vector3 target)

@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
+        static const AkUniqueID PLAY_FORCEFIELD = 1403021813U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
         static const AkUniqueID PLAY_GOLEM_CANON = 2325028998U;
         static const AkUniqueID PLAY_GOLEM_DEATH = 4251967229U;
@@ -44,6 +45,8 @@ namespace AK
         static const AkUniqueID PLAY_GOLEM_HIT = 1268948556U;
         static const AkUniqueID PLAY_GOLEM_PUNCH = 755919311U;
         static const AkUniqueID PLAY_GOLEM_ZONE = 2651173411U;
+        static const AkUniqueID PLAY_GRENADE_BOND = 3895507240U;
+        static const AkUniqueID PLAY_GRENADE_EXPLOSION = 3906147804U;
         static const AkUniqueID PLAY_GRUNT = 2984103440U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LARGEDOOR = 290334991U;
@@ -88,6 +91,11 @@ namespace AK
         } // namespace SW_MATERIALS
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID NEW_GAME_PARAMETER = 3671138082U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
