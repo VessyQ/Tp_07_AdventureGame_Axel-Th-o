@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID EELDOG_IN = 1398495461U;
         static const AkUniqueID EELDONG_OUT = 3904151298U;
         static const AkUniqueID IDLE = 1874288895U;
+        static const AkUniqueID MAGIC_DOOR_PASS = 160286523U;
         static const AkUniqueID MC_DEATH = 3389321894U;
         static const AkUniqueID MC_FOOSTEPS_GRASS = 1233953106U;
         static const AkUniqueID MC_FOOSTEPS_PUDDLE = 3797607032U;
@@ -51,13 +52,11 @@ namespace AK
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LARGEDOOR = 290334991U;
         static const AkUniqueID PLAY_LARGEDOOR_02 = 2893093968U;
+        static const AkUniqueID PLAY_MAGIC_DOOR = 3619056406U;
         static const AkUniqueID PLAY_MC_COMBO01HIT = 658374511U;
         static const AkUniqueID PLAY_MC_COMBO02HIT = 1935096834U;
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
         static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
-        static const AkUniqueID PLAY_MD_CLOSE = 1363367052U;
-        static const AkUniqueID PLAY_MD_FAR = 1149044379U;
-        static const AkUniqueID PLAY_MD_MID = 1418619230U;
         static const AkUniqueID PLAY_MD_RANDOM = 871905469U;
         static const AkUniqueID PLAY_PROPS_LIGHTMUSHROOM = 3801361087U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
@@ -116,7 +115,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID NEW_GAME_PARAMETER = 3671138082U;
+        static const AkUniqueID DISTANCE = 1240670792U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

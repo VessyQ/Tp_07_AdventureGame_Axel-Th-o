@@ -465,7 +465,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585278049378288525
+    m_lastTime: -8585277918031268206
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -507,6 +507,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: f58323c7d620b5458675c26c3a011c44
       Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Magic_Door_Pass
+      guid: 14de8b9c91bd644e87b96b78547f8801
+      id: 160286523
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: PROPS
+        ObjectType: 4
+        guid: 859f201f75c7a843bdf0e34f2c0730d4
+      - ElementName: Magic_Door
+        ObjectType: 4
+        guid: f58323c7d620b5458675c26c3a011c44
+      - ElementName: Magic_Door_Pass
+        ObjectType: 3
+        guid: 14de8b9c91bd644e87b96b78547f8801
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Magic_Door_Pass
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -717,9 +743,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_MD_Close
+    - name: Play_Magic_Door
       guid: 622e7a02c54b264e8ba9c48e47f2f95a
-      id: 1363367052
+      id: 3619056406
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -736,62 +762,10 @@ MonoBehaviour:
       - ElementName: Magic_Door
         ObjectType: 4
         guid: f58323c7d620b5458675c26c3a011c44
-      - ElementName: Play_MD_Close
+      - ElementName: Play_Magic_Door
         ObjectType: 3
         guid: 622e7a02c54b264e8ba9c48e47f2f95a
-      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Close
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_MD_Far
-      guid: a79094b6372cf0438cbca4ecdea9d606
-      id: 1149044379
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8d17593394cd9d42a0d4d146fd177ccd
-      - ElementName: Environnement
-        ObjectType: 12
-        guid: 97800d620a1e5f428c3880026488f6fa
-      - ElementName: PROPS
-        ObjectType: 4
-        guid: 859f201f75c7a843bdf0e34f2c0730d4
-      - ElementName: Magic_Door
-        ObjectType: 4
-        guid: f58323c7d620b5458675c26c3a011c44
-      - ElementName: Play_MD_Far
-        ObjectType: 3
-        guid: a79094b6372cf0438cbca4ecdea9d606
-      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Far
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_MD_Mid
-      guid: a408d1a09c848c46b454dba72275485d
-      id: 1418619230
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8d17593394cd9d42a0d4d146fd177ccd
-      - ElementName: Environnement
-        ObjectType: 12
-        guid: 97800d620a1e5f428c3880026488f6fa
-      - ElementName: PROPS
-        ObjectType: 4
-        guid: 859f201f75c7a843bdf0e34f2c0730d4
-      - ElementName: Magic_Door
-        ObjectType: 4
-        guid: f58323c7d620b5458675c26c3a011c44
-      - ElementName: Play_MD_Mid
-        ObjectType: 3
-        guid: a408d1a09c848c46b454dba72275485d
-      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Mid
+      Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_Magic_Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2413,11 +2387,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585278886711774388
+    m_lastTime: -8585278015538646850
     List:
-    - name: New_Game_Parameter
+    - name: Distance
       guid: 5403d15432515b4085df86897a1654f2
-      id: 3671138082
+      id: 1240670792
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -2425,10 +2399,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8acad04d98a8134e883ecb0873b51438
-      - ElementName: New_Game_Parameter
+      - ElementName: Distance
         ObjectType: 13
         guid: 5403d15432515b4085df86897a1654f2
-      Path: Game Parameters\Default Work Unit\New_Game_Parameter
+      Path: Game Parameters\Default Work Unit\Distance
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -2620,7 +2594,7 @@ MonoBehaviour:
     m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000080000002600000027000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

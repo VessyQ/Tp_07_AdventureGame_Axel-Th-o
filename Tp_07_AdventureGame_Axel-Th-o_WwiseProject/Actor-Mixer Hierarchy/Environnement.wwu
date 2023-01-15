@@ -774,7 +774,154 @@
 							</ActiveSourceList>
 						</Sound>
 						<ActorMixer Name="Magic_Door" ID="{4816987C-7F90-4B04-B630-D7631E35C101}" ShortID="751052805">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="65"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{EDCCC0B8-A108-4BE6-A20D-4A74205F5AB1}">
+										<Attenuation Name="100 m attenuation (Custom)" ID="{D48D2101-176F-4001-BFA3-3F2AFB237E3F}" ShortID="901117653">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{755D6C3C-4249-4D55-867A-D91D3564AE2C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="LowPassFilter" ID="{204E4066-AE3F-4721-890B-26A2C2AAC9C7}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>10</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>68</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{F8605041-5D9C-4850-8A91-D008B7D10569}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.001</XPos>
+																	<YPos>92.0904</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>44.97681</XPos>
+																	<YPos>66.65269</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>43.50282</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 								</Reference>
@@ -794,6 +941,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.119234365372766"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.74940418977203"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Magic_Door_PortalPass-001.wav</AudioFile>
 											<MediaIDList>
@@ -838,6 +990,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0554898336414049"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.93659519408503"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-006.wav</AudioFile>
 													<MediaIDList>
@@ -872,6 +1029,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0721367837338263"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.91994824399261"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-005.wav</AudioFile>
 													<MediaIDList>
@@ -906,6 +1068,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.67756377079483"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-001.wav</AudioFile>
 													<MediaIDList>
@@ -940,6 +1107,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0431546518792361"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.37663339494763"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-003.wav</AudioFile>
 													<MediaIDList>
@@ -974,6 +1146,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0221922365988909"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.0245415896488"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-004.wav</AudioFile>
 													<MediaIDList>
@@ -1008,6 +1185,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0527162661737524"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.16722427603204"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Magic_Door_RandomEvent-002.wav</AudioFile>
 													<MediaIDList>
@@ -1022,6 +1204,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Magic door" ID="{DCE5A6F9-FC02-464A-8C25-A816D0FC4733}" ShortID="466094116">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>4.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -1059,16 +1248,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_Close" ID="{BA3A0A1C-1A50-489B-ABE2-04E51D78A41B}">
+												<AudioFileSource Name="Magic_Door_Close-001" ID="{B002DC6E-8C38-49DA-BD3B-8778C840A590}">
 													<Language>SFX</Language>
-													<AudioFile>Magic_Door_Close.wav</AudioFile>
+													<AudioFile>Magic_Door_Close-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="18896886"/>
+														<MediaID ID="921323237"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_Close" ID="{BA3A0A1C-1A50-489B-ABE2-04E51D78A41B}" Platform="Linked"/>
+												<ActiveSource Name="Magic_Door_Close-001" ID="{B002DC6E-8C38-49DA-BD3B-8778C840A590}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Magic_Door_Middle" ID="{DBCB1699-BB76-446F-B965-A451EFDF7A3A}" ShortID="401598076">
@@ -1099,16 +1288,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_Middle" ID="{C457656A-4783-4CF1-9BF9-8145D06CCCC6}">
+												<AudioFileSource Name="Magic_Door_Middle-001" ID="{C78DA5D5-0E55-4495-8087-C57C8C1755CD}">
 													<Language>SFX</Language>
-													<AudioFile>Magic_Door_Middle.wav</AudioFile>
+													<AudioFile>Magic_Door_Middle-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="313411430"/>
+														<MediaID ID="947446073"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_Middle" ID="{C457656A-4783-4CF1-9BF9-8145D06CCCC6}" Platform="Linked"/>
+												<ActiveSource Name="Magic_Door_Middle-001" ID="{C78DA5D5-0E55-4495-8087-C57C8C1755CD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Magic_Door_Far" ID="{0F6A5B1B-6C8C-4D4D-B776-FE6E526B672F}" ShortID="981337929">
@@ -1139,21 +1328,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_Far" ID="{B0B5DD5C-84F1-4140-96F0-436D71855534}">
+												<AudioFileSource Name="Magic_Door_Far-001" ID="{CD23F50C-8E49-4EF6-B8DB-0F3D1E28182C}">
 													<Language>SFX</Language>
-													<AudioFile>Magic_Door_Far.wav</AudioFile>
+													<AudioFile>Magic_Door_Far-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="309210825"/>
+														<MediaID ID="1073009885"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_Far" ID="{B0B5DD5C-84F1-4140-96F0-436D71855534}" Platform="Linked"/>
+												<ActiveSource Name="Magic_Door_Far-001" ID="{CD23F50C-8E49-4EF6-B8DB-0F3D1E28182C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<BlendTrackList>
-										<BlendTrack Name="New Blend Track" ID="{FEB2902D-2230-4B11-B240-F032553A5959}" ShortID="838902627">
+										<BlendTrack Name="Positionning" ID="{FEB2902D-2230-4B11-B240-F032553A5959}" ShortID="838902627">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 											</PropertyList>
@@ -1168,23 +1357,23 @@
 													<CrossfadingInfo>
 														<LeftEdgePos>0</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>15.9363769482544</RightEdgePos>
+														<RightEdgePos>20.8235949933672</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Magic_Door_Middle" ID="{DBCB1699-BB76-446F-B965-A451EFDF7A3A}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>12.643641521197</LeftEdgePos>
+														<LeftEdgePos>7.50579690966818</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>34.4890280548628</RightEdgePos>
+														<RightEdgePos>40.3787523656397</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Magic_Door_Far" ID="{0F6A5B1B-6C8C-4D4D-B776-FE6E526B672F}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>29.3769336034913</LeftEdgePos>
+														<LeftEdgePos>26.4947280897068</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>50</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -1195,6 +1384,9 @@
 									</BlendTrackList>
 								</BlendContainer>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{F47D0909-B2F8-44C7-8943-26636A6D2AC3}"/>
+							</PositioningInfo>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>

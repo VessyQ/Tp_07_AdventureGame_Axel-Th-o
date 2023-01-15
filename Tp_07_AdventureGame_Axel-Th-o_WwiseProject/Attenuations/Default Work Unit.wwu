@@ -320,6 +320,12 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
+											<XPos>51.93199</XPos>
+											<YPos>-14.77349</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
 											<XPos>100</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
@@ -335,7 +341,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="LowPassFilter" ID="{406552B5-DD43-4AA0-9B3C-DCEEFE499812}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -343,12 +349,22 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>10</YPos>
+											<YPos>1</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
+											<XPos>14.37403</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>50.07728</XPos>
+											<YPos>18</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
 											<XPos>100</XPos>
-											<YPos>68</YPos>
+											<YPos>83</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -356,7 +372,35 @@
 							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="HighPassFilter" ID="{357483B9-781E-4283-AEF9-11488F977EDF}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>14.68315</XPos>
+											<YPos>1</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>53.32303</XPos>
+											<YPos>22</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
