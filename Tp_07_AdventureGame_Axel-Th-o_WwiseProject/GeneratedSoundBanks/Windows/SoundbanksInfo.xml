@@ -9,7 +9,11 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+<<<<<<< HEAD
 		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{ED02EE11-C77A-EA2C-6A40-DFD2667A0E40}">
+=======
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{185B591B-C087-A2B7-1DF4-46B12EF27466}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -379,7 +383,11 @@
 				</Event>
 			</Events>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{95F3AAF2-5FAC-8C9E-3AF3-F47A7E32A207}">
+=======
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E6C128CC-8CE0-08C0-1963-0FB48664DE96}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -525,7 +533,11 @@
 				</Event>
 			</Events>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{174FD49F-9E14-E6B3-59FA-8CDAEE1B77C7}">
+=======
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{09263443-75DB-AE9D-EC00-5BF36FE237CA}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1225,7 +1237,11 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{86237940-C7C3-C8CE-0494-DFFAE3EF61FF}">
+=======
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{B12F1499-B5BD-E7A7-B8E9-A82A7F03F075}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
@@ -1459,6 +1475,7 @@
 						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
+<<<<<<< HEAD
 				</Event>
 				<Event Id="1363367052" Name="Play_MD_Close" DurationType="Infinite">
 					<MediaRefs>
@@ -1504,6 +1521,8 @@
 						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
+=======
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 				</Event>
 				<Event Id="3801361087" Name="Play_PROPS_LightMushroom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
@@ -1590,7 +1609,11 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{FEAAC1BD-AA22-BBBA-AA8B-1B24120C96F7}">
+=======
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{763E4BB4-8D26-D472-3FE3-90CB88A8985D}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1768,7 +1791,11 @@
 				</Event>
 			</Events>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{88225B2E-7614-727A-46A3-7C98FC9B5592}">
+=======
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{B44A8675-D7A1-185A-6FC9-C8925E6CEAD1}">
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
 			<Media>
@@ -1825,5 +1852,9 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 	<FileHash>{664ED8A7-9346-6670-B1DC-7EA27E7AB77A}</FileHash>
+=======
+	<FileHash>{47974FF5-86DE-7028-897B-52A613C515B0}</FileHash>
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
 </SoundBanksInfo>

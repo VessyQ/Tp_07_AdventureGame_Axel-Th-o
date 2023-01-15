@@ -1048,7 +1048,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585278157976010140
+=======
+    m_lastTime: -8585278097134761708
+>>>>>>> 349e21db77c6fe3d183ba469499d7252330f820e
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
