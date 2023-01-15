@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{595729C6-63CC-C135-A088-240D1CE42C33}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{C6534DCD-B38C-95B8-6FD1-36354C5C2CAA}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -64,6 +64,10 @@
 				<File Id="217281900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-012.wav</ShortName>
 					<CachePath>SFX/Chomper_FT_Back-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="218100142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MBCK ANIMAL Alpaca Spit.wav</ShortName>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit_10C4C929.wem</CachePath>
 				</File>
 				<File Id="226505746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-003.wav</ShortName>
@@ -148,6 +152,10 @@
 				<File Id="567505663" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-013.wav</ShortName>
 					<CachePath>SFX/Chomper_FT_Front-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="575345053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MBCK ANIMAL Alpaca Spit 1.wav</ShortName>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="582854367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-005.wav</ShortName>
@@ -315,6 +323,12 @@
 						<MediaRef Id="708812715"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2639041089" Name="Play_Spitter" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.20805208" DurationMax="0.21590625">
+					<MediaRefs>
+						<MediaRef Id="218100142"/>
+						<MediaRef Id="575345053"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5594575" DurationMax="1.16925">
 					<MediaRefs>
 						<MediaRef Id="176745953"/>
@@ -325,7 +339,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{443731B1-37A4-A9B9-831F-F4EF9D635C4B}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E157B7F8-ACBE-D72C-07A9-3E4D3275240B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -353,6 +367,13 @@
 				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<AuxBusses>
+				<AuxBus Id="1158104354" Name="RVB_Starship">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4169379491"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="1602260323" Name="RBV_Cave">
 					<PluginRefs>
 						<ShareSets>
@@ -360,34 +381,18 @@
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="1823207219" Name="RVB_Default">
+				<AuxBus Id="2365566903" Name="RVB_Jungle">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="48620415"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="3264109334" Name="RVB_Portal">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="4169379491"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
+				<AuxBus Id="4142881714" Name="RVB_Ruines"/>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="3671138082" Name="New_Game_Parameter"/>
 			</GameParameters>
-			<StateGroups>
-				<StateGroup Id="709278834" Name="Reverb_Zone">
-					<States>
-						<State Id="748895195" Name="None"/>
-						<State Id="782826392" Name="Default"/>
-						<State Id="3118032615" Name="Portal"/>
-						<State Id="4122393694" Name="Cave"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2035773924" Name="SW_Materials">
 					<Switches>
@@ -471,7 +476,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{7B6529E1-8F35-1CE0-F529-920D558ED7DA}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{247095A0-262E-0960-B54A-4C89673F62FA}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1297,7 +1302,7 @@
 				<Event Id="2757622389" Name="Stop_SFX_Loop_Crystal" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{B406F090-1708-ABCA-0E3D-E1A77BAEBC50}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{8156C826-2DEC-6659-32B8-5BFB962F22B6}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1343,7 +1348,7 @@
 				</File>
 				<File Id="822529370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Digital 1 by Lisnmusic Id-122070 1.wav</ShortName>
-					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_10C4C929.wem</CachePath>
+					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_E54B7F51.wem</CachePath>
 				</File>
 				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack canon .wav</ShortName>
@@ -1472,5 +1477,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14F1F8C1-EECB-1B4F-A471-1AA9DD51125C}</FileHash>
+	<FileHash>{BD11741C-779F-AC30-FFAF-C73872CD4D48}</FileHash>
 </SoundBanksInfo>

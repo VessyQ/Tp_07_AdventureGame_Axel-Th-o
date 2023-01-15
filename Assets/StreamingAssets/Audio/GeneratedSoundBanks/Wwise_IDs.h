@@ -69,6 +69,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MM_NAVIGATE = 2349659389U;
         static const AkUniqueID PLAY_SFX_UI_MM_PLAYBUTTON = 2787690146U;
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
+        static const AkUniqueID PLAY_SPITTER = 2639041089U;
         static const AkUniqueID PLAY_SPOTTED = 2262512141U;
         static const AkUniqueID PROPS_CLOSE = 1189557224U;
         static const AkUniqueID PROPS_FAR = 2181098295U;
