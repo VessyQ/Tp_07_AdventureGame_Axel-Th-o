@@ -721,7 +721,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.50542635
-        functionName: Chomper_Spotted
+        functionName: Spitter_Spitt
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

@@ -22,6 +22,8 @@ namespace Gamekit3D
             m_Collider = GetComponent<SphereCollider>();
 
             m_PlayerMask = 1 << LayerMask.NameToLayer("Player");
+
+            AkSoundEngine.PostEvent("Play_Forcefield", gameObject);
         }
 
         private void Update()

@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1519321238	Play_Attack			\Default Work Unit\NPC\Chomper\Play_Attack	
 	2192672377	Play_Frontstep			\Default Work Unit\NPC\Chomper\Play_Frontstep	
 	2262512141	Play_Spotted			\Default Work Unit\NPC\Chomper\Play_Spotted	
+	2639041089	Play_Spitter			\Default Work Unit\NPC\Chomper\Play_Spitter	
 	2960666077	Play_Hit			\Default Work Unit\NPC\Chomper\Play_Hit	
 	2984103440	Play_Grunt			\Default Work Unit\NPC\Chomper\Play_Grunt	
 	3538651317	Play_Backstep			\Default Work Unit\NPC\Chomper\Play_Backstep	
@@ -21,6 +22,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	163424425	Chomper_Death-005	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Death-005_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Death\Chomper_Death-005		178936
 	176745953	Chomper_Spotted-001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Spotted-001_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Spotted\Chomper_Spotted-001		160648
 	217281900	Chomper_FT_Back-012	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_FT_Back-012_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_FT_Back\Chomper_FT_Back-012		33916
+	218100142	Spitt	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\MBCK ANIMAL Alpaca Spit_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Spitter\Spitt		41548
 	226505746	Chomper_Spotted-003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Spotted-003_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Spotted\Chomper_Spotted-003		224592
 	261660802	Chomper_Death-007	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Death-007_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Death\Chomper_Death-007		138564
 	270067142	Chomper_Grunt-005	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Grunt-005_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Grunt\Chomper_Grunt-005		216600
@@ -42,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	506494751	Chomper_FT_Front-007	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_FT_Front-007_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_FT_Front\Chomper_FT_Front-007		79224
 	544127965	Chomper_Hit-006	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Hit-006_2659304C.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Hit\Chomper_Hit-006		74108
 	567505663	Chomper_FT_Front-013	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_FT_Front-013_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_FT_Front\Chomper_FT_Front-013		55424
+	575345053	Spitt_02	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\MBCK ANIMAL Alpaca Spit 1_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Spitter\Spitt_02		40040
 	582854367	Chomper_Hit-005	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_Hit-005_7F3BAD10.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_Hit\Chomper_Hit-005		65608
 	639672113	Chomper_FT_Back-009	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_FT_Back-009_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_FT_Back\Chomper_FT_Back-009		50352
 	661510970	Chomper_FT_Back-008	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Chomper_FT_Back-008_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Chomper\Chomper_FT_Back\Chomper_FT_Back-008		61488

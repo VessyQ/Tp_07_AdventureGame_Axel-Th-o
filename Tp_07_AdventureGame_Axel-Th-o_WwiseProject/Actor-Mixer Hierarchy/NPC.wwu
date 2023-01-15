@@ -1716,6 +1716,62 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Spitter" ID="{47403583-FAA4-4C1C-A6C8-3F8198CFA238}" ShortID="142107878">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Spitt" ID="{63208F1B-BB08-49F1-8133-8B339906E558}" ShortID="656415489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MBCK ANIMAL Alpaca Spit" ID="{F83B79FA-0466-4022-B4CA-B454FBBE9202}">
+											<Language>SFX</Language>
+											<AudioFile>MBCK ANIMAL Alpaca Spit.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="218100142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MBCK ANIMAL Alpaca Spit" ID="{F83B79FA-0466-4022-B4CA-B454FBBE9202}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Spitt_02" ID="{DFBE9AC2-0416-4696-BD32-B35BBF1B07E4}" ShortID="327466498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MBCK ANIMAL Alpaca Spit 1" ID="{F0A1511F-CFA9-4AE1-93BE-E45D4763AC85}">
+											<Language>SFX</Language>
+											<AudioFile>MBCK ANIMAL Alpaca Spit 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="575345053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MBCK ANIMAL Alpaca Spit 1" ID="{F0A1511F-CFA9-4AE1-93BE-E45D4763AC85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Eeldog" ID="{89D26284-90DC-4574-945A-10764F6F7594}" ShortID="492335148">
@@ -2139,15 +2195,11 @@
 								<Value>10</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2172,8 +2224,8 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>19.20442</XPos>
-															<YPos>-0.49639</YPos>
+															<XPos>16.86236</XPos>
+															<YPos>-2.78277</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>InvertedSCurve</SegmentShape>
 														</Point>
@@ -2205,8 +2257,8 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>23.64478</XPos>
-															<YPos>30</YPos>
+															<XPos>22.22721</XPos>
+															<YPos>25</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
@@ -2231,8 +2283,8 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>25.05088</XPos>
-															<YPos>12</YPos>
+															<XPos>22.58555</XPos>
+															<YPos>30</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
@@ -2257,8 +2309,8 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>20.46254</XPos>
-															<YPos>95.74468</YPos>
+															<XPos>19.72294</XPos>
+															<YPos>78.80479</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
@@ -2520,7 +2572,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2575,13 +2627,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Gollem_attack_canon" ID="{0DA0EA50-71FB-4FBD-A09F-FB84F80E022D}" ShortID="321313726">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -2636,7 +2681,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2747,6 +2792,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Grenade_Bond" ID="{205317C7-69F9-40AF-9B3C-FA62C4C694A6}" ShortID="749642203">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -2757,6 +2809,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Digital 1 by Lisnmusic Id-122070 1" ID="{2DBFD415-B136-4777-8BE5-B57757154742}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.112526054047201"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Digital 1 by Lisnmusic Id-122070 1.wav</AudioFile>
 									<MediaIDList>
@@ -2769,6 +2825,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Grenade_Explosion" ID="{6021D131-1F6F-4D85-B9C5-5B2DE710D852}" ShortID="529235170">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -2791,6 +2854,9 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{8B60E50E-B364-4BE6-8EE5-EDC75AAF5F0F}"/>
+					</PositioningInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

@@ -86,6 +86,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Spitter" ID="{D1248DEC-0FDA-435D-BE7E-62CB352C18BE}">
+							<ChildrenList>
+								<Action Name="" ID="{E46FA7D8-B038-4500-AE83-AAE359283DAF}" ShortID="651972920">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spitter" ID="{47403583-FAA4-4C1C-A6C8-3F8198CFA238}" WorkUnitID="{EF0041C9-6158-4914-B5D8-D0E9FD26C9FD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Eeldog" ID="{E99A7E60-66E5-4F68-9404-A0AE8E4CA332}" ShortID="595798201">
