@@ -64,6 +64,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Lava" ID="{CC65BEDD-407E-4109-B60F-1B74708F2BC2}">
+							<ChildrenList>
+								<Action Name="" ID="{787E0F12-8B15-4002-BA8E-509EF48C0480}" ShortID="966890285">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Lava" ID="{FEC05757-42B9-42AF-9459-23A7332B125E}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Poison" ID="{61E8C024-E524-40B1-81CC-F6728EFE9115}">
+							<ChildrenList>
+								<Action Name="" ID="{CC2E1C14-13B2-46CF-8E3F-D3FDE9B945A5}" ShortID="511568152">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Poison_Loop" ID="{CF5BB488-BF18-4D34-AC65-E08701EBCB36}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{1F209F85-C775-43A8-BDF0-E34F2C0730D4}" ShortID="432455613">
@@ -269,7 +291,27 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Magic_Door_Pass" ID="{9C8BDE14-BD91-4E64-87B9-6B78547F8801}"/>
+								<Event Name="Magic_Door_Pass" ID="{9C8BDE14-BD91-4E64-87B9-6B78547F8801}">
+									<ChildrenList>
+										<Action Name="" ID="{25E6AA2A-2190-489F-B8EB-86621EEE8360}" ShortID="795733768">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_Door_PortalPass-001" ID="{74B29FB2-5613-486E-826F-69C77DA59EA2}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2E58C912-9A66-4C8A-8956-E634A7FBD82D}" ShortID="355649945">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}" WorkUnitID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

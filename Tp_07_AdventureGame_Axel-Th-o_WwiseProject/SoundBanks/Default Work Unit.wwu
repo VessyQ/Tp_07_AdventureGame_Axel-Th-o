@@ -26,6 +26,8 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Poison" ID="{61E8C024-E524-40B1-81CC-F6728EFE9115}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Lava" ID="{CC65BEDD-407E-4109-B60F-1B74708F2BC2}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LargeDoor_02" ID="{C7C79A53-91FB-4137-96D7-73641E6BAFB2}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB_Tropical" ID="{9F18FB31-D6AD-415C-98C9-7BBB76E1010A}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Props_Close" ID="{4DC34300-46DE-42DF-87D7-9DCF9A36715F}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
@@ -33,6 +35,7 @@
 						<ObjectRef Name="AMB_Arena" ID="{4B1692BA-BB97-430F-AF36-B4F11F945A43}" WorkUnitID="{B1EDFEF5-34D2-43B3-A3C4-19845B1F38FC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FireFly" ID="{A82176B7-440E-4354-B16D-981A15BDEA1C}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Soft" ID="{29F4CD4A-4FCF-436D-A45A-48CC75FC0F38}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Arena" ID="{86A0BF64-F8C6-43D7-8F4D-98AD544FAE7C}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Magic_Door" ID="{C72383F5-20D6-45B5-8675-C26C3A011C44}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_PressurePad_Loop" ID="{948027A7-ED3D-46EC-8730-78A3F9B632DD}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>

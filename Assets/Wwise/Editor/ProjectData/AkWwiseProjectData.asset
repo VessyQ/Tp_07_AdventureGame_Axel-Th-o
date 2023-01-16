@@ -351,7 +351,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585278049378006419
+    m_lastTime: -8585277073667314264
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -465,7 +465,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585277918031268206
+    m_lastTime: -8585277075754926160
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -556,6 +556,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64bfa086c6f8d7438f4d98ad544fae7c
       Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Arena
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Lava
+      guid: ddbe65cc7e400941b60f1b74708f2bc2
+      id: 3906149303
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_Amb_Lava
+        ObjectType: 3
+        guid: ddbe65cc7e400941b60f1b74708f2bc2
+      Path: Events\Default Work Unit\Environnement\AMB\Play_Amb_Lava
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -792,6 +815,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: bcaa5eff91ddeb4eb227784cfc29d397
       Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Poison
+      guid: 24c0e86124e5b14081ccf6728efe9115
+      id: 3292663506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_Poison
+        ObjectType: 3
+        guid: 24c0e86124e5b14081ccf6728efe9115
+      Path: Events\Default Work Unit\Environnement\AMB\Play_Poison
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2594,7 +2640,7 @@ MonoBehaviour:
     m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000002600000027000000
+  ExpandedWaapiItemIds: 0100000006000000070000000800000020000000210000002200000026000000310000003200000038000000390000003c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -382,7 +382,6 @@
 						<ActorMixer Name="Large_Door" ID="{AD293490-3C28-43A8-81F9-939748C7CD78}" ShortID="744633175">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 							</PropertyList>
@@ -480,7 +479,13 @@
 							</PositioningInfo>
 						</ActorMixer>
 						<ActorMixer Name="PROPS_Crystal" ID="{DE9EADB7-1A6B-4EC0-B3D7-156EA34C31F0}" ShortID="351669591">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="15 m attenuation" ID="{663F7EC9-BA4C-46B6-873B-F696EAAA7517}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 								</Reference>
@@ -805,13 +810,25 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>0</YPos>
+																	<YPos>-2.71656</YPos>
 																	<Flags>5</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
+																	<XPos>12.2102</XPos>
+																	<YPos>-0.09469</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>17.77434</XPos>
+																	<YPos>-0.99238</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
+																</Point>
+																<Point>
 																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
+																	<YPos>-15.6128</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -825,7 +842,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="LowPassFilter" ID="{204E4066-AE3F-4721-890B-26A2C2AAC9C7}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -833,12 +850,13 @@
 															<PointList>
 																<Point>
 																	<XPos>0</XPos>
-																	<YPos>10</YPos>
+																	<YPos>7</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
-																	<YPos>68</YPos>
+																	<YPos>45</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -846,7 +864,25 @@
 													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="HighPassFilter" ID="{B753D2C3-87AC-4D33-A99B-D7E6BD4A6F54}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>13</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>46</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</HighPassFilterUsage>
 												<SpreadUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -930,287 +966,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Magic_Door_PortalPass-001" ID="{74B29FB2-5613-486E-826F-69C77DA59EA2}" ShortID="167414572">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.119234365372766"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.74940418977203"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Magic_Door_PortalPass-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="155243058"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<RandomSequenceContainer Name="Magic_Door_Random" ID="{4F788DEF-3EC8-4F57-B50F-58F360D66546}" ShortID="719254102">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Magic_Door_RandomEvent-006" ID="{01C8ACD9-05AC-4936-9ADC-988250237088}" ShortID="939579211">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0554898336414049"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.93659519408503"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-006.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1038969575"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Magic_Door_RandomEvent-005" ID="{1C39DE43-D853-4B90-8438-A224EF038DD9}" ShortID="1028916113">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0721367837338263"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.91994824399261"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-005.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="3784940"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Magic_Door_RandomEvent-001" ID="{9E5F1887-255B-43B4-8498-3B02E676002B}" ShortID="959898760">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}">
-													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.67756377079483"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="844975121"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Magic_Door_RandomEvent-003" ID="{EAE2DA33-42BB-483D-BBCB-8C68BE56786A}" ShortID="1063350064">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0431546518792361"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.37663339494763"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-003.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="310114697"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Magic_Door_RandomEvent-004" ID="{E35C433F-5ABC-4C73-94E2-7F8333AD74D4}" ShortID="829179137">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0221922365988909"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.0245415896488"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-004.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="835727629"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Magic_Door_RandomEvent-002" ID="{830B5088-2748-436F-959F-684F26E1BFA0}" ShortID="498521355">
-											<PropertyList>
-												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend1">
-													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-												<Reference Name="UserAuxSend2">
-													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0527162661737524"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.16722427603204"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Magic_Door_RandomEvent-002.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="797543225"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<BlendContainer Name="Magic door" ID="{DCE5A6F9-FC02-464A-8C25-A816D0FC4733}" ShortID="466094116">
-									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>4.5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
@@ -1222,6 +978,7 @@
 									<ChildrenList>
 										<Sound Name="Magic_Door_Close" ID="{330EF57E-9215-43A2-B599-EDE52DF5FF20}" ShortID="6183697">
 											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -1340,6 +1097,639 @@
 												<ActiveSource Name="Magic_Door_Far-001" ID="{CD23F50C-8E49-4EF6-B8DB-0F3D1E28182C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="Magic_Door_Random" ID="{4F788DEF-3EC8-4F57-B50F-58F360D66546}" ShortID="719254102">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>18</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7C843572-C7FC-454D-99E3-6E32BD63C090}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="65"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom CreatedFrom="{EDCCC0B8-A108-4BE6-A20D-4A74205F5AB1}">
+														<Attenuation Name="100 m attenuation (Custom)" ID="{400CA7DD-66EB-4961-82E1-39FB9197F0F6}" ShortID="704999416">
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{5D38E985-81E9-4FEF-B187-19B51B29933E}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																					<SegmentShape>Exp2</SegmentShape>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																		<Curve Name="LowPassFilter" ID="{0946D0A9-B879-42B2-AF6E-C62CF2E72324}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="65537"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>10</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>68</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{AEE3C20E-5BF3-46C4-8260-722395D6DAF3}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>0.001</XPos>
+																					<YPos>92.0904</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>44.97681</XPos>
+																					<YPos>66.65269</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>43.50282</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Magic_Door_RandomEvent-006" ID="{01C8ACD9-05AC-4936-9ADC-988250237088}" ShortID="939579211">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0554898336414049"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.93659519408503"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038969575"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-006" ID="{D444C297-7608-447E-8272-6BD252EEA4EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Magic_Door_RandomEvent-005" ID="{1C39DE43-D853-4B90-8438-A224EF038DD9}" ShortID="1028916113">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0721367837338263"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.91994824399261"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="3784940"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-005" ID="{E67AE9C8-3BBA-482F-ACEA-F70921E4EFA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Magic_Door_RandomEvent-001" ID="{9E5F1887-255B-43B4-8498-3B02E676002B}" ShortID="959898760">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.67756377079483"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="844975121"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-001" ID="{0D641163-A8BD-45EA-8C5C-51AD83453FBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Magic_Door_RandomEvent-003" ID="{EAE2DA33-42BB-483D-BBCB-8C68BE56786A}" ShortID="1063350064">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0431546518792361"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.37663339494763"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310114697"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-003" ID="{BAAF121F-6EDC-474F-8087-1D40B54B6C36}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Magic_Door_RandomEvent-004" ID="{E35C433F-5ABC-4C73-94E2-7F8333AD74D4}" ShortID="829179137">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0221922365988909"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.0245415896488"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="835727629"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-004" ID="{925BA4AE-3DAE-4D2C-835E-D93FC54CE132}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Magic_Door_RandomEvent-002" ID="{830B5088-2748-436F-959F-684F26E1BFA0}" ShortID="498521355">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0527162661737524"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.16722427603204"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Magic_Door_RandomEvent-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="797543225"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Magic_Door_RandomEvent-002" ID="{E71E6035-244B-46D4-ADD6-6AF41A2C9002}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{2EC6DC73-F8E2-417B-9398-ABDB1ED22437}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<Sound Name="Magic_Door_PortalPass-001" ID="{74B29FB2-5613-486E-826F-69C77DA59EA2}" ShortID="167414572">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="65"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom CreatedFrom="{EDCCC0B8-A108-4BE6-A20D-4A74205F5AB1}">
+														<Attenuation Name="100 m attenuation (Custom)" ID="{44F19708-B723-4CB4-B23B-44F69D53EC09}" ShortID="1025016381">
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{95FD5E08-770D-4A38-A729-BE95013BF744}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																					<SegmentShape>Exp2</SegmentShape>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="LowPassFilter" ID="{223B129B-1789-4ADD-882C-697CA69FD245}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="65537"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>19.01082</XPos>
+																					<YPos>0</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>68</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="HighPassFilter" ID="{9AA58871-39A5-4326-AB40-0779532F60E0}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="65537"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>20.86453</XPos>
+																					<YPos>0</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{85F1C9C9-FD82-48D5-9AB7-42A2EE9BE37F}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>1.85571</XPos>
+																					<YPos>97.80469</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>22.10201</XPos>
+																					<YPos>100</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>44.97681</XPos>
+																					<YPos>66.65269</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>43.50282</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PROPS_Bus" ID="{FB38E96B-AF15-422B-A4F7-35915E1322A9}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.119234365372766"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.74940418977203"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Magic_Door_PortalPass-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155243058"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{FA0EC18C-7DC8-40E9-B24B-D6EC790D3996}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic_Door_PortalPass-001" ID="{CC51C475-09F8-4A6C-A12D-98E981F26381}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<BlendTrackList>
 										<BlendTrack Name="Positionning" ID="{FEB2902D-2230-4B11-B240-F032553A5959}" ShortID="838902627">
@@ -1376,6 +1766,48 @@
 														<LeftEdgePos>26.4947280897068</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>50</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="Activate" ID="{7CC00705-4A44-4584-9C04-3C3F2F4975A8}" ShortID="273735750">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}" WorkUnitID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Magic_Door_PortalPass-001" ID="{74B29FB2-5613-486E-826F-69C77DA59EA2}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>4.65994962216624</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="RandomSpawn" ID="{9091A534-01DB-478E-83FA-FBE6A042831D}" ShortID="881505716">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}" WorkUnitID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Magic_Door_Random" ID="{4F788DEF-3EC8-4F57-B50F-58F360D66546}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>20.6549118387909</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
@@ -1640,6 +2072,486 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_Tropical" ID="{9646128C-F69D-438A-928C-44A4C5054696}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="Amb_Lava" ID="{FEC05757-42B9-42AF-9459-23A7332B125E}" ShortID="712924301">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{319C2014-D2D4-4C38-850A-2957CC1F00E2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Arena" ID="{CB796253-4FB8-4952-9118-F2BC48E1B4A4}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Random_Lava" ID="{C592E3B5-CE65-4833-9829-9FF91A66DC56}" ShortID="170221965">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BB7BD15B-3BE7-4EA3-8093-05947DC5F22C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{21FAAF8F-8E99-4EAB-9C03-C230E8BF6D87}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB_Bus" ID="{B68493E7-4E85-499E-89FC-B43BC1C69182}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend2">
+											<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Lava_Event -001" ID="{6D135DEB-276C-4ADE-8DB5-42F5A04DB2BE}" ShortID="370500718">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lava_Event -001" ID="{493748EE-6C90-4E20-974F-0D26A05F7B41}">
+													<Language>SFX</Language>
+													<AudioFile>Lava_Event -001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="317898983"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lava_Event -001" ID="{493748EE-6C90-4E20-974F-0D26A05F7B41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Lava_Event -002" ID="{9DCE0549-8471-4F8C-B12D-B53775456DF1}" ShortID="57444105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lava_Event -002" ID="{98F3342B-84AF-4EC0-B700-0D5469DE9A61}">
+													<Language>SFX</Language>
+													<AudioFile>Lava_Event -002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="590254521"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lava_Event -002" ID="{98F3342B-84AF-4EC0-B700-0D5469DE9A61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Lava_Event -003" ID="{9A0DDF34-0D2D-4A9D-8A78-C4B4E5F483BE}" ShortID="789900665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lava_Event -003" ID="{47934F35-F38E-46E0-A0E5-54A91D5E0C98}">
+													<Language>SFX</Language>
+													<AudioFile>Lava_Event -003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="740144432"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lava_Event -003" ID="{47934F35-F38E-46E0-A0E5-54A91D5E0C98}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Lava_Event -004" ID="{69265018-1C81-4100-B1A2-0F942A9912BB}" ShortID="562671757">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lava_Event -004" ID="{C4A31ED9-1D23-4174-8FEB-4E208BF74C0D}">
+													<Language>SFX</Language>
+													<AudioFile>Lava_Event -004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="997609208"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Lava_Event -004" ID="{C4A31ED9-1D23-4174-8FEB-4E208BF74C0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Amb_Lava_Loop" ID="{CF01B392-FDB0-49C2-BC4A-2542B59BAE1C}" ShortID="517264076">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB_Bus" ID="{B68493E7-4E85-499E-89FC-B43BC1C69182}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="RVB_Default" ID="{358D9C09-3C91-4774-99D2-4CD0B33F8035}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+										<Reference Name="UserAuxSend2">
+											<ObjectRef Name="RVB_Portal" ID="{0183515E-7D04-43E5-9453-000E2777B4EA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lava_Loop" ID="{FEAC11BD-2358-405D-9D6D-1072E7A08D50}">
+											<Language>SFX</Language>
+											<AudioFile>Lava_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="845274705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lava_Loop" ID="{FEAC11BD-2358-405D-9D6D-1072E7A08D50}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CFBDF88B-88F0-4DA8-B429-7CDC19A0F537}"/>
+							</PositioningInfo>
+							<BlendTrackList>
+								<BlendTrack Name="Loop" ID="{7C3D4950-CE20-4FA8-8A50-1A4A1D603E18}" ShortID="570675700">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}" WorkUnitID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Random_Lava" ID="{C592E3B5-CE65-4833-9829-9FF91A66DC56}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>50</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Random" ID="{54B80C43-7D1C-4F32-96B0-65056D44686F}" ShortID="168641008">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}" WorkUnitID="{4DD0CA8A-A898-4E13-883E-CB0873B51438}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Random_Lava" ID="{C592E3B5-CE65-4833-9829-9FF91A66DC56}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>21.1928934010152</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<Sound Name="Poison_Loop" ID="{CF5BB488-BF18-4D34-AC65-E08701EBCB36}" ShortID="546240509">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{663F7EC9-BA4C-46B6-873B-F696EAAA7517}">
+										<Attenuation Name="15 m attenuation (Custom)" ID="{493653B9-914F-4C00-B2A2-DB271F67CFC0}" ShortID="772754708">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{5A78F76E-789F-4D16-9897-5998D4DD7B2E}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>10.8362</XPos>
+																	<YPos>-1.15593</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{1E9870FE-2A77-4D89-B53D-07C73DD26A91}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>46</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="HighPassFilter" ID="{8C34756E-0D3E-48D4-906B-AAFD2856812D}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>45</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{4E263E08-8AA5-40D3-8A3F-68823E9AD4DA}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>91.48584</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>13.69048</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Poison_Loop" ID="{8AC7A7DE-243F-4782-BE89-0AE79725EF46}">
+									<Language>SFX</Language>
+									<AudioFile>Poison_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052753841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Poison_Loop" ID="{8AC7A7DE-243F-4782-BE89-0AE79725EF46}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
