@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID MC_LAND_ROCK = 173644637U;
         static const AkUniqueID MC_RESPAWN = 748388956U;
         static const AkUniqueID PLAY_AMB_ARENA = 1865989278U;
+        static const AkUniqueID PLAY_AMB_RUNECAVE = 2724785466U;
         static const AkUniqueID PLAY_AMB_TROPICAL = 841394337U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
@@ -72,10 +73,12 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MM_NAVIGATE = 2349659389U;
         static const AkUniqueID PLAY_SFX_UI_MM_PLAYBUTTON = 2787690146U;
         static const AkUniqueID PLAY_SFX_UI_MM_VALIDATION = 1912011125U;
+        static const AkUniqueID PLAY_SFX_UI_POPUP_CLOSE = 1547165378U;
         static const AkUniqueID PLAY_SPITTER = 2639041089U;
         static const AkUniqueID PLAY_SPOTTED = 2262512141U;
         static const AkUniqueID PROPS_CLOSE = 1189557224U;
         static const AkUniqueID PROPS_FAR = 2181098295U;
+        static const AkUniqueID SFX_UI_POPUP = 3816708808U;
         static const AkUniqueID STOP_SFX_LOOP_CRYSTAL = 2757622389U;
         static const AkUniqueID STOP_SFX_PEDESTRAL_IDLE = 3561745923U;
     } // namespace EVENTS

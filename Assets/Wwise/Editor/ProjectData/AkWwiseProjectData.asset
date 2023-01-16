@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284105853798319
+    m_lastTime: -8585284958216141097
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585278094389622763
+    m_lastTime: -8585277086865610315
     List:
     - name: AMB_Bus
       guid: e79384b6854e9e4989fcb43bc1c69182
@@ -337,7 +337,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
     guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
     GuidInternal: 
-    m_lastTime: -8585279778923803325
+    m_lastTime: -8585279826240525245
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
@@ -351,7 +351,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585278049378006419
+    m_lastTime: -8585277067396703117
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -449,7 +449,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585282572054452166
+    m_lastTime: -8585277098899776947
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -465,7 +465,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585277918031268206
+    m_lastTime: -8585277098899661845
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -556,6 +556,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64bfa086c6f8d7438f4d98ad544fae7c
       Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_Arena
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_RuneCave
+      guid: cfcadf814b77984a912a1d3359f69983
+      id: 2724785466
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_AMB_RuneCave
+        ObjectType: 3
+        guid: cfcadf814b77984a912a1d3359f69983
+      Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_RuneCave
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1149,7 +1172,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585278157976010140
+    m_lastTime: -8585278097134761708
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -1685,7 +1708,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585279778928744674
+    m_lastTime: -8585277067396958336
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -1848,6 +1871,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_UI_PopUp_Close
+      guid: ba442d5feb160f478e6a84ab70aa0af2
+      id: 1547165378
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: Play_SFX_UI_PopUp_Close
+        ObjectType: 3
+        guid: ba442d5feb160f478e6a84ab70aa0af2
+      Path: Events\Default Work Unit\UserInterface\UI\Play_SFX_UI_PopUp_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX_UI_PopUp
+      guid: 42935a497b794248a9db2b03d8471a7e
+      id: 3816708808
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: UserInterface
+        ObjectType: 12
+        guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
+      - ElementName: UI
+        ObjectType: 4
+        guid: 5c86bf7eee554d45a47fce346b90d017
+      - ElementName: SFX_UI_PopUp
+        ObjectType: 3
+        guid: 42935a497b794248a9db2b03d8471a7e
+      Path: Events\Default Work Unit\UserInterface\UI\SFX_UI_PopUp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_SFX_MainMenuScreen
       guid: 63976f39020e3d43913cee95ab18fcb5
       id: 1020681794
@@ -1905,7 +1974,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585278886902904939
+    m_lastTime: -8585278113328301013
     List:
     - name: MC_Death
       guid: 2d92187a521e12418981a8c54595fd72
@@ -2387,7 +2456,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585278015538646850
+    m_lastTime: -8585277111385510516
     List:
     - name: Distance
       guid: 5403d15432515b4085df86897a1654f2
@@ -2415,7 +2484,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585278094389503077
+    m_lastTime: -8585277086866130758
     List:
     - name: Reverb_Zone
       guid: cb2783f4b9473547bddfec2d63e9884f
@@ -2511,7 +2580,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585278094389453208
+    m_lastTime: -8585278118435712981
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -2591,10 +2660,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284105853848184
+    m_lastTime: -8585284958216146102
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000002600000027000000
+  ExpandedWaapiItemIds: 010000000700000008000000090000000c0000000d0000000e0000000f0000002100000027000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -25,6 +25,7 @@ namespace Gamekit3D
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 ExecuteOnEnter(other);
+                AkSoundEngine.PostEvent("SFX_UI_PopUp", gameObject);
             }
         }
 
@@ -42,6 +43,7 @@ namespace Gamekit3D
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 ExecuteOnExit(other);
+                AkSoundEngine.PostEvent("Play_SFX_UI_PopUp_Close", gameObject);
             }
         }
 

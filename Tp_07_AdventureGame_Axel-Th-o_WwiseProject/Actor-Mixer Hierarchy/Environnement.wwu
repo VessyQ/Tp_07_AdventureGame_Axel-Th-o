@@ -1496,11 +1496,6 @@
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="47"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1543,7 +1538,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1604,6 +1599,27 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+										<CustomState Name="" ID="{7E2E8115-485F-4661-AC4C-284445ADC043}" ShortID="138862586"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+										<CustomState Name="" ID="{98F12D65-F832-4979-A492-AEE56CBBFEC4}" ShortID="943412474"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+										<CustomState Name="" ID="{598FA77F-0135-4F02-96F3-4631A46D7D0B}" ShortID="783063382"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_Arena" ID="{F166D8CC-C53E-4AF8-8B6B-1F520F24CE91}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1640,6 +1656,73 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_Tropical" ID="{9646128C-F69D-438A-928C-44A4C5054696}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_RuneCave" ID="{EA033029-2C96-432D-A974-008042A4941B}" ShortID="597944377">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="15 m attenuation" ID="{663F7EC9-BA4C-46B6-873B-F696EAAA7517}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_RuneCave" ID="{2FB59AB2-742E-4C13-A77C-F86431773CAD}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_RuneCave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009326142"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Reverb_Zone" ID="{F48327CB-47B9-4735-BDDF-EC2D63E9884F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
+										<CustomState Name="" ID="{D7AA5806-A8E3-4084-AC05-C79F32F168D7}" ShortID="1053232776">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{0F29B671-5363-477F-94FF-FEE0151E714D}"/>
+										<CustomState Name="" ID="{BD651A49-0D49-4C7E-B114-551DF09E1F62}" ShortID="535492131">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Portal" ID="{8FB0E412-F34A-4B96-947D-D99DDC510BAB}"/>
+										<CustomState Name="" ID="{D5F2CFE3-B109-4221-8188-FAFBAF15CA10}" ShortID="379344820">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_RuneCave" ID="{2FB59AB2-742E-4C13-A77C-F86431773CAD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

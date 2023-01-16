@@ -106,6 +106,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SFX_UI_PopUp" ID="{495A9342-797B-4842-A9DB-2B03D8471A7E}">
+							<ChildrenList>
+								<Action Name="" ID="{357ADB54-1F21-4803-BBAD-903CAF4A0C40}" ShortID="12836736">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_PopUp" ID="{17B8EAF7-67BD-454B-B659-67DF004F54F3}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_UI_PopUp_Close" ID="{5F2D44BA-16EB-470F-8E6A-84AB70AA0AF2}">
+							<ChildrenList>
+								<Action Name="" ID="{BC5CB8B2-FE9E-43FD-ADF7-AC361591BAA6}" ShortID="726034118">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_UI_PopUp_Close" ID="{ED6E7ECE-60A4-427F-AB66-504ACD631CA6}" WorkUnitID="{F26BF93A-DF02-42FF-8FD2-2677F26840ED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

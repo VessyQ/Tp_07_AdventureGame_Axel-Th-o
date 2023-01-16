@@ -12,7 +12,9 @@
 						<ObjectRef Name="Play_SFX_UI_MM_Navigate" ID="{405929A3-AD27-4342-9CF9-A5D19AA667BA}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MenuPause" ID="{530E4781-8E8A-44D0-B048-0EF45B985F82}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Validation" ID="{D5F7087E-E67F-4523-A34E-BF286C86E8DD}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_UI_PopUp_Close" ID="{5F2D44BA-16EB-470F-8E6A-84AB70AA0AF2}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Fader" ID="{36AAE2DA-1BBC-481A-90E4-53741CD4A2B1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_UI_PopUp" ID="{495A9342-797B-4842-A9DB-2B03D8471A7E}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Back" ID="{8A836C19-7290-49A8-BF90-F6BAB19A3AE8}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MainMenuScreen" ID="{B4BA0D02-777C-4A18-9615-AD0EC2F267F4}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_PlayButton" ID="{68FB21C3-DC9A-4C16-99AB-BC8A116812D1}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
@@ -38,6 +40,7 @@
 						<ObjectRef Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_HealBox" ID="{FDCC10B0-D49D-49B7-BC0B-763FD80C394F}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PROPS_LightMushroom" ID="{C5AE7422-7570-4A35-BE96-BBABEEBD34A6}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_RuneCave" ID="{81DFCACF-774B-4A98-912A-1D3359F69983}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_Loop_Crystal" ID="{4BB05157-5F9C-4A9C-8D18-89F7EA9B4890}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Crystal_Activate" ID="{27E0D8C7-3313-4BA8-82DF-1A77ED3640E4}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>

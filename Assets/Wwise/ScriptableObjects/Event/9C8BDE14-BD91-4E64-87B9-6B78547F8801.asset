@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11a3e6906635c9488871d22ea575ab4, type: 3}
   m_Name: 9C8BDE14-BD91-4E64-87B9-6B78547F8801
   m_EditorClassIdentifier: 
-  objectName: New_Event
-  id: 3050945240
+  objectName: Magic_Door_Pass
+  id: 160286523
   guid: 9C8BDE14-BD91-4E64-87B9-6B78547F8801
