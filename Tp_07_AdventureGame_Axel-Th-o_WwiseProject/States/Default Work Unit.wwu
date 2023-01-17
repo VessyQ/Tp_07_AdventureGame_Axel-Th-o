@@ -29,6 +29,25 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Music_Zone" ID="{F9631AE4-91C1-433A-9CA4-8828BD9DC295}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{364B4B57-017E-41C5-8813-567F175F99A9}"/>
+						<State Name="SpawnZone" ID="{16A6A611-80D9-40C3-9143-419A7BAD7DE4}"/>
+						<State Name="ArenaZone" ID="{E687EA15-FCD1-4905-94F1-9678522352E0}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="SpawnZone" ID="{16A6A611-80D9-40C3-9143-419A7BAD7DE4}"/>
+							<EndState Name="ArenaZone" ID="{E687EA15-FCD1-4905-94F1-9678522352E0}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

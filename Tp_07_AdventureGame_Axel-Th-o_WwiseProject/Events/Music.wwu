@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71E14169-2B1D-48C8-BD16-3ACAF47C54D1}" SchemaVersion="110" RootDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" ParentDocumentID="{3359178D-CD94-429D-A0D4-D146FD177CCD}">
+	<Events>
+		<WorkUnit Name="Music" ID="{71E14169-2B1D-48C8-BD16-3ACAF47C54D1}" OwnerID="{3359178D-CD94-429D-A0D4-D146FD177CCD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Explo" ID="{6E5AC87D-4BB6-44AB-A425-A1A9D06E8164}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{806F71C2-2762-44F9-8EF3-863FDF66872C}" ShortID="774335622">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OST_Exploration" ID="{3B197636-50E7-463B-8A37-7D465645C343}" WorkUnitID="{C019D473-7FEA-4D33-AA74-8A9E19F00A4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fight" ID="{3FF4166C-B99D-4B9C-8A9C-244A7FAA9636}">
+					<ChildrenList>
+						<Action Name="" ID="{23964DA8-AAAB-489D-B188-3A32AADB1AFF}" ShortID="144311016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OST_FightMusic" ID="{A30788A3-9512-4D13-B132-0A65BB51C806}" WorkUnitID="{C019D473-7FEA-4D33-AA74-8A9E19F00A4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{02CBD0E5-9206-4918-B612-E59F5DC79055}" SchemaVersion="110">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{02CBD0E5-9206-4918-B612-E59F5DC79055}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{02CBD0E5-9206-4918-B612-E59F5DC79055}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="fight music time" ID="{11148993-32BA-406F-BCA7-E2F47891CCB0}" ShortID="218045965">
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{8B6B8AB2-BB16-4DB4-B4BA-F18FCC2B5955}" ShortID="750733297">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="TimeModInitialDelay"/>
+										</PropertyList>
+										<ReferenceList/>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ModulatorTime>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

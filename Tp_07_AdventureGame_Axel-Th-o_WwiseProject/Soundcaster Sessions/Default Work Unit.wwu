@@ -9,8 +9,13 @@
 							<GameParameterRef Name="Distance" ID="{54D10354-5132-405B-85DF-86897A1654F2}"/>
 							<Value>10.530679933665</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="volume" ID="{D59DDE38-7AF6-4FF9-8510-557BC51F0DB7}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{364B4B57-017E-41C5-8813-567F175F99A9}"/>
 						<CurrentStateRef Name="Default" ID="{A7BF1607-0D64-44AF-A364-AA02742B8464}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

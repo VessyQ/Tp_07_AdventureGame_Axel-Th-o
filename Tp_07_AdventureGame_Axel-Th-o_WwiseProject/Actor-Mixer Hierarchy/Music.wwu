@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C019D473-7FEA-4D33-AA74-8A9E19F00A4D}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{C019D473-7FEA-4D33-AA74-8A9E19F00A4D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="MusicLevel1" ID="{E97E5B58-1770-4596-B3AD-23AF8CC5217B}" ShortID="670299312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="OST_Exploration" ID="{3B197636-50E7-463B-8A37-7D465645C343}" ShortID="156105881">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_Exploration" ID="{D1723420-5464-49C9-BD91-A9B4FFD1651D}">
+									<Language>SFX</Language>
+									<AudioFile>OST_Exploration.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="119143115"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Zone" ID="{F9631AE4-91C1-433A-9CA4-8828BD9DC295}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="SpawnZone" ID="{16A6A611-80D9-40C3-9143-419A7BAD7DE4}"/>
+										<CustomState Name="" ID="{E7C06E6A-1072-40B0-9D5A-30935FADC1F9}" ShortID="630254559"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ArenaZone" ID="{E687EA15-FCD1-4905-94F1-9678522352E0}"/>
+										<CustomState Name="" ID="{5CFBE5CB-0830-4935-B611-BFE4845D0954}" ShortID="448242873">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_Exploration" ID="{D1723420-5464-49C9-BD91-A9B4FFD1651D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="OST_FightMusic" ID="{A30788A3-9512-4D13-B132-0A65BB51C806}" ShortID="611507561">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="15 m attenuation" ID="{663F7EC9-BA4C-46B6-873B-F696EAAA7517}" WorkUnitID="{53C55F1F-77B2-4D6D-B6E2-739977B98476}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OST_FightMusic" ID="{DDA05AA2-83F8-4C64-B197-8875112C33F3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00157443793565235"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.000709903664031231"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.00410329543283"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.0016494640002"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>OST_FightMusic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="569003113"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Zone" ID="{F9631AE4-91C1-433A-9CA4-8828BD9DC295}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="SpawnZone" ID="{16A6A611-80D9-40C3-9143-419A7BAD7DE4}"/>
+										<CustomState Name="" ID="{1934B1BA-B141-4911-B2F2-D2AD164BCEBA}" ShortID="66249052">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ArenaZone" ID="{E687EA15-FCD1-4905-94F1-9678522352E0}"/>
+										<CustomState Name="" ID="{3C860FA0-B2F3-423F-B947-9BAD300C17A6}" ShortID="255713971"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="OST_FightMusic" ID="{DDA05AA2-83F8-4C64-B197-8875112C33F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -7,6 +7,7 @@
 				<WorkUnit Name="Environnement" ID="{620D8097-1E0A-425F-8C38-80026488F6FA}" PersistMode="Reference"/>
 				<WorkUnit Name="WU_Gameplay" ID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" PersistMode="Reference"/>
 				<WorkUnit Name="NPC" ID="{F489D973-6C53-4D53-929A-3646C4A09747}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{71E14169-2B1D-48C8-BD16-3ACAF47C54D1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

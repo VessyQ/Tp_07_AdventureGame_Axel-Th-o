@@ -379,7 +379,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{19EFE0A6-5373-0AAC-475D-1F855B62E015}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C90A0FF3-2CF2-689E-4468-3603AA4A22AC}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -431,6 +431,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="1240670792" Name="Distance"/>
+				<GameParameter Id="2415836739" Name="volume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="709278834" Name="Reverb_Zone">
@@ -439,6 +440,13 @@
 						<State Id="782826392" Name="Default"/>
 						<State Id="3118032615" Name="Portal"/>
 						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2456631623" Name="Music_Zone">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2315884140" Name="SpawnZone"/>
+						<State Id="3363814256" Name="ArenaZone"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -543,7 +551,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{174FD49F-9E14-E6B3-59FA-8CDAEE1B77C7}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{CF5C1A2E-3261-4371-7231-15430A0917F7}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1243,13 +1251,22 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{FDF74CDE-6D18-A68D-9306-716854D75396}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{E2FC2D4D-FF78-9598-50F1-32E6879D69DE}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
 				<File Id="3784940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-005.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-005_001A1FE8.wem</CachePath>
+				</File>
+				<File Id="83560944" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Level2.wav</ShortName>
+					<Path>Media/83560944.wem</Path>
+					<CachePath>SFX/AMB_Cave_Level2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="155243058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Door_PortalPass-001.wav</ShortName>
+					<CachePath>SFX/Magic_Door_PortalPass-001_7C2B126A.wem</CachePath>
 				</File>
 				<File Id="221504597" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_FireFly.wav</ShortName>
@@ -1282,6 +1299,10 @@
 					<ShortName>Magic_Door_RandomEvent-003.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-003_B4558A5D.wem</CachePath>
 				</File>
+				<File Id="317898983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lava_Event -001.wav</ShortName>
+					<CachePath>SFX/Lava_Event -001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="320335259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
 					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_10C4C929.wem</CachePath>
@@ -1307,6 +1328,10 @@
 					<ShortName>Cinematic02_Large_Door_Open.wav</ShortName>
 					<CachePath>SFX/Cinematic02_Large_Door_Open_10C4C929.wem</CachePath>
 				</File>
+				<File Id="590254521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lava_Event -002.wav</ShortName>
+					<CachePath>SFX/Lava_Event -002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="614579002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Pressure Pad\SFX_PressurePad_Activate.wav</ShortName>
 					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Activate_10C4C929.wem</CachePath>
@@ -1322,6 +1347,10 @@
 				<File Id="694274688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-004.wav</ShortName>
 					<CachePath>SFX/Box_Break-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="740144432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lava_Event -003.wav</ShortName>
+					<CachePath>SFX/Lava_Event -003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
@@ -1355,6 +1384,11 @@
 					<ShortName>Magic_Door_RandomEvent-001.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-001_35B5D069.wem</CachePath>
 				</File>
+				<File Id="845274705" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lava_Loop.wav</ShortName>
+					<Path>Media/845274705.wem</Path>
+					<CachePath>SFX/Lava_Loop_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="870359449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic01_Large_Door_Open.wav</ShortName>
 					<CachePath>SFX/Cinematic01_Large_Door_Open_10C4C929.wem</CachePath>
@@ -1374,14 +1408,18 @@
 					<Path>Media/991152073.wem</Path>
 					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="1009326142" Language="SFX" Streaming="true" Location="Loose">
-					<ShortName>AMB_RuneCave.wav</ShortName>
-					<Path>Media/1009326142.wem</Path>
-					<CachePath>SFX/AMB_RuneCave_D79FB2B7.wem</CachePath>
+				<File Id="997609208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lava_Event -004.wav</ShortName>
+					<CachePath>SFX/Lava_Event -004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1038969575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-006.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-006_4ACD4602.wem</CachePath>
+				</File>
+				<File Id="1052753841" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Poison_Loop.wav</ShortName>
+					<Path>Media/1052753841.wem</Path>
+					<CachePath>SFX/Poison_Loop_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="1073009885" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Magic_Door_Far-001.wav</ShortName>
@@ -1390,7 +1428,16 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="160286523" Name="Magic_Door_Pass" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="160286523" Name="Magic_Door_Pass" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.7494042" DurationMax="2.7494042">
+					<MediaRefs>
+						<MediaRef Id="155243058"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1865989278" Name="Play_AMB_Arena" MaxAttenuation="90" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="308410978"/>
@@ -1401,9 +1448,23 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2724785466" Name="Play_AMB_RuneCave" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="3294031185" Name="Play_AMB_Cave_Level2" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="1009326142"/>
+						<MediaRef Id="83560944"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3906149303" Name="Play_Amb_Lava" MaxAttenuation="90" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="317898983"/>
+						<MediaRef Id="590254521"/>
+						<MediaRef Id="740144432"/>
+						<MediaRef Id="845274705"/>
+						<MediaRef Id="997609208"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
@@ -1496,8 +1557,15 @@
 				</Event>
 				<Event Id="3619056406" Name="Play_Magic_Door" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="3784940"/>
+						<MediaRef Id="155243058"/>
+						<MediaRef Id="310114697"/>
+						<MediaRef Id="797543225"/>
+						<MediaRef Id="835727629"/>
+						<MediaRef Id="844975121"/>
 						<MediaRef Id="921323237"/>
 						<MediaRef Id="947446073"/>
+						<MediaRef Id="1038969575"/>
 						<MediaRef Id="1073009885"/>
 					</MediaRefs>
 					<AuxBusRefs>
@@ -1506,7 +1574,7 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="871905469" Name="Play_MD_Random" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.0245416" DurationMax="3.6775637">
+				<Event Id="871905469" Name="Play_MD_Random" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="3784940"/>
 						<MediaRef Id="310114697"/>
@@ -1514,6 +1582,16 @@
 						<MediaRef Id="835727629"/>
 						<MediaRef Id="844975121"/>
 						<MediaRef Id="1038969575"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3292663506" Name="Play_Poison" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1052753841"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
@@ -1531,7 +1609,7 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" DurationType="OneShot" DurationMin="1.2766042" DurationMax="1.2766042">
+				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2766042" DurationMax="1.2766042">
 					<MediaRefs>
 						<MediaRef Id="253935470"/>
 					</MediaRefs>
@@ -1843,6 +1921,34 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{8C91D18C-54C3-D5DF-B14E-2418B52DB2AB}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="119143115" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_Exploration.wav</ShortName>
+					<Path>Media/119143115.wem</Path>
+					<CachePath>SFX/OST_Exploration_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="569003113" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_FightMusic.wav</ShortName>
+					<Path>Media/569003113.wem</Path>
+					<CachePath>SFX/OST_FightMusic_239EEA7B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1585154896" Name="Play_Explo" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119143115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="860858016" Name="Play_Fight" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="569003113"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2AE76CE4-848C-A8CE-AFB8-66A9216918F5}</FileHash>
+	<FileHash>{47EF962B-7452-B383-118A-74163457051C}</FileHash>
 </SoundBanksInfo>

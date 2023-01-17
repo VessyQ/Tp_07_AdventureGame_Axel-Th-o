@@ -28,7 +28,8 @@ namespace AK
         static const AkUniqueID MC_LAND_ROCK = 173644637U;
         static const AkUniqueID MC_RESPAWN = 748388956U;
         static const AkUniqueID PLAY_AMB_ARENA = 1865989278U;
-        static const AkUniqueID PLAY_AMB_RUNECAVE = 2724785466U;
+        static const AkUniqueID PLAY_AMB_CAVE_LEVEL2 = 3294031185U;
+        static const AkUniqueID PLAY_AMB_LAVA = 3906149303U;
         static const AkUniqueID PLAY_AMB_TROPICAL = 841394337U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
@@ -37,6 +38,8 @@ namespace AK
         static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
+        static const AkUniqueID PLAY_EXPLO = 1585154896U;
+        static const AkUniqueID PLAY_FIGHT = 860858016U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
         static const AkUniqueID PLAY_FORCEFIELD = 1403021813U;
@@ -59,6 +62,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
         static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
         static const AkUniqueID PLAY_MD_RANDOM = 871905469U;
+        static const AkUniqueID PLAY_POISON = 3292663506U;
         static const AkUniqueID PLAY_PROPS_LIGHTMUSHROOM = 3801361087U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
         static const AkUniqueID PLAY_SFX_HEALBOX = 1616564399U;
@@ -85,6 +89,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace MUSIC_ZONE
+        {
+            static const AkUniqueID GROUP = 2456631623U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ARENAZONE = 3363814256U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SPAWNZONE = 2315884140U;
+            } // namespace STATE
+        } // namespace MUSIC_ZONE
+
         namespace REVERB_ZONE
         {
             static const AkUniqueID GROUP = 709278834U;
@@ -119,6 +135,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID VOLUME = 2415836739U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -129,6 +146,7 @@ namespace AK
         static const AkUniqueID ELLEN = 1782136527U;
         static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
         static const AkUniqueID GOLEM = 3623907463U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 

@@ -379,7 +379,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{11507F43-C678-B528-FF44-CD5D5913896F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E8795207-710B-0899-FA3D-F870BB5A68CA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -431,6 +431,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="1240670792" Name="Distance"/>
+				<GameParameter Id="2415836739" Name="volume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="709278834" Name="Reverb_Zone">
@@ -439,6 +440,13 @@
 						<State Id="782826392" Name="Default"/>
 						<State Id="3118032615" Name="Portal"/>
 						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2456631623" Name="Music_Zone">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2315884140" Name="SpawnZone"/>
+						<State Id="3363814256" Name="ArenaZone"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -452,7 +460,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{94CEE01E-883D-3644-C62C-96B9529BAFB8}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{945D5EB8-5725-82EF-483E-14B771033479}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -482,9 +490,17 @@
 					<Path>Media/539992270.wem</Path>
 					<CachePath>SFX/SFX_UI_MM_Fader_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="597629928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_PopUp_Close.wav</ShortName>
+					<CachePath>SFX/SFX_UI_PopUp_Close_10C4C929.wem</CachePath>
+				</File>
 				<File Id="709022363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_Validation.wav</ShortName>
 					<CachePath>SFX/SFX_UI_MM_Validation_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1036342317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_PopUp.wav</ShortName>
+					<CachePath>SFX/SFX_UI_PopUp_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -523,9 +539,19 @@
 						<MediaRef Id="709022363"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1547165378" Name="Play_SFX_UI_PopUp_Close" DurationType="OneShot" DurationMin="1.3109584" DurationMax="1.3109584">
+					<MediaRefs>
+						<MediaRef Id="597629928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3816708808" Name="SFX_UI_PopUp" DurationType="OneShot" DurationMin="0.25920832" DurationMax="0.25920832">
+					<MediaRefs>
+						<MediaRef Id="1036342317"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{174FD49F-9E14-E6B3-59FA-8CDAEE1B77C7}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{CF5C1A2E-3261-4371-7231-15430A0917F7}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1225,13 +1251,18 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{9C69B6C3-4C4D-740F-1EA1-838979A27DE5}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{E2FC2D4D-FF78-9598-50F1-32E6879D69DE}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
 				<File Id="3784940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-005.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-005_001A1FE8.wem</CachePath>
+				</File>
+				<File Id="83560944" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Level2.wav</ShortName>
+					<Path>Media/83560944.wem</Path>
+					<CachePath>SFX/AMB_Cave_Level2_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="155243058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_PortalPass-001.wav</ShortName>
@@ -1410,6 +1441,16 @@
 				<Event Id="1865989278" Name="Play_AMB_Arena" MaxAttenuation="90" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="308410978"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3294031185" Name="Play_AMB_Cave_Level2" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="83560944"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
@@ -1880,6 +1921,34 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{8C91D18C-54C3-D5DF-B14E-2418B52DB2AB}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="119143115" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_Exploration.wav</ShortName>
+					<Path>Media/119143115.wem</Path>
+					<CachePath>SFX/OST_Exploration_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="569003113" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_FightMusic.wav</ShortName>
+					<Path>Media/569003113.wem</Path>
+					<CachePath>SFX/OST_FightMusic_239EEA7B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1585154896" Name="Play_Explo" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119143115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="860858016" Name="Play_Fight" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="569003113"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{777AE49D-F107-C465-6F90-0F1993D3D8CF}</FileHash>
+	<FileHash>{6CFB90AA-DE09-FCB9-21EF-FF1B43ECD027}</FileHash>
 </SoundBanksInfo>

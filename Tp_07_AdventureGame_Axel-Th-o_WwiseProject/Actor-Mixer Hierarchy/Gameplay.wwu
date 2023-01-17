@@ -1339,13 +1339,14 @@
 								</RandomSequenceContainer>
 								<Sound Name="SFX_Pedestral_Idle" ID="{F974D8F6-0A3D-4DD8-B59C-E3B168DC4DEE}" ShortID="292320445">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
 										</Property>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
