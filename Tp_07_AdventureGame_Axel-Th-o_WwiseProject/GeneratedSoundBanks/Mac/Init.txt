@@ -27,6 +27,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	649836026	Eeldog_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\Eeldog_Bus	
 	1020409454	Chomper_Bus			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Chomper_Bus	
 	1138681361	Player_Bus			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Player_Bus	
+	2127616368	Golem_Bus			\Default Work Unit\Master Audio Bus\SFX\GAMEPLAY\Golem_Bus	
 	2383018230	PROPS_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\PROPS_Bus	
 	2530157555	ENVIRONNEMENT			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT	
 	3319158528	AMB_Bus			\Default Work Unit\Master Audio Bus\SFX\ENVIRONNEMENT\AMB_Bus	

@@ -297,6 +297,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6980F23A-CAB3-428F-8C93-1A2ADB387561}" ShortID="760587373">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Foley" ID="{A69AEC95-F749-44C7-8F2F-9AEB968760F1}" WorkUnitID="{1A918055-03AF-439F-B3C9-E57FD32CD625}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="MC_Feedback" ID="{759836E3-3FC9-47D1-BF59-4454A8810EBC}" ShortID="97611249">

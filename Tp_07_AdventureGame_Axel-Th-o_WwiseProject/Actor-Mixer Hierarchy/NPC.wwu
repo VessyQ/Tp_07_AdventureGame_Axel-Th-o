@@ -1036,6 +1036,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2028,7 +2033,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+							<ObjectRef Name="Eeldog_Bus" ID="{7368210A-9A65-4544-A6B2-5BFF04EAD1CB}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
 							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
@@ -2220,6 +2225,11 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2387,7 +2397,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{316E9A22-BAE7-4217-8DDA-647DC54C2D61}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
+							<ObjectRef Name="Golem_Bus" ID="{91A0ECA1-9BFC-4C4A-945B-7D9E18A4DBCA}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
 							<ObjectRef Name="RBV_Cave" ID="{091ED86F-9718-400D-AD0B-1613689BDBC5}" WorkUnitID="{02BF2229-4FF2-4ED0-9BD2-FB03251C2CA5}"/>
@@ -2822,7 +2832,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2837,8 +2847,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="Digital 1 by Lisnmusic Id-122070 1" ID="{2DBFD415-B136-4777-8BE5-B57757154742}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.112526054047201"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00655790910360984"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.104926545657757"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.409869318975616"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.514795864633373"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Digital 1 by Lisnmusic Id-122070 1.wav</AudioFile>

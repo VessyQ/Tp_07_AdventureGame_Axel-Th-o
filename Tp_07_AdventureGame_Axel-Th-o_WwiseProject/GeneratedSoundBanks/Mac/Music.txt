@@ -15,6 +15,6 @@ Custom State	ID	Name	State Group	Owner		Notes
 	448242873	ArenaZone	Music_Zone	\Actor-Mixer Hierarchy\Music\MusicLevel1\OST_Exploration		
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	119143115	OST_Exploration	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\OST_Exploration_D79FB2B7.wem	119143115.wem	\Actor-Mixer Hierarchy\Music\MusicLevel1\OST_Exploration	
-	569003113	OST_FightMusic	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\OST_FightMusic_239EEA7B.wem	569003113.wem	\Actor-Mixer Hierarchy\Music\MusicLevel1\OST_FightMusic	
+	119143115	OST_Exploration	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\OST_Exploration_0762CC47.wem	119143115.wem	\Actor-Mixer Hierarchy\Music\MusicLevel1\OST_Exploration	
+	569003113	OST_FightMusic	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Mac\SFX\OST_FightMusic_E587C1BD.wem	569003113.wem	\Actor-Mixer Hierarchy\Music\MusicLevel1\OST_FightMusic	
 

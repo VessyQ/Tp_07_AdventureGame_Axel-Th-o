@@ -181,6 +181,11 @@
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 											</PropertyList>
 										</Bus>
+										<Bus Name="Golem_Bus" ID="{91A0ECA1-9BFC-4C4A-945B-7D9E18A4DBCA}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
 									</ChildrenList>
 								</Bus>
 								<Bus Name="ENVIRONNEMENT" ID="{81660E2F-EB56-45F0-B482-D8B354C52C34}">

@@ -9,6 +9,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_SFX_MainMenuScreen" ID="{396F9763-0E02-433D-913C-EE95AB18FCB5}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Navigate" ID="{405929A3-AD27-4342-9CF9-A5D19AA667BA}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MenuPause" ID="{530E4781-8E8A-44D0-B048-0EF45B985F82}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_UI_MM_Validation" ID="{D5F7087E-E67F-4523-A34E-BF286C86E8DD}" WorkUnitID="{5A0E60F0-CFCC-401B-BBB4-CC8AE27F5BB0}" Origin="Manual" Filter="7"/>

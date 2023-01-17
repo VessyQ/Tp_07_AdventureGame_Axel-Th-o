@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID MC_LAND_SWITCH = 3524132770U;
         static const AkUniqueID MC_RESPAWN = 748388956U;
         static const AkUniqueID PLAY_AMB_ARENA = 1865989278U;
+        static const AkUniqueID PLAY_AMB_CAVE_LEVEL2 = 3294031185U;
         static const AkUniqueID PLAY_AMB_LAVA = 3906149303U;
         static const AkUniqueID PLAY_AMB_TROPICAL = 841394337U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
@@ -37,6 +38,8 @@ namespace AK
         static const AkUniqueID PLAY_BACKSTEP = 3538651317U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
+        static const AkUniqueID PLAY_EXPLO = 1585154896U;
+        static const AkUniqueID PLAY_FIGHT = 860858016U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
         static const AkUniqueID PLAY_FOOTSTEP_SWITCH = 1928239647U;
         static const AkUniqueID PLAY_FORCEFIELD = 1403021813U;
@@ -81,11 +84,24 @@ namespace AK
         static const AkUniqueID PROPS_FAR = 2181098295U;
         static const AkUniqueID SFX_UI_POPUP = 3816708808U;
         static const AkUniqueID STOP_SFX_LOOP_CRYSTAL = 2757622389U;
+        static const AkUniqueID STOP_SFX_MAINMENUSCREEN = 1020681794U;
         static const AkUniqueID STOP_SFX_PEDESTRAL_IDLE = 3561745923U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace MUSIC_ZONE
+        {
+            static const AkUniqueID GROUP = 2456631623U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ARENAZONE = 3363814256U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SPAWNZONE = 2315884140U;
+            } // namespace STATE
+        } // namespace MUSIC_ZONE
+
         namespace REVERB_ZONE
         {
             static const AkUniqueID GROUP = 709278834U;
@@ -120,6 +136,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID VOLUME = 2415836739U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -130,6 +147,7 @@ namespace AK
         static const AkUniqueID ELLEN = 1782136527U;
         static const AkUniqueID ENVIRONNEMENT_LVL1 = 3271337529U;
         static const AkUniqueID GOLEM = 3623907463U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
@@ -140,6 +158,7 @@ namespace AK
         static const AkUniqueID EELDOG_BUS = 649836026U;
         static const AkUniqueID ENVIRONNEMENT = 2530157555U;
         static const AkUniqueID GAMEPLAY = 89505537U;
+        static const AkUniqueID GOLEM_BUS = 2127616368U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PLAYER_BUS = 1138681361U;

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{75F0E0DF-CD77-2E68-B608-B13DD003757E}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{49654201-E227-A2C1-4B0D-D7C139DF2A79}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -379,7 +379,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{11507F43-C678-B528-FF44-CD5D5913896F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{80500B71-3805-EF24-27D5-4427C80424F8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -400,6 +400,7 @@
 				<Bus Id="649836026" Name="Eeldog_Bus"/>
 				<Bus Id="1020409454" Name="Chomper_Bus"/>
 				<Bus Id="1138681361" Name="Player_Bus"/>
+				<Bus Id="2127616368" Name="Golem_Bus"/>
 				<Bus Id="2383018230" Name="PROPS_Bus"/>
 				<Bus Id="2530157555" Name="ENVIRONNEMENT"/>
 				<Bus Id="3319158528" Name="AMB_Bus"/>
@@ -431,6 +432,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="1240670792" Name="Distance"/>
+				<GameParameter Id="2415836739" Name="volume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="709278834" Name="Reverb_Zone">
@@ -439,6 +441,13 @@
 						<State Id="782826392" Name="Default"/>
 						<State Id="3118032615" Name="Portal"/>
 						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2456631623" Name="Music_Zone">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2315884140" Name="SpawnZone"/>
+						<State Id="3363814256" Name="ArenaZone"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -452,7 +461,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{867600AA-2761-A094-34A5-A22EF2E8328B}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{933FBEF1-05CE-0877-8470-23A0E3AC2EFD}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -482,17 +491,9 @@
 					<Path>Media/539992270.wem</Path>
 					<CachePath>SFX/SFX_UI_MM_Fader_0762CC47.wem</CachePath>
 				</File>
-				<File Id="597629928" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_UI_PopUp_Close.wav</ShortName>
-					<CachePath>SFX/SFX_UI_PopUp_Close_D8C07C79.wem</CachePath>
-				</File>
 				<File Id="709022363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_Validation.wav</ShortName>
 					<CachePath>SFX/SFX_UI_MM_Validation_D8C07C79.wem</CachePath>
-				</File>
-				<File Id="1036342317" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_UI_PopUp.wav</ShortName>
-					<CachePath>SFX/SFX_UI_PopUp_D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -531,19 +532,12 @@
 						<MediaRef Id="709022363"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1547165378" Name="Play_SFX_UI_PopUp_Close" DurationType="OneShot" DurationMin="1.3109584" DurationMax="1.3109584">
-					<MediaRefs>
-						<MediaRef Id="597629928"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3816708808" Name="SFX_UI_PopUp" DurationType="OneShot" DurationMin="0.25920832" DurationMax="0.25920832">
-					<MediaRefs>
-						<MediaRef Id="1036342317"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="1547165378" Name="Play_SFX_UI_PopUp_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3816708808" Name="SFX_UI_PopUp" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1020681794" Name="Stop_SFX_MainMenuScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{36826838-18D3-30FF-DF6E-A7D5A2DA0596}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{1952A6F0-A0F6-811C-12BA-096CBBA4251A}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
@@ -1270,13 +1264,18 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{8A2E3A77-0D70-F7D4-AFC3-4D409E8856DD}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{6912E4C5-7C9F-2FD6-893B-DC36FC8709F4}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
 				<File Id="3784940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-005.wav</ShortName>
 					<CachePath>SFX/Magic_Door_RandomEvent-005_646B95B8.wem</CachePath>
+				</File>
+				<File Id="83560944" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cave_Level2.wav</ShortName>
+					<Path>Media/83560944.wem</Path>
+					<CachePath>SFX/AMB_Cave_Level2_0762CC47.wem</CachePath>
 				</File>
 				<File Id="155243058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_PortalPass-001.wav</ShortName>
@@ -1455,6 +1454,16 @@
 				<Event Id="1865989278" Name="Play_AMB_Arena" MaxAttenuation="90" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="308410978"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3294031185" Name="Play_AMB_Cave_Level2" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="83560944"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
@@ -1691,7 +1700,7 @@
 				<GameParameter Id="1240670792" Name="Distance"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{1FBEDD63-1866-2D8E-0C87-E3743396C39D}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{6E9B9E31-708B-D97F-F139-3CED52291FAB}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
@@ -1737,7 +1746,7 @@
 				</File>
 				<File Id="822529370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Digital 1 by Lisnmusic Id-122070 1.wav</ShortName>
-					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_CBD78101.wem</CachePath>
+					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_81E65001.wem</CachePath>
 				</File>
 				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack canon .wav</ShortName>
@@ -1847,7 +1856,7 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3895507240" Name="Play_Grenade_Bond" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.6918594" DurationMax="0.6918594">
+				<Event Id="3895507240" Name="Play_Grenade_Bond" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.10492655" DurationMax="0.10492655">
 					<MediaRefs>
 						<MediaRef Id="822529370"/>
 					</MediaRefs>
@@ -1869,7 +1878,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{2BC0DE56-93ED-6B69-ED7E-3B184C6DDAD1}">
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{01803686-5C4F-32DE-2588-6C3BFB1B91FE}">
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
 			<Media>
@@ -1925,6 +1934,34 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{C357D337-B74B-C523-2374-15C1F1C1FA01}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="119143115" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_Exploration.wav</ShortName>
+					<Path>Media/119143115.wem</Path>
+					<CachePath>SFX/OST_Exploration_0762CC47.wem</CachePath>
+				</File>
+				<File Id="569003113" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>OST_FightMusic.wav</ShortName>
+					<Path>Media/569003113.wem</Path>
+					<CachePath>SFX/OST_FightMusic_E587C1BD.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1585154896" Name="Play_Explo" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119143115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="860858016" Name="Play_Fight" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="569003113"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A41F68C3-727A-0A57-3FC6-7C84999442DD}</FileHash>
+	<FileHash>{142B0C10-C443-106D-9934-0F31A4ECB866}</FileHash>
 </SoundBanksInfo>
