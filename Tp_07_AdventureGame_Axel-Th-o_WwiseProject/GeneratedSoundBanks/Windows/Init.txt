@@ -1,11 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	709278834	Reverb_Zone			\Default Work Unit\Reverb_Zone	
+	2456631623	Music_Zone			\Default Work Unit\Music_Zone	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Reverb_Zone			
 	782826392	Default	Reverb_Zone			
 	3118032615	Portal	Reverb_Zone			
 	4122393694	Cave	Reverb_Zone			
+	748895195	None	Music_Zone			
+	2315884140	SpawnZone	Music_Zone			
+	3363814256	ArenaZone	Music_Zone			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	215792503	Portal	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\REVERB\RBV_Cave		

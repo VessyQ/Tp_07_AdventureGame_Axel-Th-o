@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C6981322-0222-4E3F-A16A-A19D934AADBE}" SchemaVersion="110">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{C6981322-0222-4E3F-A16A-A19D934AADBE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C6981322-0222-4E3F-A16A-A19D934AADBE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c731e73851886024885a54835dd6e45a, type: 3}
+  m_Name: F9631AE4-91C1-433A-9CA4-8828BD9DC295
+  m_EditorClassIdentifier: 
+  objectName: Music_Zone
+  id: 2456631623
+  guid: F9631AE4-91C1-433A-9CA4-8828BD9DC295

@@ -47,6 +47,7 @@
 						<ObjectRef Name="Play_SFX_Crystal_Activate" ID="{27E0D8C7-3313-4BA8-82DF-1A77ED3640E4}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Water" ID="{2002BFBD-B6E1-4C1C-B299-19D9B5943068}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Cave_Level2" ID="{5DBC266E-72B1-4C1D-A287-A8EC221A830A}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LargeDoor" ID="{671A47C1-03C5-4CCE-93F1-61325353C70F}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DestructibleBox" ID="{988DD49A-FBF9-4D0B-87ED-364478FFF0C6}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_PressurePad_Activate" ID="{77B65B79-6474-4F85-8123-78ABD1E97556}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
@@ -110,6 +111,18 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Golem" ID="{06B86F4F-DFA4-4321-B0F7-CB3F344E15DD}" WorkUnitID="{F489D973-6C53-4D53-929A-3646C4A09747}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{6B855C16-128B-4045-962C-4FBCE856BB31}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Explo" ID="{6E5AC87D-4BB6-44AB-A425-A1A9D06E8164}" WorkUnitID="{71E14169-2B1D-48C8-BD16-3ACAF47C54D1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fight" ID="{3FF4166C-B99D-4B9C-8A9C-244A7FAA9636}" WorkUnitID="{71E14169-2B1D-48C8-BD16-3ACAF47C54D1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

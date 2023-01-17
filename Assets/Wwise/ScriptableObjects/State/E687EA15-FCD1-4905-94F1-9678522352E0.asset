@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c24d94dc994b014d9a089f7bfe4b15e, type: 3}
+  m_Name: E687EA15-FCD1-4905-94F1-9678522352E0
+  m_EditorClassIdentifier: 
+  objectName: ArenaZone
+  id: 3363814256
+  guid: E687EA15-FCD1-4905-94F1-9678522352E0
+  WwiseStateGroupReference: {fileID: 11400000, guid: 29dcef309a078bc40bbb2b583c390d0f,
+    type: 2}
