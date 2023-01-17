@@ -43,7 +43,6 @@
 						<ObjectRef Name="Props_Far" ID="{6FAB1679-415A-496E-A299-E5FB0CEA7520}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_HealBox" ID="{FDCC10B0-D49D-49B7-BC0B-763FD80C394F}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PROPS_LightMushroom" ID="{C5AE7422-7570-4A35-BE96-BBABEEBD34A6}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_AMB_RuneCave" ID="{81DFCACF-774B-4A98-912A-1D3359F69983}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_Loop_Crystal" ID="{4BB05157-5F9C-4A9C-8D18-89F7EA9B4890}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_Crystal_Activate" ID="{27E0D8C7-3313-4BA8-82DF-1A77ED3640E4}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_Strong" ID="{AFE4853F-79BC-4C0F-8AE5-53AFE2B9E5AF}" WorkUnitID="{620D8097-1E0A-425F-8C38-80026488F6FA}" Origin="Manual" Filter="7"/>
@@ -61,7 +60,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="MC_Land_Grass" ID="{791667FE-C386-4016-848E-6671623D3115}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_Land_Switch" ID="{791667FE-C386-4016-848E-6671623D3115}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Foosteps_Puddle" ID="{FB4B3BAA-7984-4034-9EB4-4634FD99EEEF}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Respawn" ID="{36A08926-798E-4110-8585-5985AB13A0BB}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Death" ID="{7A18922D-1E52-4112-8981-A8C54595FD72}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
@@ -71,7 +70,7 @@
 						<ObjectRef Name="MC_Foosteps_Grass" ID="{AA683275-F7B4-4455-89B5-833F2A687771}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MC_Hit" ID="{A6C45545-2B51-44E4-934A-77B49CAA263C}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Combo03Hit" ID="{06547C3D-184F-4590-B7B4-2AAA35597D2E}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Footstep_Ground" ID="{344EDD50-A14B-488A-A47C-42BC519264AA}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep_Switch" ID="{344EDD50-A14B-488A-A47C-42BC519264AA}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Combo01Hit" ID="{62308EDD-4942-48B5-9B1C-5856BD156F89}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SFX_Pedestral_Idle" ID="{B27400C6-191E-4908-99CF-49247B5ADE9A}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Combo04Hit" ID="{3DD5AF15-D573-4BF9-BB9A-97CF9E1FA124}" WorkUnitID="{9971CD87-9A28-47A5-B900-1D49E11332EC}" Origin="Manual" Filter="7"/>

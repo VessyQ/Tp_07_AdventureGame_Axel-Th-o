@@ -10,15 +10,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	4031081037	Play_SFX_UI_MM_Back			\Default Work Unit\UserInterface\UI\Play_SFX_UI_MM_Back	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	42187263	SFX_UI_MM_Back	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Back_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Back		69228
-	377659748	SFX_UI_MenuPause	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MenuPause_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MenuPause		221320
-	384204942	SFX_UI_MM_PlayButton	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_PlayButton_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_PlayButton		884980
-	429286655	SFX_UI_MM_Navigate	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Navigate_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Navigate		27752
-	597629928	SFX_UI_PopUp_Close	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_PopUp_Close_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_PopUp_Close		59800
-	709022363	SFX_UI_MM_Validation	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Validation_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Validation		69228
-	1036342317	SFX_UI_PopUp	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_PopUp_10C4C929.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_PopUp		49864
+	42187263	SFX_UI_MM_Back	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Back_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Back		8771
+	377659748	SFX_UI_MenuPause	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MenuPause_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MenuPause		23759
+	384204942	SFX_UI_MM_PlayButton	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_PlayButton_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_PlayButton		90013
+	429286655	SFX_UI_MM_Navigate	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Navigate_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Navigate		4048
+	597629928	SFX_UI_PopUp_Close	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_PopUp_Close_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_PopUp_Close		5995
+	709022363	SFX_UI_MM_Validation	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Validation_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Validation		11227
+	1036342317	SFX_UI_PopUp	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_PopUp_D8C07C79.wem		\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_PopUp		6028
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	504360125	SFX_MainMenuScreen	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_MainMenuScreen_D79FB2B7.wem	504360125.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_MainMenuScreen	
-	539992270	SFX_UI_MM_Fader	C:\Users\33607\Documents\GitHub\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Fader_D79FB2B7.wem	539992270.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Fader	
+	504360125	SFX_MainMenuScreen	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_MainMenuScreen_0762CC47.wem	504360125.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_MainMenuScreen	
+	539992270	SFX_UI_MM_Fader	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\SFX_UI_MM_Fader_0762CC47.wem	539992270.wem	\Actor-Mixer Hierarchy\UserInterface\UI\SFX_UI_MM_Fader	
 

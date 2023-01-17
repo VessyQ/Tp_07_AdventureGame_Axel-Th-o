@@ -23,12 +23,12 @@ namespace AK
         static const AkUniqueID MC_FOOSTEPS_ROCK = 3890330639U;
         static const AkUniqueID MC_HIT = 3349748359U;
         static const AkUniqueID MC_JUMP_01 = 3881392346U;
-        static const AkUniqueID MC_LAND_GRASS = 2896940196U;
         static const AkUniqueID MC_LAND_PUDDLE = 1983402694U;
         static const AkUniqueID MC_LAND_ROCK = 173644637U;
+        static const AkUniqueID MC_LAND_SWITCH = 3524132770U;
         static const AkUniqueID MC_RESPAWN = 748388956U;
         static const AkUniqueID PLAY_AMB_ARENA = 1865989278U;
-        static const AkUniqueID PLAY_AMB_RUNECAVE = 2724785466U;
+        static const AkUniqueID PLAY_AMB_LAVA = 3906149303U;
         static const AkUniqueID PLAY_AMB_TROPICAL = 841394337U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_AMB_WIND_SOFT = 1482463854U;
@@ -38,7 +38,7 @@ namespace AK
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
         static const AkUniqueID PLAY_FIREFLY = 2389962849U;
-        static const AkUniqueID PLAY_FOOTSTEP_GROUND = 2259949926U;
+        static const AkUniqueID PLAY_FOOTSTEP_SWITCH = 1928239647U;
         static const AkUniqueID PLAY_FORCEFIELD = 1403021813U;
         static const AkUniqueID PLAY_FRONTSTEP = 2192672377U;
         static const AkUniqueID PLAY_GOLEM_CANON = 2325028998U;
@@ -59,6 +59,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_COMBO03HIT = 3873886149U;
         static const AkUniqueID PLAY_MC_COMBO04HIT = 814064760U;
         static const AkUniqueID PLAY_MD_RANDOM = 871905469U;
+        static const AkUniqueID PLAY_POISON = 3292663506U;
         static const AkUniqueID PLAY_PROPS_LIGHTMUSHROOM = 3801361087U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
         static const AkUniqueID PLAY_SFX_HEALBOX = 1616564399U;

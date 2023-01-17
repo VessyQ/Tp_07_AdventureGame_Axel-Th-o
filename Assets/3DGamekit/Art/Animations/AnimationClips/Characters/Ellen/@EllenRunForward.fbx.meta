@@ -772,14 +772,14 @@ ModelImporter:
       curves: []
       events:
       - time: 0.44051746
-        functionName: PlayStep
+        functionName: PlayFootsteps
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.97333837
-        functionName: PlayStep
+        functionName: PlayFootsteps
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -1359,16 +1359,18 @@ ModelImporter:
           rotationOrder: 4
       events:
       - time: 0.443223
-        functionName: OnFootstepRight
+        functionName: GroudSwitchFootsteps
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 132e283c57b264940979d621c35e0ed5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.9599779
-        functionName: OnFootstepLeft
+        functionName: GroudSwitchFootsteps
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 132e283c57b264940979d621c35e0ed5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

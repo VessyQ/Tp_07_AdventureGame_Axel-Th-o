@@ -15,7 +15,9 @@ in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2022 Audiokinetic Inc.
 *******************************************************************************/
 
-﻿public partial class AkSoundEngine
+using System;
+
+public partial class AkSoundEngine
 {
 #if UNITY_EDITOR_WIN || (UNITY_STANDALONE_WIN && !UNITY_EDITOR) || UNITY_WSA
 	/// <summary>
@@ -27,5 +29,10 @@ Copyright (c) 2022 Audiokinetic Inc.
 	{
 		return StringFromIntPtrWString(ptr);
 	}
+
+    public static void SetSwitch(string v1, string v2)
+    {
+        throw new NotImplementedException();
+    }
 #endif
 }

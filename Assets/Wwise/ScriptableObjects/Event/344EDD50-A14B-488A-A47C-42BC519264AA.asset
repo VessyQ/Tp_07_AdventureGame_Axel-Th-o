@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11a3e6906635c9488871d22ea575ab4, type: 3}
   m_Name: 344EDD50-A14B-488A-A47C-42BC519264AA
   m_EditorClassIdentifier: 
-  objectName: Play_Footstep_Ground
-  id: 2259949926
+  objectName: Play_Footstep_Switch
+  id: 1928239647
   guid: 344EDD50-A14B-488A-A47C-42BC519264AA

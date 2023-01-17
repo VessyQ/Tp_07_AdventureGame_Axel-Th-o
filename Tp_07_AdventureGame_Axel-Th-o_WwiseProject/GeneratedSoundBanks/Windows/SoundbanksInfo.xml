@@ -9,241 +9,241 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{ED02EE11-C77A-EA2C-6A40-DFD2667A0E40}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{75F0E0DF-CD77-2E68-B608-B13DD003757E}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
 				<File Id="27656066" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-002.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="41283733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-003.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-003_04F6F7F9.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-003_A1600629.wem</CachePath>
 				</File>
 				<File Id="63455913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-005.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="71023939" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-001.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="88933973" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-003.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="90142376" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-010.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-010_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-010_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="97076617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-011.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-011_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-011_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="108871104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-002.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="118215271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-012.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-012_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-012_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="141834152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-004.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-004_71B53B85.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-004_456A1E95.wem</CachePath>
 				</File>
 				<File Id="163424425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-005.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="176745953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-001.wav</ShortName>
-					<CachePath>SFX/Chomper_Spotted-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Spotted-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="217281900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-012.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-012_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-012_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="218100142" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MBCK ANIMAL Alpaca Spit.wav</ShortName>
-					<CachePath>SFX/MBCK ANIMAL Alpaca Spit_10C4C929.wem</CachePath>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="226505746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-003.wav</ShortName>
-					<CachePath>SFX/Chomper_Spotted-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Spotted-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="261660802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-007.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-007_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="270067142" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-005.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="306612113" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-004.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="307522573" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-002.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-002_98E7DCEA.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-002_2BCC313A.wem</CachePath>
 				</File>
 				<File Id="323558297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-006.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-006_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="328398442" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-001.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="352667902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-003.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="352766284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-004.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="372271538" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-010.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-010_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-010_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="379550852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-004.wav</ShortName>
-					<CachePath>SFX/Chomper_Spotted-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Spotted-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="431005202" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Attack-003.wav</ShortName>
-					<CachePath>SFX/Chomper_Attack-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Attack-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="454154370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-001.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="474226007" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-004.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="484762122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Spotted-002.wav</ShortName>
-					<CachePath>SFX/Chomper_Spotted-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Spotted-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="489695982" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-006.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-006_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="492538813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-008.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-008_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-008_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="505874479" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-006.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-006_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="506494751" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-007.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-007_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="544127965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-006.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-006_2659304C.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-006_E6FF5E9C.wem</CachePath>
 				</File>
 				<File Id="567505663" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-013.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-013_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-013_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="575345053" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MBCK ANIMAL Alpaca Spit 1.wav</ShortName>
-					<CachePath>SFX/MBCK ANIMAL Alpaca Spit 1_10C4C929.wem</CachePath>
+					<CachePath>SFX/MBCK ANIMAL Alpaca Spit 1_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="582854367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-005.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-005_7F3BAD10.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-005_0DA8F120.wem</CachePath>
 				</File>
 				<File Id="639672113" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-009.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-009_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-009_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="661510970" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-008.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-008_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-008_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="668084072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-008.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-008_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-008_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="693871948" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-007.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-007_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="695766204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Attack-002.wav</ShortName>
-					<CachePath>SFX/Chomper_Attack-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Attack-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="708812715" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Hit-001.wav</ShortName>
-					<CachePath>SFX/Chomper_Hit-001_BFC81C1E.wem</CachePath>
+					<CachePath>SFX/Chomper_Hit-001_9A6E1F4E.wem</CachePath>
 				</File>
 				<File Id="779569688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-002.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="802614081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-008.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-008_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-008_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="805059776" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-004.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="844703719" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-006.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-006_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="861890811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-003.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="870991594" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-013.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-013_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-013_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="888634019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Death-001.wav</ShortName>
-					<CachePath>SFX/Chomper_Death-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Death-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="918423660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Attack-004.wav</ShortName>
-					<CachePath>SFX/Chomper_Attack-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Attack-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="936810226" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Grunt-003.wav</ShortName>
-					<CachePath>SFX/Chomper_Grunt-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Grunt-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="961232930" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-002.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="997109112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-007.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-007_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1023734958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_Attack-001.wav</ShortName>
-					<CachePath>SFX/Chomper_Attack-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_Attack-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1036560010" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-005.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1040262215" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Back-011.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Back-011_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Back-011_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1071088346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chomper_FT_Front-009.wav</ShortName>
-					<CachePath>SFX/Chomper_FT_Front-009_10C4C929.wem</CachePath>
+					<CachePath>SFX/Chomper_FT_Front-009_D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -452,39 +452,47 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{94CEE01E-883D-3644-C62C-96B9529BAFB8}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{867600AA-2761-A094-34A5-A22EF2E8328B}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
 				<File Id="42187263" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_Back.wav</ShortName>
-					<CachePath>SFX/SFX_UI_MM_Back_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MM_Back_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="377659748" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MenuPause.wav</ShortName>
-					<CachePath>SFX/SFX_UI_MenuPause_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MenuPause_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="384204942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_PlayButton.wav</ShortName>
-					<CachePath>SFX/SFX_UI_MM_PlayButton_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MM_PlayButton_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="429286655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_Navigate.wav</ShortName>
-					<CachePath>SFX/SFX_UI_MM_Navigate_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MM_Navigate_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="504360125" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_MainMenuScreen.wav</ShortName>
 					<Path>Media/504360125.wem</Path>
-					<CachePath>SFX/SFX_MainMenuScreen_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/SFX_MainMenuScreen_0762CC47.wem</CachePath>
 				</File>
 				<File Id="539992270" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_UI_MM_Fader.wav</ShortName>
 					<Path>Media/539992270.wem</Path>
-					<CachePath>SFX/SFX_UI_MM_Fader_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MM_Fader_0762CC47.wem</CachePath>
+				</File>
+				<File Id="597629928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_PopUp_Close.wav</ShortName>
+					<CachePath>SFX/SFX_UI_PopUp_Close_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="709022363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_UI_MM_Validation.wav</ShortName>
-					<CachePath>SFX/SFX_UI_MM_Validation_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_UI_MM_Validation_D8C07C79.wem</CachePath>
+				</File>
+				<File Id="1036342317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_PopUp.wav</ShortName>
+					<CachePath>SFX/SFX_UI_PopUp_D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -523,352 +531,362 @@
 						<MediaRef Id="709022363"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1547165378" Name="Play_SFX_UI_PopUp_Close" DurationType="OneShot" DurationMin="1.3109584" DurationMax="1.3109584">
+					<MediaRefs>
+						<MediaRef Id="597629928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3816708808" Name="SFX_UI_PopUp" DurationType="OneShot" DurationMin="0.25920832" DurationMax="0.25920832">
+					<MediaRefs>
+						<MediaRef Id="1036342317"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{174FD49F-9E14-E6B3-59FA-8CDAEE1B77C7}">
+		<SoundBank Id="1782136527" Type="User" Language="SFX" Hash="{36826838-18D3-30FF-DF6E-A7D5A2DA0596}">
 			<ShortName>Ellen</ShortName>
 			<Path>Ellen.bnk</Path>
 			<Media>
 				<File Id="1307956" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_04.wav</ShortName>
-					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="11536569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Grass_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Grass_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="16249450" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="21925048" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="30206952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_10.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_10_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_10_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="41680137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Puddle_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Puddle_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="56405457" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_01.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="56951175" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo04Hit_Vox\MC_Combo04Hit_Vox_02.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="57160597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Death.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Death_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Death_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="70573892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_06.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="73796053" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="77987907" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo01Hit_Vox\MC_Combo01Hit_Vox_03.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="83627431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Rock_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Rock_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="109437578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo01Hit_Vox\MC_Combo01Hit_Vox_02.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="124628122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Grass_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Grass_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="130593510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Grass_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Grass_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="148175301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_01.wav</ShortName>
-					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="155362453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="158471398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_01.wav</ShortName>
-					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="164917154" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="201487244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="204792160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="210730531" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo03Hit_Vox\MC_Combo03Hit_Vox_01.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="227693047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="230887644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="234750573" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Hit_Vox\SFX_Hit_Vox_02.wav</ShortName>
-					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="242158069" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="322883862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_02.wav</ShortName>
-					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="323145811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="323926715" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_03.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="329372639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo04Hit_Vox\MC_Combo04Hit_Vox_01.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="363808535" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="365447167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_07.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_07_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="367885731" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Grass_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Grass_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="376678370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Rock\SFX_MC_Land_Rock_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Rock/SFX_MC_Land_Rock_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="400138906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo03Hit_Vox\MC_Combo03Hit_Vox_03.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="401651177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="411932410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Puddle_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Puddle_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="424271162" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Puddle_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Puddle_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="428843161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Jump\SFX_MC_Jump_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Jump/SFX_MC_Jump_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="447873312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Hit_Vox\SFX_Hit_Vox_03.wav</ShortName>
-					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="452267624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Hit_Vox\SFX_Hit_Vox_04.wav</ShortName>
-					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="479317692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Respawn.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Respawn_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Respawn_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="484510932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo02Hit_Vox\MC_Combo02Hit_Vox_02.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="498153445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_02.wav</ShortName>
-					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="509161118" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Hit_Vox\SFX_Hit_Vox_05.wav</ShortName>
-					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="512621845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="522421376" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_Pedestral_Idle.wav</ShortName>
 					<Path>Media/522421376.wem</Path>
-					<CachePath>SFX/SFX_Pedestral_Idle_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/SFX_Pedestral_Idle_0762CC47.wem</CachePath>
 				</File>
 				<File Id="543517637" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo04Hit_Vox\MC_Combo04Hit_Vox_03.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo04Hit_Vox/MC_Combo04Hit_Vox_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="622493110" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_02.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="624254207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Hit_Vox\SFX_Hit_Vox_01.wav</ShortName>
-					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Hit_Vox/SFX_Hit_Vox_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="634689452" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_04.wav</ShortName>
-					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="645477539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Rock_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Rock_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="683306689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="699530999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Rock_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Rock_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="716545357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Grass_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Grass_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Grass_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="730337992" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_02.wav</ShortName>
-					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="743621085" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_03.wav</ShortName>
-					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="747998321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Grass\SFX_MC_Land_Grass_05.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Grass/SFX_MC_Land_Grass_05_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="751209892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Feedback\SFX_Hit\SFX_Hit_04.wav</ShortName>
-					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Feedback/SFX_Hit/SFX_Hit_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="761245616" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Rock_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Rock_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="778022980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="780320165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo01Hit_Vox\MC_Combo01Hit_Vox_01.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo01Hit_Vox/MC_Combo01Hit_Vox_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="793444444" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo03Hit_Vox\MC_Combo03Hit_Vox_02.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo03Hit_Vox/MC_Combo03Hit_Vox_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="808354261" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Land_Puddle\SFX_MC_Land_Puddle_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Land_Puddle/SFX_MC_Land_Puddle_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="816056341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo02Hit_Vox\MC_Combo02Hit_Vox_03.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="824368895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo03Hit\SFX_MC_Combo03Hit_01.wav</ShortName>
-					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo03Hit/SFX_MC_Combo03Hit_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="841674552" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="852795320" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_04.wav</ShortName>
-					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="870062637" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_01.wav</ShortName>
-					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="873712508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_04.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Puddle_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Puddle_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="878251415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_03.wav</ShortName>
-					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="893708514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Vox\MC_Combo02Hit_Vox\MC_Combo02Hit_Vox_01.wav</ShortName>
-					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Vox/MC_Combo02Hit_Vox/MC_Combo02Hit_Vox_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="895196884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Rock_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Rock_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Rock_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="903070737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_03.wav</ShortName>
-					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="930018962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo04Hit\SFX_MC_Combo04Hit_04.wav</ShortName>
-					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo04Hit/SFX_MC_Combo04Hit_04_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="935693238" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_09.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_09_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_09_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="939771480" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_08.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_08_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="981526951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="985272136" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_06.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_06_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1027833215" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo02Hit\SFX_MC_Combo02Hit_02.wav</ShortName>
-					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo02Hit/SFX_MC_Combo02Hit_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1041551490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Combo01Hit\SFX_MC_Combo01Hit_03.wav</ShortName>
-					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Combo01Hit/SFX_MC_Combo01Hit_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1057186456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_03.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_03_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1059488728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foosteps_Puddle_01.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foosteps_Puddle_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foosteps_Puddle_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1063380024" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Foley\SFX_MC_Foley_02.wav</ShortName>
-					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/SFX_MC_Foley/SFX_MC_Foley_02_D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -979,29 +997,6 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2896940196" Name="MC_Land_Grass" DurationType="OneShot" DurationMin="0.5" DurationMax="0.625">
-					<MediaRefs>
-						<MediaRef Id="16249450"/>
-						<MediaRef Id="30206952"/>
-						<MediaRef Id="227693047"/>
-						<MediaRef Id="323145811"/>
-						<MediaRef Id="363808535"/>
-						<MediaRef Id="365447167"/>
-						<MediaRef Id="747998321"/>
-						<MediaRef Id="841674552"/>
-						<MediaRef Id="935693238"/>
-						<MediaRef Id="939771480"/>
-						<MediaRef Id="981526951"/>
-						<MediaRef Id="985272136"/>
-						<MediaRef Id="1057186456"/>
-						<MediaRef Id="1063380024"/>
-					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
-						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
-						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
-					</AuxBusRefs>
-				</Event>
 				<Event Id="1983402694" Name="MC_Land_Puddle" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="30206952"/>
@@ -1048,12 +1043,7 @@
 						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="748388956" Name="MC_Respawn" DurationType="OneShot" DurationMin="2.6607084" DurationMax="2.6607084">
-					<MediaRefs>
-						<MediaRef Id="479317692"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2259949926" Name="Play_Footstep_Ground" DurationType="OneShot" DurationMin="0.375" DurationMax="0.75">
+				<Event Id="3524132770" Name="MC_Land_Switch" DurationType="OneShot" DurationMin="0.5" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="30206952"/>
 						<MediaRef Id="365447167"/>
@@ -1072,7 +1062,62 @@
 					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="582122640" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="582122640"/>
+							<MediaRefs>
+								<MediaRef Id="16249450"/>
+								<MediaRef Id="227693047"/>
+								<MediaRef Id="323145811"/>
+								<MediaRef Id="363808535"/>
+								<MediaRef Id="747998321"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="4273761226"/>
+							<MediaRefs>
+								<MediaRef Id="401651177"/>
+								<MediaRef Id="512621845"/>
+								<MediaRef Id="683306689"/>
+								<MediaRef Id="778022980"/>
+								<MediaRef Id="808354261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="560778177" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="21925048"/>
+								<MediaRef Id="73796053"/>
+								<MediaRef Id="201487244"/>
+								<MediaRef Id="204792160"/>
+								<MediaRef Id="376678370"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="748388956" Name="MC_Respawn" DurationType="OneShot" DurationMin="2.6607084" DurationMax="2.6607084">
+					<MediaRefs>
+						<MediaRef Id="479317692"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1928239647" Name="Play_Footstep_Switch" DurationType="OneShot" DurationMin="0.375" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="30206952"/>
+						<MediaRef Id="365447167"/>
+						<MediaRef Id="841674552"/>
+						<MediaRef Id="935693238"/>
+						<MediaRef Id="939771480"/>
+						<MediaRef Id="981526951"/>
+						<MediaRef Id="985272136"/>
+						<MediaRef Id="1057186456"/>
+						<MediaRef Id="1063380024"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1602260323" Name="RBV_Cave"/>
+						<AuxBusRef Id="1823207219" Name="RVB_Default"/>
+						<AuxBusRef Id="3264109334" Name="RVB_Portal"/>
+					</AuxBusRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="582122640"/>
 							<MediaRefs>
 								<MediaRef Id="11536569"/>
 								<MediaRef Id="124628122"/>
@@ -1092,7 +1137,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="560778177"/>
+							<SwitchValue GroupType="Switch" GroupId="2035773924" Id="560778177" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="83627431"/>
 								<MediaRef Id="645477539"/>
@@ -1225,175 +1270,175 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{9C69B6C3-4C4D-740F-1EA1-838979A27DE5}">
+		<SoundBank Id="3271337529" Type="User" Language="SFX" Hash="{8A2E3A77-0D70-F7D4-AFC3-4D409E8856DD}">
 			<ShortName>Environnement_Lvl1</ShortName>
 			<Path>Environnement_Lvl1.bnk</Path>
 			<Media>
 				<File Id="3784940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-005.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-005_001A1FE8.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-005_646B95B8.wem</CachePath>
 				</File>
 				<File Id="155243058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_PortalPass-001.wav</ShortName>
-					<CachePath>SFX/Magic_Door_PortalPass-001_7C2B126A.wem</CachePath>
+					<CachePath>SFX/Magic_Door_PortalPass-001_FA5A69DA.wem</CachePath>
 				</File>
 				<File Id="221504597" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_FireFly.wav</ShortName>
 					<Path>Media/221504597.wem</Path>
-					<CachePath>SFX/PROPS_FireFly_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/PROPS_FireFly_0762CC47.wem</CachePath>
 				</File>
 				<File Id="253935470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Crystal\SFX_Crystal_Activate.wav</ShortName>
-					<CachePath>SFX/PROPS_Crystal/SFX_Crystal_Activate_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Crystal/SFX_Crystal_Activate_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="259430491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-002.wav</ShortName>
-					<CachePath>SFX/Box_Break-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Box_Break-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="275645981" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Far\PROPS_Whale_01.wav</ShortName>
-					<CachePath>SFX/PROPS_Far/PROPS_Whale_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Far/PROPS_Whale_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="283393023" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Tropical.wav</ShortName>
 					<Path>Media/283393023.wem</Path>
-					<CachePath>SFX/AMB_Tropical_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Tropical_0762CC47.wem</CachePath>
 				</File>
 				<File Id="308410978" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Arena.wav</ShortName>
 					<Path>Media/308410978.wem</Path>
-					<CachePath>SFX/AMB_Arena_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Arena_0762CC47.wem</CachePath>
 				</File>
 				<File Id="310114697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-003.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-003_B4558A5D.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-003_0CEFFBED.wem</CachePath>
 				</File>
 				<File Id="317898983" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lava_Event -001.wav</ShortName>
-					<CachePath>SFX/Lava_Event -001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Lava_Event -001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="320335259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Close\PROPS_Insect_02.wav</ShortName>
-					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Close/PROPS_Insect_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="350764459" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_Pressure Pad\SFX_PressurePad_Loop.wav</ShortName>
 					<Path>Media/350764459.wem</Path>
-					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Loop_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Loop_0762CC47.wem</CachePath>
 				</File>
 				<File Id="357594778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-001.wav</ShortName>
-					<CachePath>SFX/Box_Break-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Box_Break-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="367348154" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_HealBox\SFX_HealBox.wav</ShortName>
-					<CachePath>SFX/PROPS_HealBox/SFX_HealBox_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/PROPS_HealBox/SFX_HealBox_0762CC47.wem</CachePath>
 				</File>
 				<File Id="405054130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Far\PROPS_Whale_02.wav</ShortName>
-					<CachePath>SFX/PROPS_Far/PROPS_Whale_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Far/PROPS_Whale_02_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="556895116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic02_Large_Door_Open.wav</ShortName>
-					<CachePath>SFX/Cinematic02_Large_Door_Open_10C4C929.wem</CachePath>
+					<CachePath>SFX/Cinematic02_Large_Door_Open_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="590254521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lava_Event -002.wav</ShortName>
-					<CachePath>SFX/Lava_Event -002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Lava_Event -002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="614579002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Pressure Pad\SFX_PressurePad_Activate.wav</ShortName>
-					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Activate_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Pressure Pad/SFX_PressurePad_Activate_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="625501724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-003.wav</ShortName>
-					<CachePath>SFX/Box_Break-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Box_Break-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="673446851" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PROPS_Close\PROPS_Insect_01.wav</ShortName>
-					<CachePath>SFX/PROPS_Close/PROPS_Insect_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/PROPS_Close/PROPS_Insect_01_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="694274688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Box_Break-004.wav</ShortName>
-					<CachePath>SFX/Box_Break-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Box_Break-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="740144432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lava_Event -003.wav</ShortName>
-					<CachePath>SFX/Lava_Event -003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Lava_Event -003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="771869937" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Soft.wav</ShortName>
 					<Path>Media/771869937.wem</Path>
-					<CachePath>SFX/AMB_Wind_Soft_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Wind_Soft_0762CC47.wem</CachePath>
 				</File>
 				<File Id="797543225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-002.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-002_597390DB.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-002_D7E9E3EB.wem</CachePath>
 				</File>
 				<File Id="804665530" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_LightMushroom.wav</ShortName>
 					<Path>Media/804665530.wem</Path>
-					<CachePath>SFX/SFX_LightMushroom_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/SFX_LightMushroom_0762CC47.wem</CachePath>
 				</File>
 				<File Id="812090864" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Wind_Strong.wav</ShortName>
 					<Path>Media/812090864.wem</Path>
-					<CachePath>SFX/AMB_Wind_Strong_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Wind_Strong_0762CC47.wem</CachePath>
 				</File>
 				<File Id="822664154" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Water.wav</ShortName>
 					<Path>Media/822664154.wem</Path>
-					<CachePath>SFX/AMB_Water_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/AMB_Water_0762CC47.wem</CachePath>
 				</File>
 				<File Id="835727629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-004.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-004_B1F46106.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-004_B03F1176.wem</CachePath>
 				</File>
 				<File Id="844975121" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-001.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-001_35B5D069.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-001_57204E39.wem</CachePath>
 				</File>
 				<File Id="845274705" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lava_Loop.wav</ShortName>
 					<Path>Media/845274705.wem</Path>
-					<CachePath>SFX/Lava_Loop_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Lava_Loop_0762CC47.wem</CachePath>
 				</File>
 				<File Id="870359449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic01_Large_Door_Open.wav</ShortName>
-					<CachePath>SFX/Cinematic01_Large_Door_Open_10C4C929.wem</CachePath>
+					<CachePath>SFX/Cinematic01_Large_Door_Open_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="921323237" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Magic_Door_Close-001.wav</ShortName>
 					<Path>Media/921323237.wem</Path>
-					<CachePath>SFX/Magic_Door_Close-001_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Magic_Door_Close-001_0762CC47.wem</CachePath>
 				</File>
 				<File Id="947446073" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Magic_Door_Middle-001.wav</ShortName>
 					<Path>Media/947446073.wem</Path>
-					<CachePath>SFX/Magic_Door_Middle-001_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Magic_Door_Middle-001_0762CC47.wem</CachePath>
 				</File>
 				<File Id="991152073" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>PROPS_Crystal\SFX_Loop_Crystal.wav</ShortName>
 					<Path>Media/991152073.wem</Path>
-					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/PROPS_Crystal/SFX_Loop_Crystal_0762CC47.wem</CachePath>
 				</File>
 				<File Id="997609208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lava_Event -004.wav</ShortName>
-					<CachePath>SFX/Lava_Event -004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Lava_Event -004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="1038969575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic_Door_RandomEvent-006.wav</ShortName>
-					<CachePath>SFX/Magic_Door_RandomEvent-006_4ACD4602.wem</CachePath>
+					<CachePath>SFX/Magic_Door_RandomEvent-006_E3ED9B32.wem</CachePath>
 				</File>
 				<File Id="1052753841" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Poison_Loop.wav</ShortName>
 					<Path>Media/1052753841.wem</Path>
-					<CachePath>SFX/Poison_Loop_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Poison_Loop_0762CC47.wem</CachePath>
 				</File>
 				<File Id="1073009885" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Magic_Door_Far-001.wav</ShortName>
 					<Path>Media/1073009885.wem</Path>
-					<CachePath>SFX/Magic_Door_Far-001_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Magic_Door_Far-001_0762CC47.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -1646,73 +1691,73 @@
 				<GameParameter Id="1240670792" Name="Distance"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{FEAAC1BD-AA22-BBBA-AA8B-1B24120C96F7}">
+		<SoundBank Id="3623907463" Type="User" Language="SFX" Hash="{1FBEDD63-1866-2D8E-0C87-E3743396C39D}">
 			<ShortName>Golem</ShortName>
 			<Path>Golem.bnk</Path>
 			<Media>
 				<File Id="68653273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-005.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-005_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="101654162" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem hit-002.wav</ShortName>
-					<CachePath>SFX/Gollem hit-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem hit-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="231617569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-008.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-008_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-008_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="283383031" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-002.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="344424039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-006.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-006_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-006_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="475061488" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-007.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-007_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-007_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="608542439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack punch.wav</ShortName>
-					<CachePath>SFX/Gollem attack punch_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem attack punch_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="643786967" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-003.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="651032483" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack zone.wav</ShortName>
-					<CachePath>SFX/Gollem attack zone_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem attack zone_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="740425003" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem idle.wav</ShortName>
-					<CachePath>SFX/Gollem idle_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem idle_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="822529370" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Digital 1 by Lisnmusic Id-122070 1.wav</ShortName>
-					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_E54B7F51.wem</CachePath>
+					<CachePath>SFX/Digital 1 by Lisnmusic Id-122070 1_CBD78101.wem</CachePath>
 				</File>
 				<File Id="882690975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem attack canon .wav</ShortName>
-					<CachePath>SFX/Gollem attack canon _10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem attack canon _D8C07C79.wem</CachePath>
 				</File>
 				<File Id="887278440" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Scifi, Energy, Force Field, Holo, Power Down SND7133.wav</ShortName>
-					<CachePath>SFX/Scifi, Energy, Force Field, Holo, Power Down SND7133_10C4C929.wem</CachePath>
+					<CachePath>SFX/Scifi, Energy, Force Field, Holo, Power Down SND7133_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="892157658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem footsteps-004.wav</ShortName>
-					<CachePath>SFX/Gollem footsteps-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem footsteps-004_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="903881172" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MAFCK IMPACT Sweetener Explosion Distorted Modulated Short 1.wav</ShortName>
-					<CachePath>SFX/MAFCK IMPACT Sweetener Explosion Distorted Modulated Short 1_10C4C929.wem</CachePath>
+					<CachePath>SFX/MAFCK IMPACT Sweetener Explosion Distorted Modulated Short 1_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="945260532" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gollem death .wav</ShortName>
-					<CachePath>SFX/Gollem death _10C4C929.wem</CachePath>
+					<CachePath>SFX/Gollem death _D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -1824,33 +1869,33 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{88225B2E-7614-727A-46A3-7C98FC9B5592}">
+		<SoundBank Id="3734169157" Type="User" Language="SFX" Hash="{2BC0DE56-93ED-6B69-ED7E-3B184C6DDAD1}">
 			<ShortName>Eeldog</ShortName>
 			<Path>Eeldog.bnk</Path>
 			<Media>
 				<File Id="373965078" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson out-003.wav</ShortName>
-					<CachePath>SFX/Poisson out-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson out-003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="408791125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson in -001.wav</ShortName>
-					<CachePath>SFX/Poisson in -001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson in -001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="514499342" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson out-002.wav</ShortName>
-					<CachePath>SFX/Poisson out-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson out-002_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="566883040" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson in -003.wav</ShortName>
-					<CachePath>SFX/Poisson in -003_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson in -003_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="629538605" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson out-001.wav</ShortName>
-					<CachePath>SFX/Poisson out-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson out-001_D8C07C79.wem</CachePath>
 				</File>
 				<File Id="858917401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Poisson in -002.wav</ShortName>
-					<CachePath>SFX/Poisson in -002_10C4C929.wem</CachePath>
+					<CachePath>SFX/Poisson in -002_D8C07C79.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -1881,5 +1926,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{777AE49D-F107-C465-6F90-0F1993D3D8CF}</FileHash>
+	<FileHash>{A41F68C3-727A-0A57-3FC6-7C84999442DD}</FileHash>
 </SoundBanksInfo>

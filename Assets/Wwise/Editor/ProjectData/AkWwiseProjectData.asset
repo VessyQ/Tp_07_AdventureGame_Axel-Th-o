@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 603ae546bdc21f4db887f24e9c2f9aac
     GuidInternal: 
-    m_lastTime: -8585284958216141097
+    m_lastTime: -8585284105853798319
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2922bf02f24fd04e9bd2fb03251c2ca5
     GuidInternal: 
-    m_lastTime: -8585277086865610315
+    m_lastTime: -8585278094389622763
     List:
     - name: AMB_Bus
       guid: e79384b6854e9e4989fcb43bc1c69182
@@ -337,7 +337,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit\Reverb_Zones_Bus
     guid: 0e9fc29ec77eb4418a7a8ddc1c85684c
     GuidInternal: 
-    m_lastTime: -8585279826240525245
+    m_lastTime: -8585279778923803325
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
@@ -351,7 +351,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b6d194887af4bc49a3ec2771078ffb0b
     GuidInternal: 
-    m_lastTime: -8585277067396703117
+    m_lastTime: -8585276532134289850
     List:
     - name: Chomper
       guid: 49ce0ddd5fcb0d49ba945fdc028af5b4
@@ -449,7 +449,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d17593394cd9d42a0d4d146fd177ccd
     GuidInternal: 
-    m_lastTime: -8585277098899776947
+    m_lastTime: -8585282572054452166
     List: []
   - PhysicalPath: Events\Environnement.wwu
     PathAndIcons:
@@ -465,7 +465,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Environnement
     guid: 97800d620a1e5f428c3880026488f6fa
     GuidInternal: 
-    m_lastTime: -8585277098899661845
+    m_lastTime: -8585277075754926160
     List:
     - name: AMB
       guid: 36a217a0fc79c149823c3a13cf76f068
@@ -559,9 +559,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AMB_RuneCave
-      guid: cfcadf814b77984a912a1d3359f69983
-      id: 2724785466
+    - name: Play_Amb_Lava
+      guid: ddbe65cc7e400941b60f1b74708f2bc2
+      id: 3906149303
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -575,10 +575,10 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 4
         guid: 36a217a0fc79c149823c3a13cf76f068
-      - ElementName: Play_AMB_RuneCave
+      - ElementName: Play_Amb_Lava
         ObjectType: 3
-        guid: cfcadf814b77984a912a1d3359f69983
-      Path: Events\Default Work Unit\Environnement\AMB\Play_AMB_RuneCave
+        guid: ddbe65cc7e400941b60f1b74708f2bc2
+      Path: Events\Default Work Unit\Environnement\AMB\Play_Amb_Lava
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -815,6 +815,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: bcaa5eff91ddeb4eb227784cfc29d397
       Path: Events\Default Work Unit\Environnement\PROPS\Magic_Door\Play_MD_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Poison
+      guid: 24c0e86124e5b14081ccf6728efe9115
+      id: 3292663506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: Environnement
+        ObjectType: 12
+        guid: 97800d620a1e5f428c3880026488f6fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 36a217a0fc79c149823c3a13cf76f068
+      - ElementName: Play_Poison
+        ObjectType: 3
+        guid: 24c0e86124e5b14081ccf6728efe9115
+      Path: Events\Default Work Unit\Environnement\AMB\Play_Poison
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1172,7 +1195,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\NPC
     guid: 73d989f4536c534d929a3646c4a09747
     GuidInternal: 
-    m_lastTime: -8585278097134761708
+    m_lastTime: -8585278157976010140
     List:
     - name: Chomper
       guid: c4e2ad0d120fbe4bb7495dc0d0f5ccc0
@@ -1708,7 +1731,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UserInterface
     guid: f0600e5acccf1b40bbb4cc8ae27f5bb0
     GuidInternal: 
-    m_lastTime: -8585277067396958336
+    m_lastTime: -8585277055467314670
     List:
     - name: Play_SFX_MainMenuScreen
       guid: 020dbab47c77184a9615ad0ec2f267f4
@@ -1974,7 +1997,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\WU_Gameplay
     guid: 87cd7199289aa547b9001d49e11332ec
     GuidInternal: 
-    m_lastTime: -8585278113328301013
+    m_lastTime: -8585276508186734770
     List:
     - name: MC_Death
       guid: 2d92187a521e12418981a8c54595fd72
@@ -2171,29 +2194,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MC_Land_Grass
-      guid: fe67167986c31640848e6671623d3115
-      id: 2896940196
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8d17593394cd9d42a0d4d146fd177ccd
-      - ElementName: WU_Gameplay
-        ObjectType: 12
-        guid: 87cd7199289aa547b9001d49e11332ec
-      - ElementName: MC_Land
-        ObjectType: 4
-        guid: 364f0dce950cd747bccfb045a8ccb143
-      - ElementName: MC_Land_Grass
-        ObjectType: 3
-        guid: fe67167986c31640848e6671623d3115
-      Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Grass
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: MC_Land_Puddle
       guid: 797194fada039b42b7c1b0c2ff2693d4
       id: 1983402694
@@ -2240,6 +2240,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MC_Land_Switch
+      guid: fe67167986c31640848e6671623d3115
+      id: 3524132770
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d17593394cd9d42a0d4d146fd177ccd
+      - ElementName: WU_Gameplay
+        ObjectType: 12
+        guid: 87cd7199289aa547b9001d49e11332ec
+      - ElementName: MC_Land
+        ObjectType: 4
+        guid: 364f0dce950cd747bccfb045a8ccb143
+      - ElementName: MC_Land_Switch
+        ObjectType: 3
+        guid: fe67167986c31640848e6671623d3115
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Land\MC_Land_Switch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MC_Respawn
       guid: 2689a0368e79104185855985ab13a0bb
       id: 748388956
@@ -2283,9 +2306,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Footstep_Ground
+    - name: Play_Footstep_Switch
       guid: 50dd4e344ba18a48a47c42bc519264aa
-      id: 2259949926
+      id: 1928239647
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -2299,10 +2322,10 @@ MonoBehaviour:
       - ElementName: MC_Footstep
         ObjectType: 4
         guid: 6b3550b21a0af24899dd2efc9ddc6098
-      - ElementName: Play_Footstep_Ground
+      - ElementName: Play_Footstep_Switch
         ObjectType: 3
         guid: 50dd4e344ba18a48a47c42bc519264aa
-      Path: Events\Default Work Unit\WU_Gameplay\MC_Footstep\Play_Footstep_Ground
+      Path: Events\Default Work Unit\WU_Gameplay\MC_Footstep\Play_Footstep_Switch
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2456,7 +2479,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8acad04d98a8134e883ecb0873b51438
     GuidInternal: 
-    m_lastTime: -8585277111385510516
+    m_lastTime: -8585278015538646850
     List:
     - name: Distance
       guid: 5403d15432515b4085df86897a1654f2
@@ -2484,7 +2507,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af4995d4b7562048be0a555a4c7cec2c
     GuidInternal: 
-    m_lastTime: -8585277086866130758
+    m_lastTime: -8585278094389503077
     List:
     - name: Reverb_Zone
       guid: cb2783f4b9473547bddfec2d63e9884f
@@ -2580,7 +2603,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 66b925e5ce07d2439b4730ebc7432511
     GuidInternal: 
-    m_lastTime: -8585278118435712981
+    m_lastTime: -8585278094389453208
     List:
     - name: SW_Materials
       guid: 3e1238e84bcb4f4a9508a35a1722bceb
@@ -2660,10 +2683,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e067ab645d2b34094a6cdf66a5b3feb
     GuidInternal: 
-    m_lastTime: -8585284958216146102
+    m_lastTime: -8585284105853848184
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000700000008000000090000000c0000000d0000000e0000000f0000002100000027000000
+  ExpandedWaapiItemIds: 06000000070000000b0000000c0000001700000018000000190000001a00000064000000660000006a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

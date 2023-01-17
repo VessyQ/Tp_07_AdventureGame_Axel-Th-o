@@ -3,10 +3,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3904151298	Eeldong_Out			\Default Work Unit\NPC\Eeldog\Eeldong_Out	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	373965078	Poisson in-003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-003_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-003		328416
-	408791125	Poisson out -001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -001_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -001		286176
-	514499342	Poisson in-002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-002_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-002		282164
-	566883040	Poisson out -003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -003_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -003		282336
-	629538605	Poisson in-001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-001_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-001		295620
-	858917401	Poisson out -002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -002_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -002		308488
+	373965078	Poisson in-003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-003_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-003		14027
+	408791125	Poisson out -001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -001_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -001		9454
+	514499342	Poisson in-002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-002_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-002		13504
+	566883040	Poisson out -003	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -003_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -003		10291
+	629538605	Poisson in-001	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson out-001_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\In_Water\Poisson in-001		15048
+	858917401	Poisson out -002	E:\Audio workshop exo\unity\Tp_07_AdventureGame_Axel-Th-o\Tp_07_AdventureGame_Axel-Th-o_WwiseProject\.cache\Windows\SFX\Poisson in -002_D8C07C79.wem		\Actor-Mixer Hierarchy\NPC\Eeldog\Out_Water\Poisson out -002		11566
 

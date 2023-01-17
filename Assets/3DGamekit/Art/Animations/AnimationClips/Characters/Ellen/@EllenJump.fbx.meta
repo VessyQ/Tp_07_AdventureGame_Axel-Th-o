@@ -929,9 +929,10 @@ ModelImporter:
       curves: []
       events:
       - time: 0.10953154
-        functionName: OnLandAnim
+        functionName: GroudSwitchLand
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 132e283c57b264940979d621c35e0ed5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0

@@ -806,9 +806,10 @@ ModelImporter:
           rotationOrder: 4
       events:
       - time: 0.29304028
-        functionName: OnFootstepRight
+        functionName: GroudSwitchFootsteps
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 132e283c57b264940979d621c35e0ed5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
